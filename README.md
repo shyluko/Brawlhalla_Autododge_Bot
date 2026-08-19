@@ -46,3 +46,7 @@ This project incorporates reference material and research from:
 ## License
 
 This project is licensed under the MIT License. See `LICENSE.txt` for the complete license text.
+
+## Discord
+
+https://discord.gg/H9jMpQfAv2
