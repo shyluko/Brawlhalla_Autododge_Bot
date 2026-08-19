@@ -18,35 +18,68 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install Slint 1.17.1
+      - name: Download Slint 1.17.1
         shell: powershell
         run: |
-          $installer = "$env:RUNNER_TEMP\slint.exe"
+          $ErrorActionPreference = "Stop"
+
+          $slintDir = "C:\Slint-cpp-1.17.1"
+          $installer = "$env:RUNNER_TEMP\Slint-cpp-1.17.1.exe"
+
+          Write-Host "Downloading Slint 1.17.1..."
 
           Invoke-WebRequest `
             -Uri "https://github.com/slint-ui/slint/releases/download/v1.17.1/Slint-cpp-1.17.1-win64-MSVC-AMD64.exe" `
             -OutFile $installer
 
-          Start-Process `
+          if (-not (Test-Path $installer)) {
+            throw "Slint installer was not downloaded."
+          }
+
+          Write-Host "Slint installer downloaded:"
+          Get-Item $installer | Select-Object FullName, Length
+
+          Write-Host "Installing Slint to $slintDir..."
+
+          $process = Start-Process `
             -FilePath $installer `
-            -ArgumentList "/SILENT", "/DIR=C:\Slint-cpp-1.17.1" `
+            -ArgumentList "/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART", "/DIR=$slintDir" `
             -Wait `
-            -NoNewWindow
+            -PassThru
+
+          Write-Host "Slint installer exit code: $($process.ExitCode)"
+
+          if ($process.ExitCode -ne 0) {
+            throw "Slint installer failed with exit code $($process.ExitCode)."
+          }
+
+          if (-not (Test-Path $slintDir)) {
+            throw "Slint installation directory was not created."
+          }
+
+          Write-Host "Slint installation directory exists."
 
       - name: Verify Slint installation
         shell: powershell
         run: |
-          if (-not (Test-Path "C:\Slint-cpp-1.17.1\bin\slint-compiler.exe")) {
-            Write-Error "Slint compiler was not found."
-            exit 1
+          $slintDir = "C:\Slint-cpp-1.17.1"
+
+          $requiredFiles = @(
+            "$slintDir\bin\slint-compiler.exe",
+            "$slintDir\lib\slint_cpp.dll.lib",
+            "$slintDir\lib\slint_cpp.dll",
+            "$slintDir\include"
+          )
+
+          foreach ($file in $requiredFiles) {
+            if (-not (Test-Path $file)) {
+              throw "Required Slint file was not found: $file"
+            }
+
+            Write-Host "Found: $file"
           }
 
-          if (-not (Test-Path "C:\Slint-cpp-1.17.1\lib\slint_cpp.dll.lib")) {
-            Write-Error "Slint library was not found."
-            exit 1
-          }
-
-          Write-Host "Slint installation looks good."
+          Write-Host "Slint 1.17.1 installation verified successfully."
 
       - name: Set up MSBuild
         uses: microsoft/setup-msbuild@v3
