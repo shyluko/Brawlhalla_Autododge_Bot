@@ -18,7 +18,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download Slint 1.17.1
+      - name: Download and install Slint 1.17.1
         shell: powershell
         run: |
           $ErrorActionPreference = "Stop"
@@ -36,14 +36,13 @@ jobs:
             throw "Slint installer was not downloaded."
           }
 
-          Write-Host "Slint installer downloaded:"
-          Get-Item $installer | Select-Object FullName, Length
+          Write-Host "Slint installer downloaded successfully."
 
           Write-Host "Installing Slint to $slintDir..."
 
           $process = Start-Process `
             -FilePath $installer `
-            -ArgumentList "/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART", "/DIR=$slintDir" `
+            -ArgumentList "/S", "/D=$slintDir" `
             -Wait `
             -PassThru
 
@@ -57,7 +56,7 @@ jobs:
             throw "Slint installation directory was not created."
           }
 
-          Write-Host "Slint installation directory exists."
+          Write-Host "Slint installation completed successfully."
 
       - name: Verify Slint installation
         shell: powershell
