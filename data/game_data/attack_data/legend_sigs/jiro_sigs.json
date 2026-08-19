@@ -1,0 +1,108 @@
+{
+  "legend": "Jiro",
+  "weapons": [],
+  "signatures": {
+    "Scythe": {
+      "Neutral": {
+        "name": "ScytheSmashNeutralShinobi",
+        "weapon": "Scythe",
+        "direction": "Neutral",
+        "powerID": 1881,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,65",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "ScytheSmashSideShinobi",
+        "weapon": "Scythe",
+        "direction": "Side",
+        "powerID": 1892,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "ScytheSmashDownShinobi",
+        "weapon": "Scythe",
+        "direction": "Down",
+        "powerID": 1895,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:1,65",
+        "hitboxes": []
+      }
+    },
+    "Sword": {
+      "Neutral": {
+        "name": "SwordSmashNeutralShinobi",
+        "weapon": "Sword",
+        "direction": "Neutral",
+        "powerID": 1900,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,65",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "SwordSmashSideShinobi",
+        "weapon": "Sword",
+        "direction": "Side",
+        "powerID": 1906,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:7,0:60",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Down": {
+        "name": "SwordSmashDownShinobi",
+        "weapon": "Sword",
+        "direction": "Down",
+        "powerID": 1910,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "13:20@8-16",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 10.0,
+              "radiusY": 10.0,
+              "centerX": 135.0,
+              "centerY": 55.0,
+              "x1": 125.0,
+              "y1": 45.0,
+              "x2": 145.0,
+              "y2": 65.0
+            }
+          ]
+        ]
+      }
+    }
+  }
+}

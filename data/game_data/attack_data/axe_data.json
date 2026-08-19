@@ -1,0 +1,1089 @@
+{
+  "SLight": {
+    "name": "AxeSide",
+    "displayName": "SLight",
+    "powerID": 291,
+    "isAir": false,
+    "damage": "0,0,0,10,10,0",
+    "stun": 0,
+    "impulse": "0,0,0,68,68,0",
+    "castTime": "0:3@1,0:2@2,0:5@3,0:2@5,0:2@6,0:6@7-11",
+    "hurtboxRef": "AxeSLight",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 0.0,
+          "radiusY": 0.0,
+          "centerX": 0.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 0.0,
+          "y2": 0.0
+        }
+      ],
+      [
+        {
+          "radiusX": 0.0,
+          "radiusY": 0.0,
+          "centerX": 0.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 0.0,
+          "y2": 0.0
+        }
+      ],
+      [
+        {
+          "radiusX": 0.0,
+          "radiusY": 0.0,
+          "centerX": 0.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 0.0,
+          "y2": 0.0
+        }
+      ],
+      [
+        {
+          "radiusX": 61.0,
+          "radiusY": 32.0,
+          "centerX": 109.0,
+          "centerY": -92.0,
+          "x1": 48.0,
+          "y1": -124.0,
+          "x2": 170.0,
+          "y2": -60.0
+        },
+        {
+          "radiusX": 60.0,
+          "radiusY": 50.0,
+          "centerX": 170.0,
+          "centerY": -65.0,
+          "x1": 110.0,
+          "y1": -115.0,
+          "x2": 230.0,
+          "y2": -15.0
+        },
+        {
+          "radiusX": 60.0,
+          "radiusY": 80.0,
+          "centerX": 210.0,
+          "centerY": 0.0,
+          "x1": 150.0,
+          "y1": -80.0,
+          "x2": 270.0,
+          "y2": 80.0
+        },
+        {
+          "radiusX": 40.0,
+          "radiusY": 50.0,
+          "centerX": 255.0,
+          "centerY": 30.0,
+          "x1": 215.0,
+          "y1": -20.0,
+          "x2": 295.0,
+          "y2": 80.0
+        }
+      ],
+      [
+        {
+          "radiusX": 60.0,
+          "radiusY": 70.0,
+          "centerX": 210.0,
+          "centerY": 0.0,
+          "x1": 150.0,
+          "y1": -70.0,
+          "x2": 270.0,
+          "y2": 70.0
+        },
+        {
+          "radiusX": 30.0,
+          "radiusY": 50.0,
+          "centerX": 260.0,
+          "centerY": 40.0,
+          "x1": 230.0,
+          "y1": -10.0,
+          "x2": 290.0,
+          "y2": 90.0
+        }
+      ],
+      [
+        {
+          "radiusX": 0.0,
+          "radiusY": 0.0,
+          "centerX": 0.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 0.0,
+          "y2": 0.0
+        }
+      ]
+    ]
+  },
+  "DLight": {
+    "name": "AxeDown",
+    "displayName": "DLight",
+    "powerID": 294,
+    "isAir": false,
+    "damage": "15,15,0",
+    "stun": 32,
+    "impulse": "80,80,0",
+    "castTime": "10:3@6,0:2@7,0:10@8-12",
+    "hurtboxRef": "AxeDLight",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 17.0,
+          "radiusY": 14.0,
+          "centerX": 136.0,
+          "centerY": -104.0,
+          "x1": 119.0,
+          "y1": -118.0,
+          "x2": 153.0,
+          "y2": -90.0
+        },
+        {
+          "radiusX": 27.0,
+          "radiusY": 25.0,
+          "centerX": 168.0,
+          "centerY": -114.0,
+          "x1": 141.0,
+          "y1": -139.0,
+          "x2": 195.0,
+          "y2": -89.0
+        },
+        {
+          "radiusX": 30.0,
+          "radiusY": 31.0,
+          "centerX": 206.0,
+          "centerY": -153.0,
+          "x1": 176.0,
+          "y1": -184.0,
+          "x2": 236.0,
+          "y2": -122.0
+        },
+        {
+          "radiusX": 29.0,
+          "radiusY": 33.0,
+          "centerX": 241.0,
+          "centerY": -202.0,
+          "x1": 212.0,
+          "y1": -235.0,
+          "x2": 270.0,
+          "y2": -169.0
+        },
+        {
+          "radiusX": 24.0,
+          "radiusY": 20.0,
+          "centerX": 258.0,
+          "centerY": -245.0,
+          "x1": 234.0,
+          "y1": -265.0,
+          "x2": 282.0,
+          "y2": -225.0
+        }
+      ],
+      [
+        {
+          "radiusX": 103.0,
+          "radiusY": 25.0,
+          "centerX": 142.0,
+          "centerY": -180.0,
+          "x1": 39.0,
+          "y1": -205.0,
+          "x2": 245.0,
+          "y2": -155.0
+        },
+        {
+          "radiusX": 106.0,
+          "radiusY": 32.0,
+          "centerX": 158.0,
+          "centerY": -217.0,
+          "x1": 52.0,
+          "y1": -249.0,
+          "x2": 264.0,
+          "y2": -185.0
+        },
+        {
+          "radiusX": 95.0,
+          "radiusY": 25.0,
+          "centerX": 175.0,
+          "centerY": -245.0,
+          "x1": 80.0,
+          "y1": -270.0,
+          "x2": 270.0,
+          "y2": -220.0
+        },
+        {
+          "radiusX": 55.0,
+          "radiusY": 25.0,
+          "centerX": 211.0,
+          "centerY": -263.0,
+          "x1": 156.0,
+          "y1": -288.0,
+          "x2": 266.0,
+          "y2": -238.0
+        }
+      ],
+      [
+        {
+          "radiusX": 0.0,
+          "radiusY": 0.0,
+          "centerX": 0.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 0.0,
+          "y2": 0.0
+        }
+      ]
+    ]
+  },
+  "DLight2": {
+    "name": "AxeDownHit",
+    "displayName": "DLight2",
+    "powerID": 2970,
+    "isAir": false,
+    "damage": "",
+    "stun": 0,
+    "impulse": "",
+    "castTime": "0",
+    "hurtboxRef": "AxeDLight",
+    "hitboxes": []
+  },
+  "NLight": {
+    "name": "AxeNeutral",
+    "displayName": "NLight",
+    "powerID": 295,
+    "isAir": false,
+    "damage": "0,7,7,0",
+    "stun": 34,
+    "impulse": "0,50,50,0",
+    "castTime": "7:1@4,0:4@5,0:4@7,0:9@9-12",
+    "hurtboxRef": "AxeNLight",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 0.0,
+          "radiusY": 0.0,
+          "centerX": 0.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 0.0,
+          "y2": 0.0
+        }
+      ],
+      [
+        {
+          "radiusX": 65.0,
+          "radiusY": 27.0,
+          "centerX": 174.0,
+          "centerY": 19.0,
+          "x1": 109.0,
+          "y1": -8.0,
+          "x2": 239.0,
+          "y2": 46.0
+        },
+        {
+          "radiusX": 56.0,
+          "radiusY": 32.0,
+          "centerX": 243.0,
+          "centerY": 9.0,
+          "x1": 187.0,
+          "y1": -23.0,
+          "x2": 299.0,
+          "y2": 41.0
+        },
+        {
+          "radiusX": 24.0,
+          "radiusY": 19.0,
+          "centerX": 97.0,
+          "centerY": 23.0,
+          "x1": 73.0,
+          "y1": 4.0,
+          "x2": 121.0,
+          "y2": 42.0
+        }
+      ],
+      [
+        {
+          "radiusX": 56.0,
+          "radiusY": 30.0,
+          "centerX": 150.0,
+          "centerY": -20.0,
+          "x1": 94.0,
+          "y1": -50.0,
+          "x2": 206.0,
+          "y2": 10.0
+        },
+        {
+          "radiusX": 61.0,
+          "radiusY": 28.0,
+          "centerX": 194.0,
+          "centerY": -8.0,
+          "x1": 133.0,
+          "y1": -36.0,
+          "x2": 255.0,
+          "y2": 20.0
+        },
+        {
+          "radiusX": 46.0,
+          "radiusY": 25.0,
+          "centerX": 244.0,
+          "centerY": 4.0,
+          "x1": 198.0,
+          "y1": -21.0,
+          "x2": 290.0,
+          "y2": 29.0
+        }
+      ],
+      [
+        {
+          "radiusX": 0.0,
+          "radiusY": 0.0,
+          "centerX": 0.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 0.0,
+          "y2": 0.0
+        }
+      ]
+    ]
+  },
+  "NLight3": {
+    "name": "AxeNeutralHit",
+    "displayName": "NLight3",
+    "powerID": 296,
+    "isAir": false,
+    "damage": "0,0,10,10,0",
+    "stun": 26,
+    "impulse": "0,0,78,78,0",
+    "castTime": "0:1@1,0:5,0:2@4,0:1@5,0:1@6-6",
+    "hurtboxRef": "AxeNLight2",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 0.0,
+          "radiusY": 0.0,
+          "centerX": 0.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 0.0,
+          "y2": 0.0
+        }
+      ],
+      [
+        {
+          "radiusX": 0.0,
+          "radiusY": 0.0,
+          "centerX": 0.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 0.0,
+          "y2": 0.0
+        }
+      ],
+      [
+        {
+          "radiusX": 100.0,
+          "radiusY": 55.0,
+          "centerX": 175.0,
+          "centerY": 15.0,
+          "x1": 75.0,
+          "y1": -40.0,
+          "x2": 275.0,
+          "y2": 70.0
+        },
+        {
+          "radiusX": 58.0,
+          "radiusY": 37.0,
+          "centerX": 105.0,
+          "centerY": 48.0,
+          "x1": 47.0,
+          "y1": 11.0,
+          "x2": 163.0,
+          "y2": 85.0
+        },
+        {
+          "radiusX": 31.0,
+          "radiusY": 15.0,
+          "centerX": 41.0,
+          "centerY": 73.0,
+          "x1": 10.0,
+          "y1": 58.0,
+          "x2": 72.0,
+          "y2": 88.0
+        }
+      ],
+      [
+        {
+          "radiusX": 70.8144999999999,
+          "radiusY": 80.40724999999999,
+          "centerX": 156.0,
+          "centerY": 0.0,
+          "x1": 85.1855000000001,
+          "y1": -80.40724999999999,
+          "x2": 226.8144999999999,
+          "y2": 80.40724999999999
+        },
+        {
+          "radiusX": 59.99999999999996,
+          "radiusY": 63.024166666666645,
+          "centerX": 205.0,
+          "centerY": 2.0,
+          "x1": 145.00000000000006,
+          "y1": -61.024166666666645,
+          "x2": 264.99999999999994,
+          "y2": 65.02416666666664
+        }
+      ],
+      [
+        {
+          "radiusX": 0.0,
+          "radiusY": 0.0,
+          "centerX": 0.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 0.0,
+          "y2": 0.0
+        }
+      ]
+    ]
+  },
+  "SAir": {
+    "name": "AxeAirSide",
+    "displayName": "SAir",
+    "powerID": 298,
+    "isAir": true,
+    "damage": "17,17,0",
+    "stun": 16,
+    "impulse": "68,68,0",
+    "castTime": "18:2@6,0:1@7,0:3@8-9",
+    "hurtboxRef": "AxeSAir",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 43.0,
+          "radiusY": 40.0,
+          "centerX": 269.0,
+          "centerY": -27.0,
+          "x1": 226.0,
+          "y1": -67.0,
+          "x2": 312.0,
+          "y2": 13.0
+        },
+        {
+          "radiusX": 56.0,
+          "radiusY": 32.0,
+          "centerX": 231.0,
+          "centerY": 0.0,
+          "x1": 175.0,
+          "y1": -32.0,
+          "x2": 287.0,
+          "y2": 32.0
+        },
+        {
+          "radiusX": 48.0,
+          "radiusY": 27.0,
+          "centerX": 162.0,
+          "centerY": 16.0,
+          "x1": 114.0,
+          "y1": -11.0,
+          "x2": 210.0,
+          "y2": 43.0
+        },
+        {
+          "radiusX": 16.0,
+          "radiusY": 22.0,
+          "centerX": 116.0,
+          "centerY": 28.0,
+          "x1": 100.0,
+          "y1": 6.0,
+          "x2": 132.0,
+          "y2": 50.0
+        }
+      ],
+      [
+        {
+          "radiusX": 15.0,
+          "radiusY": 15.0,
+          "centerX": 224.0,
+          "centerY": -85.0,
+          "x1": 209.0,
+          "y1": -100.0,
+          "x2": 239.0,
+          "y2": -70.0
+        },
+        {
+          "radiusX": 16.0,
+          "radiusY": 15.0,
+          "centerX": 253.0,
+          "centerY": -73.0,
+          "x1": 237.0,
+          "y1": -88.0,
+          "x2": 269.0,
+          "y2": -58.0
+        },
+        {
+          "radiusX": 16.0,
+          "radiusY": 15.0,
+          "centerX": 280.0,
+          "centerY": -59.0,
+          "x1": 264.0,
+          "y1": -74.0,
+          "x2": 296.0,
+          "y2": -44.0
+        },
+        {
+          "radiusX": 15.0,
+          "radiusY": 15.0,
+          "centerX": 197.0,
+          "centerY": -92.0,
+          "x1": 182.0,
+          "y1": -107.0,
+          "x2": 212.0,
+          "y2": -77.0
+        },
+        {
+          "radiusX": 15.0,
+          "radiusY": 15.0,
+          "centerX": 173.0,
+          "centerY": -98.0,
+          "x1": 158.0,
+          "y1": -113.0,
+          "x2": 188.0,
+          "y2": -83.0
+        },
+        {
+          "radiusX": 15.0,
+          "radiusY": 15.0,
+          "centerX": 149.0,
+          "centerY": -101.0,
+          "x1": 134.0,
+          "y1": -116.0,
+          "x2": 164.0,
+          "y2": -86.0
+        },
+        {
+          "radiusX": 15.0,
+          "radiusY": 15.0,
+          "centerX": 123.0,
+          "centerY": -107.0,
+          "x1": 108.0,
+          "y1": -122.0,
+          "x2": 138.0,
+          "y2": -92.0
+        },
+        {
+          "radiusX": 14.0,
+          "radiusY": 14.0,
+          "centerX": 106.0,
+          "centerY": -107.0,
+          "x1": 92.0,
+          "y1": -121.0,
+          "x2": 120.0,
+          "y2": -93.0
+        }
+      ],
+      [
+        {
+          "radiusX": 0.0,
+          "radiusY": 0.0,
+          "centerX": 0.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 0.0,
+          "y2": 0.0
+        }
+      ]
+    ]
+  },
+  "NAir": {
+    "name": "AxeAir",
+    "displayName": "NAir",
+    "powerID": 301,
+    "isAir": true,
+    "damage": "16",
+    "stun": 28,
+    "impulse": "40",
+    "castTime": "15@6",
+    "hurtboxRef": "AxeNAir",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 124.0,
+          "radiusY": 25.0,
+          "centerX": 28.0,
+          "centerY": -253.0,
+          "x1": -96.0,
+          "y1": -278.0,
+          "x2": 152.0,
+          "y2": -228.0
+        },
+        {
+          "radiusX": 156.0,
+          "radiusY": 22.0,
+          "centerX": 33.0,
+          "centerY": -225.0,
+          "x1": -123.0,
+          "y1": -247.0,
+          "x2": 189.0,
+          "y2": -203.0
+        },
+        {
+          "radiusX": 49.0,
+          "radiusY": 54.0,
+          "centerX": 201.0,
+          "centerY": -143.0,
+          "x1": 152.0,
+          "y1": -197.0,
+          "x2": 250.0,
+          "y2": -89.0
+        },
+        {
+          "radiusX": 65.0,
+          "radiusY": 28.0,
+          "centerX": 29.0,
+          "centerY": -266.0,
+          "x1": -36.0,
+          "y1": -294.0,
+          "x2": 94.0,
+          "y2": -238.0
+        },
+        {
+          "radiusX": 81.0,
+          "radiusY": 17.0,
+          "centerX": 140.0,
+          "centerY": -202.0,
+          "x1": 59.0,
+          "y1": -219.0,
+          "x2": 221.0,
+          "y2": -185.0
+        },
+        {
+          "radiusX": 31.0,
+          "radiusY": 23.0,
+          "centerX": -115.0,
+          "centerY": -212.0,
+          "x1": -146.0,
+          "y1": -235.0,
+          "x2": -84.0,
+          "y2": -189.0
+        },
+        {
+          "radiusX": 25.0,
+          "radiusY": 20.0,
+          "centerX": -141.0,
+          "centerY": -191.0,
+          "x1": -166.0,
+          "y1": -211.0,
+          "x2": -116.0,
+          "y2": -171.0
+        },
+        {
+          "radiusX": 17.0,
+          "radiusY": 17.0,
+          "centerX": -165.0,
+          "centerY": -168.0,
+          "x1": -182.0,
+          "y1": -185.0,
+          "x2": -148.0,
+          "y2": -151.0
+        },
+        {
+          "radiusX": 51.0,
+          "radiusY": 15.0,
+          "centerX": 161.0,
+          "centerY": -180.0,
+          "x1": 110.0,
+          "y1": -195.0,
+          "x2": 212.0,
+          "y2": -165.0
+        },
+        {
+          "radiusX": 15.0,
+          "radiusY": 15.0,
+          "centerX": 153.0,
+          "centerY": -158.0,
+          "x1": 138.0,
+          "y1": -173.0,
+          "x2": 168.0,
+          "y2": -143.0
+        }
+      ]
+    ]
+  },
+  "Recovery": {
+    "name": "AxeAirUpHeavy",
+    "displayName": "Recovery",
+    "powerID": 305,
+    "isAir": true,
+    "damage": "0,22,22,20,20,15,15,13,13,11,11,0,0",
+    "stun": 21,
+    "impulse": "0,70,70,68,68,66,66,58,58,50,50,0,0",
+    "castTime": "12:11@5,0@9,0:1,0@10,0:1,0@11,0,0@12,0:1,0@13,0,0@14,0",
+    "hurtboxRef": "AxeRecovery",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 0.0,
+          "radiusY": 0.0,
+          "centerX": 0.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 0.0,
+          "y2": 0.0
+        }
+      ],
+      [
+        {
+          "radiusX": 56.0,
+          "radiusY": 100.0,
+          "centerX": 139.0,
+          "centerY": -126.0,
+          "x1": 83.0,
+          "y1": -226.0,
+          "x2": 195.0,
+          "y2": -26.0
+        },
+        {
+          "radiusX": 43.0,
+          "radiusY": 68.0,
+          "centerX": 136.0,
+          "centerY": -59.0,
+          "x1": 93.0,
+          "y1": -127.0,
+          "x2": 179.0,
+          "y2": 9.0
+        },
+        {
+          "radiusX": 42.0,
+          "radiusY": 45.0,
+          "centerX": 118.0,
+          "centerY": 6.0,
+          "x1": 76.0,
+          "y1": -39.0,
+          "x2": 160.0,
+          "y2": 51.0
+        }
+      ],
+      [
+        {
+          "radiusX": 60.0,
+          "radiusY": 88.0,
+          "centerX": 141.0,
+          "centerY": -142.0,
+          "x1": 81.0,
+          "y1": -230.0,
+          "x2": 201.0,
+          "y2": -54.0
+        }
+      ],
+      [
+        {
+          "radiusX": 57.0,
+          "radiusY": 65.0,
+          "centerX": -67.0,
+          "centerY": -165.0,
+          "x1": -124.0,
+          "y1": -230.0,
+          "x2": -10.0,
+          "y2": -100.0
+        },
+        {
+          "radiusX": 120.0,
+          "radiusY": 59.0,
+          "centerX": 40.0,
+          "centerY": -200.0,
+          "x1": -80.0,
+          "y1": -259.0,
+          "x2": 160.0,
+          "y2": -141.0
+        },
+        {
+          "radiusX": 52.0,
+          "radiusY": 56.0,
+          "centerX": 142.0,
+          "centerY": -179.0,
+          "x1": 90.0,
+          "y1": -235.0,
+          "x2": 194.0,
+          "y2": -123.0
+        }
+      ],
+      [
+        {
+          "radiusX": 53.0,
+          "radiusY": 65.0,
+          "centerX": -77.0,
+          "centerY": -165.0,
+          "x1": -130.0,
+          "y1": -230.0,
+          "x2": -24.0,
+          "y2": -100.0
+        }
+      ],
+      [
+        {
+          "radiusX": 45.0,
+          "radiusY": 50.0,
+          "centerX": -103.0,
+          "centerY": -149.0,
+          "x1": -148.0,
+          "y1": -199.0,
+          "x2": -58.0,
+          "y2": -99.0
+        },
+        {
+          "radiusX": 70.0,
+          "radiusY": 66.0,
+          "centerX": -105.0,
+          "centerY": 39.0,
+          "x1": -175.0,
+          "y1": -27.0,
+          "x2": -35.0,
+          "y2": 105.0
+        },
+        {
+          "radiusX": 52.0,
+          "radiusY": 73.0,
+          "centerX": -131.0,
+          "centerY": -53.0,
+          "x1": -183.0,
+          "y1": -126.0,
+          "x2": -79.0,
+          "y2": 20.0
+        }
+      ],
+      [
+        {
+          "radiusX": 60.0,
+          "radiusY": 68.0,
+          "centerX": -115.0,
+          "centerY": 37.0,
+          "x1": -175.0,
+          "y1": -31.0,
+          "x2": -55.0,
+          "y2": 105.0
+        }
+      ],
+      [
+        {
+          "radiusX": 65.0,
+          "radiusY": 50.0,
+          "centerX": -60.0,
+          "centerY": 94.0,
+          "x1": -125.0,
+          "y1": 44.0,
+          "x2": 5.0,
+          "y2": 144.0
+        },
+        {
+          "radiusX": 102.0,
+          "radiusY": 52.0,
+          "centerX": 22.0,
+          "centerY": 117.0,
+          "x1": -80.0,
+          "y1": 65.0,
+          "x2": 124.0,
+          "y2": 169.0
+        }
+      ],
+      [
+        {
+          "radiusX": 76.0,
+          "radiusY": 56.0,
+          "centerX": 48.0,
+          "centerY": 114.0,
+          "x1": -28.0,
+          "y1": 58.0,
+          "x2": 124.0,
+          "y2": 170.0
+        }
+      ],
+      [
+        {
+          "radiusX": 69.0,
+          "radiusY": 70.0,
+          "centerX": 146.0,
+          "centerY": -25.0,
+          "x1": 77.0,
+          "y1": -95.0,
+          "x2": 215.0,
+          "y2": 45.0
+        },
+        {
+          "radiusX": 69.0,
+          "radiusY": 78.0,
+          "centerX": 128.0,
+          "centerY": 18.0,
+          "x1": 59.0,
+          "y1": -60.0,
+          "x2": 197.0,
+          "y2": 96.0
+        }
+      ],
+      [
+        {
+          "radiusX": 62.0,
+          "radiusY": 70.0,
+          "centerX": 145.0,
+          "centerY": -25.0,
+          "x1": 83.0,
+          "y1": -95.0,
+          "x2": 207.0,
+          "y2": 45.0
+        }
+      ],
+      [
+        {
+          "radiusX": 66.0,
+          "radiusY": 66.0,
+          "centerX": 126.0,
+          "centerY": -91.0,
+          "x1": 60.0,
+          "y1": -157.0,
+          "x2": 192.0,
+          "y2": -25.0
+        },
+        {
+          "radiusX": 55.0,
+          "radiusY": 54.0,
+          "centerX": 155.0,
+          "centerY": -33.0,
+          "x1": 100.0,
+          "y1": -87.0,
+          "x2": 210.0,
+          "y2": 21.0
+        }
+      ],
+      [
+        {
+          "radiusX": 65.0,
+          "radiusY": 57.0,
+          "centerX": 125.0,
+          "centerY": -98.0,
+          "x1": 60.0,
+          "y1": -155.0,
+          "x2": 190.0,
+          "y2": -41.0
+        }
+      ]
+    ]
+  },
+  "DAir": {
+    "name": "AxeAirDown",
+    "displayName": "DAir",
+    "powerID": 1978,
+    "isAir": true,
+    "damage": "15",
+    "stun": 18,
+    "impulse": "60",
+    "castTime": "15:0@4",
+    "hurtboxRef": "AxeDAir",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 5.0,
+          "radiusY": 5.0,
+          "centerX": 0.0,
+          "centerY": 167.0,
+          "x1": -5.0,
+          "y1": 162.0,
+          "x2": 5.0,
+          "y2": 172.0
+        }
+      ]
+    ]
+  },
+  "GP": {
+    "name": "AxeGroundPound",
+    "displayName": "GP",
+    "powerID": 1984,
+    "isAir": true,
+    "damage": "0,0,1",
+    "stun": 18,
+    "impulse": "0,0,1",
+    "castTime": "9:5,0:1,0:249",
+    "hurtboxRef": "AxeGP",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 1.0,
+          "radiusY": 20.0,
+          "centerX": 0.0,
+          "centerY": 120.0,
+          "x1": -1.0,
+          "y1": 100.0,
+          "x2": 1.0,
+          "y2": 140.0
+        },
+        {
+          "radiusX": 50.0,
+          "radiusY": 50.0,
+          "centerX": 40.0,
+          "centerY": 180.0,
+          "x1": -10.0,
+          "y1": 130.0,
+          "x2": 90.0,
+          "y2": 230.0
+        }
+      ],
+      [
+        {
+          "radiusX": 1.0,
+          "radiusY": 20.0,
+          "centerX": 0.0,
+          "centerY": 120.0,
+          "x1": -1.0,
+          "y1": 100.0,
+          "x2": 1.0,
+          "y2": 140.0
+        },
+        {
+          "radiusX": 50.0,
+          "radiusY": 50.0,
+          "centerX": 40.0,
+          "centerY": 180.0,
+          "x1": -10.0,
+          "y1": 130.0,
+          "x2": 90.0,
+          "y2": 230.0
+        }
+      ],
+      [
+        {
+          "radiusX": 1.0,
+          "radiusY": 20.0,
+          "centerX": 0.0,
+          "centerY": 120.0,
+          "x1": -1.0,
+          "y1": 100.0,
+          "x2": 1.0,
+          "y2": 140.0
+        },
+        {
+          "radiusX": 31.0,
+          "radiusY": 26.0,
+          "centerX": 47.0,
+          "centerY": 54.0,
+          "x1": 16.0,
+          "y1": 28.0,
+          "x2": 78.0,
+          "y2": 80.0
+        }
+      ]
+    ]
+  }
+}

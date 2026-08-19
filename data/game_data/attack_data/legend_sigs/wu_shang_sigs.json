@@ -1,0 +1,337 @@
+{
+  "legend": "Wu Shang",
+  "weapons": [],
+  "signatures": {
+    "Fists": {
+      "Neutral": {
+        "name": "FistsSmashNeutralMonk",
+        "weapon": "Fists",
+        "direction": "Neutral",
+        "powerID": 967,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "FistsSmashSideMonk",
+        "weapon": "Fists",
+        "direction": "Side",
+        "powerID": 973,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "FistsSmashDownMonk",
+        "weapon": "Fists",
+        "direction": "Down",
+        "powerID": 978,
+        "isAir": false,
+        "damage": "t1,t1,t1,t2,t2,t2,0",
+        "stun": 25,
+        "impulse": "75,75,75,75,100,75,0",
+        "castTime": "15:2@4,0:1@5,0:2@6,0:1@7,0:2@8,0:3@10-11,0:37",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 47.0,
+              "radiusY": 19.0,
+              "centerX": -38.0,
+              "centerY": 63.0,
+              "x1": -85.0,
+              "y1": 44.0,
+              "x2": 9.0,
+              "y2": 82.0
+            },
+            {
+              "radiusX": 43.0,
+              "radiusY": 39.0,
+              "centerX": -18.0,
+              "centerY": -126.0,
+              "x1": -61.0,
+              "y1": -165.0,
+              "x2": 25.0,
+              "y2": -87.0
+            }
+          ],
+          [
+            {
+              "radiusX": 47.0,
+              "radiusY": 31.0,
+              "centerX": 65.0,
+              "centerY": 39.0,
+              "x1": 18.0,
+              "y1": 8.0,
+              "x2": 112.0,
+              "y2": 70.0
+            },
+            {
+              "radiusX": 41.0,
+              "radiusY": 50.0,
+              "centerX": -82.0,
+              "centerY": -97.0,
+              "x1": -123.0,
+              "y1": -147.0,
+              "x2": -41.0,
+              "y2": -47.0
+            },
+            {
+              "radiusX": 35.0,
+              "radiusY": 35.0,
+              "centerX": -49.0,
+              "centerY": -131.0,
+              "x1": -84.0,
+              "y1": -166.0,
+              "x2": -14.0,
+              "y2": -96.0
+            }
+          ],
+          [
+            {
+              "radiusX": 43.0,
+              "radiusY": 58.0,
+              "centerX": -117.0,
+              "centerY": -60.0,
+              "x1": -160.0,
+              "y1": -118.0,
+              "x2": -74.0,
+              "y2": -2.0
+            },
+            {
+              "radiusX": 35.0,
+              "radiusY": 22.0,
+              "centerX": -96.0,
+              "centerY": -114.0,
+              "x1": -131.0,
+              "y1": -136.0,
+              "x2": -61.0,
+              "y2": -92.0
+            },
+            {
+              "radiusX": 23.0,
+              "radiusY": 15.0,
+              "centerX": -68.0,
+              "centerY": -135.0,
+              "x1": -91.0,
+              "y1": -150.0,
+              "x2": -45.0,
+              "y2": -120.0
+            },
+            {
+              "radiusX": 39.0,
+              "radiusY": 59.0,
+              "centerX": 118.0,
+              "centerY": -21.0,
+              "x1": 79.0,
+              "y1": -80.0,
+              "x2": 157.0,
+              "y2": 38.0
+            },
+            {
+              "radiusX": 23.0,
+              "radiusY": 20.0,
+              "centerX": 97.0,
+              "centerY": 43.0,
+              "x1": 74.0,
+              "y1": 23.0,
+              "x2": 120.0,
+              "y2": 63.0
+            },
+            {
+              "radiusX": 24.0,
+              "radiusY": 15.0,
+              "centerX": 60.0,
+              "centerY": 53.0,
+              "x1": 36.0,
+              "y1": 38.0,
+              "x2": 84.0,
+              "y2": 68.0
+            }
+          ],
+          [
+            {
+              "radiusX": 44.0,
+              "radiusY": 44.0,
+              "centerX": -87.0,
+              "centerY": 24.0,
+              "x1": -131.0,
+              "y1": -20.0,
+              "x2": -43.0,
+              "y2": 68.0
+            },
+            {
+              "radiusX": 49.0,
+              "radiusY": 51.0,
+              "centerX": 77.0,
+              "centerY": -110.0,
+              "x1": 28.0,
+              "y1": -161.0,
+              "x2": 126.0,
+              "y2": -59.0
+            },
+            {
+              "radiusX": 35.0,
+              "radiusY": 65.0,
+              "centerX": 118.0,
+              "centerY": -36.0,
+              "x1": 83.0,
+              "y1": -101.0,
+              "x2": 153.0,
+              "y2": 29.0
+            },
+            {
+              "radiusX": 36.0,
+              "radiusY": 53.0,
+              "centerX": -115.0,
+              "centerY": -24.0,
+              "x1": -151.0,
+              "y1": -77.0,
+              "x2": -79.0,
+              "y2": 29.0
+            }
+          ],
+          [
+            {
+              "radiusX": 59.0,
+              "radiusY": 44.0,
+              "centerX": 7.0,
+              "centerY": -130.0,
+              "x1": -52.0,
+              "y1": -174.0,
+              "x2": 66.0,
+              "y2": -86.0
+            },
+            {
+              "radiusX": 42.0,
+              "radiusY": 31.0,
+              "centerX": 66.0,
+              "centerY": -131.0,
+              "x1": 24.0,
+              "y1": -162.0,
+              "x2": 108.0,
+              "y2": -100.0
+            },
+            {
+              "radiusX": 21.0,
+              "radiusY": 28.0,
+              "centerX": 115.0,
+              "centerY": -107.0,
+              "x1": 94.0,
+              "y1": -135.0,
+              "x2": 136.0,
+              "y2": -79.0
+            },
+            {
+              "radiusX": 63.0,
+              "radiusY": 32.0,
+              "centerX": -5.0,
+              "centerY": 57.0,
+              "x1": -68.0,
+              "y1": 25.0,
+              "x2": 58.0,
+              "y2": 89.0
+            },
+            {
+              "radiusX": 37.0,
+              "radiusY": 22.0,
+              "centerX": -68.0,
+              "centerY": 49.0,
+              "x1": -105.0,
+              "y1": 27.0,
+              "x2": -31.0,
+              "y2": 71.0
+            },
+            {
+              "radiusX": 15.0,
+              "radiusY": 25.0,
+              "centerX": 136.0,
+              "centerY": -84.0,
+              "x1": 121.0,
+              "y1": -109.0,
+              "x2": 151.0,
+              "y2": -59.0
+            }
+          ],
+          [
+            {
+              "radiusX": 58.0,
+              "radiusY": 49.0,
+              "centerX": 12.0,
+              "centerY": 21.0,
+              "x1": -46.0,
+              "y1": -28.0,
+              "x2": 70.0,
+              "y2": 70.0
+            },
+            {
+              "radiusX": 15.0,
+              "radiusY": 40.0,
+              "centerX": -34.0,
+              "centerY": -52.0,
+              "x1": -49.0,
+              "y1": -92.0,
+              "x2": -19.0,
+              "y2": -12.0
+            }
+          ],
+          [
+            {
+              "radiusX": 80.0,
+              "radiusY": 80.0,
+              "centerX": 80.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": -80.0,
+              "x2": 160.0,
+              "y2": 80.0
+            }
+          ]
+        ]
+      }
+    },
+    "Spear": {
+      "Neutral": {
+        "name": "SpearSmashNeutralMonk",
+        "weapon": "Spear",
+        "direction": "Neutral",
+        "powerID": 980,
+        "isAir": false,
+        "damage": "0",
+        "stun": 18,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "SpearSmashSideMonk",
+        "weapon": "Spear",
+        "direction": "Side",
+        "powerID": 984,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "SpearSmashDownMonk",
+        "weapon": "Spear",
+        "direction": "Down",
+        "powerID": 988,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "4:1@3,1:1@4,2:1@5,2:1@6,0:1@7,0:1@8,0:50",
+        "hitboxes": []
+      }
+    }
+  }
+}

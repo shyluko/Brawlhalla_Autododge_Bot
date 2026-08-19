@@ -1,0 +1,82 @@
+{
+  "legend": "Mirage",
+  "weapons": [],
+  "signatures": {
+    "Scythe": {
+      "Neutral": {
+        "name": "ScytheSmashNeutralEgyptian",
+        "weapon": "Scythe",
+        "direction": "Neutral",
+        "powerID": 1195,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "1:1@2,1:1@3,1:1@4,0:1@5,65",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "ScytheSmashDownEgyptian",
+        "weapon": "Scythe",
+        "direction": "Down",
+        "powerID": 1201,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0@2,72",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "ScytheSmashSideEgyptian",
+        "weapon": "Scythe",
+        "direction": "Side",
+        "powerID": 1203,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0@2,72",
+        "hitboxes": []
+      }
+    },
+    "Spear": {
+      "Neutral": {
+        "name": "SpearSmashNeutralEgyptian",
+        "weapon": "Spear",
+        "direction": "Neutral",
+        "powerID": 1208,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "SpearSmashSideEgyptian",
+        "weapon": "Spear",
+        "direction": "Side",
+        "powerID": 1216,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0@2,0@3,4@5,64",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "SpearSmashDownEgyptian",
+        "weapon": "Spear",
+        "direction": "Down",
+        "powerID": 1221,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      }
+    }
+  }
+}

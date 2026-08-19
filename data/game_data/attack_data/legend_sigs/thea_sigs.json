@@ -1,0 +1,108 @@
+{
+  "legend": "Thea",
+  "weapons": [],
+  "signatures": {
+    "Boots": {
+      "Neutral": {
+        "name": "BootsSmashNeutralGreekSpeedster",
+        "weapon": "Boots",
+        "direction": "Neutral",
+        "powerID": 2840,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "BootsSmashSideGreekSpeedster",
+        "weapon": "Boots",
+        "direction": "Side",
+        "powerID": 2843,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0:14@1-10",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "BootsSmashDownGreekSpeedster",
+        "weapon": "Boots",
+        "direction": "Down",
+        "powerID": 2849,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,52",
+        "hitboxes": []
+      }
+    },
+    "Lance": {
+      "Neutral": {
+        "name": "LanceSmashNeutralGreekSpeedster",
+        "weapon": "Lance",
+        "direction": "Neutral",
+        "powerID": 2805,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "3:1@3,0:1@4-5,0:0@7,0:3,50",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Side": {
+        "name": "LanceSmashSideGreekSpeedster",
+        "weapon": "Lance",
+        "direction": "Side",
+        "powerID": 2800,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "LanceSmashDownGreekSpeedster",
+        "weapon": "Lance",
+        "direction": "Down",
+        "powerID": 2808,
+        "isAir": false,
+        "damage": "7",
+        "stun": 30,
+        "impulse": "50",
+        "castTime": "16:2@8,0:1@9",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 101.0,
+              "radiusY": 48.0,
+              "centerX": -96.0,
+              "centerY": 18.0,
+              "x1": -197.0,
+              "y1": -30.0,
+              "x2": 5.0,
+              "y2": 66.0
+            }
+          ]
+        ]
+      }
+    }
+  }
+}

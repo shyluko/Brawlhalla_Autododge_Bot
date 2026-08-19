@@ -1,0 +1,82 @@
+{
+  "legend": "Jhala",
+  "weapons": [],
+  "signatures": {
+    "Axe": {
+      "Neutral": {
+        "name": "AxeSmashNeutralBarbarian",
+        "weapon": "Axe",
+        "direction": "Neutral",
+        "powerID": 922,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "AxeSmashSideBarbarian",
+        "weapon": "Axe",
+        "direction": "Side",
+        "powerID": 925,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "AxeSmashDownBarbarian",
+        "weapon": "Axe",
+        "direction": "Down",
+        "powerID": 931,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    },
+    "Sword": {
+      "Neutral": {
+        "name": "SwordSmashNeutralBarbarian",
+        "weapon": "Sword",
+        "direction": "Neutral",
+        "powerID": 934,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "SwordSmashSideBarbarian",
+        "weapon": "Sword",
+        "direction": "Side",
+        "powerID": 937,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "SwordSmashDownBarbarian",
+        "weapon": "Sword",
+        "direction": "Down",
+        "powerID": 942,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    }
+  }
+}

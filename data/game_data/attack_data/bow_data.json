@@ -1,0 +1,649 @@
+{
+  "SLight": {
+    "name": "BowSide",
+    "displayName": "SLight",
+    "powerID": 318,
+    "isAir": false,
+    "damage": "0,0,7,7",
+    "stun": 26,
+    "impulse": "0,0,69,64",
+    "castTime": "0@1,3:6@3-5,0:2@6,0:1@7-7",
+    "hurtboxRef": "BowSLight",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 0.0,
+          "radiusY": 0.0,
+          "centerX": 0.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 0.0,
+          "y2": 0.0
+        }
+      ],
+      [
+        {
+          "radiusX": 80.0,
+          "radiusY": 80.0,
+          "centerX": 0.0,
+          "centerY": 0.0,
+          "x1": -80.0,
+          "y1": -80.0,
+          "x2": 80.0,
+          "y2": 80.0
+        }
+      ],
+      [
+        {
+          "radiusX": 55.0,
+          "radiusY": 22.0,
+          "centerX": 202.0,
+          "centerY": 17.0,
+          "x1": 147.0,
+          "y1": -5.0,
+          "x2": 257.0,
+          "y2": 39.0
+        },
+        {
+          "radiusX": 77.0,
+          "radiusY": 15.0,
+          "centerX": 109.0,
+          "centerY": 27.0,
+          "x1": 32.0,
+          "y1": 12.0,
+          "x2": 186.0,
+          "y2": 42.0
+        },
+        {
+          "radiusX": 128.0,
+          "radiusY": 10.0,
+          "centerX": 149.0,
+          "centerY": 23.0,
+          "x1": 21.0,
+          "y1": 13.0,
+          "x2": 277.0,
+          "y2": 33.0
+        }
+      ],
+      [
+        {
+          "radiusX": 108.0,
+          "radiusY": 28.0,
+          "centerX": 174.0,
+          "centerY": -6.0,
+          "x1": 66.0,
+          "y1": -34.0,
+          "x2": 282.0,
+          "y2": 22.0
+        },
+        {
+          "radiusX": 78.0,
+          "radiusY": 40.0,
+          "centerX": 171.0,
+          "centerY": -1.0,
+          "x1": 93.0,
+          "y1": -41.0,
+          "x2": 249.0,
+          "y2": 39.0
+        },
+        {
+          "radiusX": 53.0,
+          "radiusY": 28.0,
+          "centerX": 109.0,
+          "centerY": 20.0,
+          "x1": 56.0,
+          "y1": -8.0,
+          "x2": 162.0,
+          "y2": 48.0
+        }
+      ]
+    ]
+  },
+  "DLight": {
+    "name": "BowDown",
+    "displayName": "DLight",
+    "powerID": 321,
+    "isAir": false,
+    "damage": "0",
+    "stun": 0,
+    "impulse": "0",
+    "castTime": "3:10@4-7",
+    "hurtboxRef": "BowDLight",
+    "hitboxes": []
+  },
+  "DLight2": {
+    "name": "BowDownHit",
+    "displayName": "DLight2",
+    "powerID": 325,
+    "isAir": false,
+    "damage": "",
+    "stun": 0,
+    "impulse": "",
+    "castTime": "0",
+    "hurtboxRef": "BowDLight",
+    "hitboxes": []
+  },
+  "NLight": {
+    "name": "BowNeutral",
+    "displayName": "NLight",
+    "powerID": 327,
+    "isAir": false,
+    "damage": "15",
+    "stun": 20,
+    "impulse": "35",
+    "castTime": "8:3@5",
+    "hurtboxRef": "BowNLight",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 28.0,
+          "radiusY": 28.0,
+          "centerX": 50.0,
+          "centerY": -111.0,
+          "x1": 22.0,
+          "y1": -139.0,
+          "x2": 78.0,
+          "y2": -83.0
+        },
+        {
+          "radiusX": 20.0,
+          "radiusY": 20.0,
+          "centerX": 96.0,
+          "centerY": -152.0,
+          "x1": 76.0,
+          "y1": -172.0,
+          "x2": 116.0,
+          "y2": -132.0
+        },
+        {
+          "radiusX": 15.0,
+          "radiusY": 15.0,
+          "centerX": 284.0,
+          "centerY": -337.0,
+          "x1": 269.0,
+          "y1": -352.0,
+          "x2": 299.0,
+          "y2": -322.0
+        },
+        {
+          "radiusX": 17.0,
+          "radiusY": 17.0,
+          "centerX": 245.0,
+          "centerY": -298.0,
+          "x1": 228.0,
+          "y1": -315.0,
+          "x2": 262.0,
+          "y2": -281.0
+        },
+        {
+          "radiusX": 16.0,
+          "radiusY": 16.0,
+          "centerX": 208.0,
+          "centerY": -262.0,
+          "x1": 192.0,
+          "y1": -278.0,
+          "x2": 224.0,
+          "y2": -246.0
+        },
+        {
+          "radiusX": 17.0,
+          "radiusY": 16.0,
+          "centerX": 173.0,
+          "centerY": -226.0,
+          "x1": 156.0,
+          "y1": -242.0,
+          "x2": 190.0,
+          "y2": -210.0
+        },
+        {
+          "radiusX": 10.0,
+          "radiusY": 10.0,
+          "centerX": 321.0,
+          "centerY": -370.0,
+          "x1": 311.0,
+          "y1": -380.0,
+          "x2": 331.0,
+          "y2": -360.0
+        },
+        {
+          "radiusX": 17.0,
+          "radiusY": 17.0,
+          "centerX": 140.0,
+          "centerY": -192.0,
+          "x1": 123.0,
+          "y1": -209.0,
+          "x2": 157.0,
+          "y2": -175.0
+        },
+        {
+          "radiusX": 5.0,
+          "radiusY": 15.0,
+          "centerX": 25.0,
+          "centerY": -70.0,
+          "x1": 20.0,
+          "y1": -85.0,
+          "x2": 30.0,
+          "y2": -55.0
+        }
+      ]
+    ]
+  },
+  "NLight3": {
+    "name": "BowNeutralHit",
+    "displayName": "NLight3",
+    "powerID": 328,
+    "isAir": false,
+    "damage": "",
+    "stun": 0,
+    "impulse": "",
+    "castTime": "",
+    "hurtboxRef": "BowNLight",
+    "hitboxes": []
+  },
+  "NAir": {
+    "name": "BowAir",
+    "displayName": "NAir",
+    "powerID": 330,
+    "isAir": true,
+    "damage": "6",
+    "stun": 28,
+    "impulse": "75,70",
+    "castTime": "9:1@4,0:2@5-5",
+    "hurtboxRef": "BowNAir",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 30.0,
+          "radiusY": 75.0,
+          "centerX": 70.0,
+          "centerY": -60.0,
+          "x1": 40.0,
+          "y1": -135.0,
+          "x2": 100.0,
+          "y2": 15.0
+        },
+        {
+          "radiusX": 37.0,
+          "radiusY": 15.0,
+          "centerX": 65.0,
+          "centerY": -3.0,
+          "x1": 28.0,
+          "y1": -18.0,
+          "x2": 102.0,
+          "y2": 12.0
+        },
+        {
+          "radiusX": 37.0,
+          "radiusY": 61.0,
+          "centerX": 90.0,
+          "centerY": -46.0,
+          "x1": 53.0,
+          "y1": -107.0,
+          "x2": 127.0,
+          "y2": 15.0
+        }
+      ],
+      [
+        {
+          "radiusX": 51.0,
+          "radiusY": 38.0,
+          "centerX": 25.0,
+          "centerY": -111.0,
+          "x1": -26.0,
+          "y1": -149.0,
+          "x2": 76.0,
+          "y2": -73.0
+        },
+        {
+          "radiusX": 28.0,
+          "radiusY": 48.0,
+          "centerX": 61.0,
+          "centerY": -97.0,
+          "x1": 33.0,
+          "y1": -145.0,
+          "x2": 89.0,
+          "y2": -49.0
+        },
+        {
+          "radiusX": 36.0,
+          "radiusY": 36.0,
+          "centerX": -10.0,
+          "centerY": -101.0,
+          "x1": -46.0,
+          "y1": -137.0,
+          "x2": 26.0,
+          "y2": -65.0
+        },
+        {
+          "radiusX": 15.0,
+          "radiusY": 38.0,
+          "centerX": 87.0,
+          "centerY": -92.0,
+          "x1": 72.0,
+          "y1": -130.0,
+          "x2": 102.0,
+          "y2": -54.0
+        },
+        {
+          "radiusX": 14.0,
+          "radiusY": 14.0,
+          "centerX": -41.0,
+          "centerY": -98.0,
+          "x1": -55.0,
+          "y1": -112.0,
+          "x2": -27.0,
+          "y2": -84.0
+        }
+      ]
+    ]
+  },
+  "SAir": {
+    "name": "BowAirSide",
+    "displayName": "SAir",
+    "powerID": 333,
+    "isAir": true,
+    "damage": "15",
+    "stun": 25,
+    "impulse": "60",
+    "castTime": "13:1@5,0:1@6",
+    "hurtboxRef": "",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 54.0,
+          "radiusY": 34.0,
+          "centerX": 125.0,
+          "centerY": -18.0,
+          "x1": 71.0,
+          "y1": -52.0,
+          "x2": 179.0,
+          "y2": 16.0
+        },
+        {
+          "radiusX": 47.0,
+          "radiusY": 37.0,
+          "centerX": 93.0,
+          "centerY": -35.0,
+          "x1": 46.0,
+          "y1": -72.0,
+          "x2": 140.0,
+          "y2": 2.0
+        },
+        {
+          "radiusX": 30.0,
+          "radiusY": 31.0,
+          "centerX": 180.0,
+          "centerY": 1.0,
+          "x1": 150.0,
+          "y1": -30.0,
+          "x2": 210.0,
+          "y2": 32.0
+        },
+        {
+          "radiusX": 53.0,
+          "radiusY": 46.0,
+          "centerX": 175.0,
+          "centerY": 33.0,
+          "x1": 122.0,
+          "y1": -13.0,
+          "x2": 228.0,
+          "y2": 79.0
+        },
+        {
+          "radiusX": 52.0,
+          "radiusY": 28.0,
+          "centerX": 158.0,
+          "centerY": 57.0,
+          "x1": 106.0,
+          "y1": 29.0,
+          "x2": 210.0,
+          "y2": 85.0
+        },
+        {
+          "radiusX": 71.0,
+          "radiusY": 21.0,
+          "centerX": 109.0,
+          "centerY": 70.0,
+          "x1": 38.0,
+          "y1": 49.0,
+          "x2": 180.0,
+          "y2": 91.0
+        }
+      ],
+      [
+        {
+          "radiusX": 27.0,
+          "radiusY": 19.0,
+          "centerX": 157.0,
+          "centerY": 70.0,
+          "x1": 130.0,
+          "y1": 51.0,
+          "x2": 184.0,
+          "y2": 89.0
+        },
+        {
+          "radiusX": 39.0,
+          "radiusY": 15.0,
+          "centerX": 114.0,
+          "centerY": 79.0,
+          "x1": 75.0,
+          "y1": 64.0,
+          "x2": 153.0,
+          "y2": 94.0
+        },
+        {
+          "radiusX": 24.0,
+          "radiusY": 18.0,
+          "centerX": 192.0,
+          "centerY": 62.0,
+          "x1": 168.0,
+          "y1": 44.0,
+          "x2": 216.0,
+          "y2": 80.0
+        },
+        {
+          "radiusX": 15.0,
+          "radiusY": 18.0,
+          "centerX": 213.0,
+          "centerY": 40.0,
+          "x1": 198.0,
+          "y1": 22.0,
+          "x2": 228.0,
+          "y2": 58.0
+        }
+      ]
+    ]
+  },
+  "DAir": {
+    "name": "BowAirDown",
+    "displayName": "DAir",
+    "powerID": 336,
+    "isAir": true,
+    "damage": "1",
+    "stun": 0,
+    "impulse": "0",
+    "castTime": "11@5",
+    "hurtboxRef": "",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 5.0,
+          "radiusY": 5.0,
+          "centerX": 263.0,
+          "centerY": 240.0,
+          "x1": 258.0,
+          "y1": 235.0,
+          "x2": 268.0,
+          "y2": 245.0
+        }
+      ]
+    ]
+  },
+  "Recovery": {
+    "name": "BowAirUpHeavy",
+    "displayName": "Recovery",
+    "powerID": 343,
+    "isAir": true,
+    "damage": "0,1,1,1",
+    "stun": 16,
+    "impulse": "0,1,1,1",
+    "castTime": "6:5@4-6,0:2@7-8,0:1@9-9,0:1@10-10",
+    "hurtboxRef": "BowRecovery",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 65.0,
+          "radiusY": 75.0,
+          "centerX": 95.0,
+          "centerY": -55.0,
+          "x1": 30.0,
+          "y1": -130.0,
+          "x2": 160.0,
+          "y2": 20.0
+        }
+      ],
+      [
+        {
+          "radiusX": 34.0,
+          "radiusY": 35.0,
+          "centerX": 114.0,
+          "centerY": -23.0,
+          "x1": 80.0,
+          "y1": -58.0,
+          "x2": 148.0,
+          "y2": 12.0
+        },
+        {
+          "radiusX": 34.0,
+          "radiusY": 33.0,
+          "centerX": 152.0,
+          "centerY": -45.0,
+          "x1": 118.0,
+          "y1": -78.0,
+          "x2": 186.0,
+          "y2": -12.0
+        },
+        {
+          "radiusX": 23.0,
+          "radiusY": 20.0,
+          "centerX": 91.0,
+          "centerY": 7.0,
+          "x1": 68.0,
+          "y1": -13.0,
+          "x2": 114.0,
+          "y2": 27.0
+        },
+        {
+          "radiusX": 33.0,
+          "radiusY": 36.0,
+          "centerX": 184.0,
+          "centerY": -73.0,
+          "x1": 151.0,
+          "y1": -109.0,
+          "x2": 217.0,
+          "y2": -37.0
+        },
+        {
+          "radiusX": 19.0,
+          "radiusY": 30.0,
+          "centerX": 213.0,
+          "centerY": -117.0,
+          "x1": 194.0,
+          "y1": -147.0,
+          "x2": 232.0,
+          "y2": -87.0
+        }
+      ],
+      [
+        {
+          "radiusX": 71.0,
+          "radiusY": 45.0,
+          "centerX": 137.0,
+          "centerY": -139.0,
+          "x1": 66.0,
+          "y1": -184.0,
+          "x2": 208.0,
+          "y2": -94.0
+        },
+        {
+          "radiusX": 45.0,
+          "radiusY": 38.0,
+          "centerX": 99.0,
+          "centerY": -133.0,
+          "x1": 54.0,
+          "y1": -171.0,
+          "x2": 144.0,
+          "y2": -95.0
+        },
+        {
+          "radiusX": 36.0,
+          "radiusY": 44.0,
+          "centerX": 195.0,
+          "centerY": -119.0,
+          "x1": 159.0,
+          "y1": -163.0,
+          "x2": 231.0,
+          "y2": -75.0
+        }
+      ],
+      [
+        {
+          "radiusX": 54.0,
+          "radiusY": 35.0,
+          "centerX": 122.0,
+          "centerY": -145.0,
+          "x1": 68.0,
+          "y1": -180.0,
+          "x2": 176.0,
+          "y2": -110.0
+        },
+        {
+          "radiusX": 45.0,
+          "radiusY": 34.0,
+          "centerX": 98.0,
+          "centerY": -141.0,
+          "x1": 53.0,
+          "y1": -175.0,
+          "x2": 143.0,
+          "y2": -107.0
+        }
+      ]
+    ]
+  },
+  "GP": {
+    "name": "BowGroundPound",
+    "displayName": "GP",
+    "powerID": 348,
+    "isAir": true,
+    "damage": "5",
+    "stun": 20,
+    "impulse": "10",
+    "castTime": "14@4,0:32,0:313",
+    "hurtboxRef": "BowGP",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 1.0,
+          "radiusY": 20.0,
+          "centerX": 0.0,
+          "centerY": 95.0,
+          "x1": -1.0,
+          "y1": 75.0,
+          "x2": 1.0,
+          "y2": 115.0
+        },
+        {
+          "radiusX": 29.0,
+          "radiusY": 43.0,
+          "centerX": -6.0,
+          "centerY": 86.0,
+          "x1": -35.0,
+          "y1": 43.0,
+          "x2": 23.0,
+          "y2": 129.0
+        }
+      ]
+    ]
+  }
+}

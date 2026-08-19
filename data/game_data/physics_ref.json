@@ -1,0 +1,18 @@
+{
+  "columnInfo": {
+    "SpeedLimit": "0",
+    "SpeedLimitY": "0",
+    "SpeedLimitAttack": "0",
+    "SpeedLimitBackward": "0",
+    "SpeedLimitAttackBackward": "0",
+    "AccelMult": "1,1",
+    "BackwardAccelMult": "1",
+    "DownwardForceMult": "1",
+    "CastImpulseX": "0",
+    "CastImpulseY": "0",
+    "FireImpulseX": "0,0",
+    "FireImpulseY": "0,0",
+    "FixedImpulse": "0",
+    "MinimumImpulse": "0"
+  }
+}

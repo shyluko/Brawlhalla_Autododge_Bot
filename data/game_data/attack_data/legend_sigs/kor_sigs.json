@@ -1,0 +1,82 @@
+{
+  "legend": "Kor",
+  "weapons": [],
+  "signatures": {
+    "Fists": {
+      "Neutral": {
+        "name": "FistsSmashNeutralGolem",
+        "weapon": "Fists",
+        "direction": "Neutral",
+        "powerID": 944,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "FistsSmashSideGolem",
+        "weapon": "Fists",
+        "direction": "Side",
+        "powerID": 949,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0@4,70@29",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "FistsSmashDownGolem",
+        "weapon": "Fists",
+        "direction": "Down",
+        "powerID": 955,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    },
+    "Hammer": {
+      "Neutral": {
+        "name": "HammerSmashNeutralGolem",
+        "weapon": "Hammer",
+        "direction": "Neutral",
+        "powerID": 957,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "HammerSmashSideGolem",
+        "weapon": "Hammer",
+        "direction": "Side",
+        "powerID": 960,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,10,60",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "HammerSmashDownGolem",
+        "weapon": "Hammer",
+        "direction": "Down",
+        "powerID": 962,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    }
+  }
+}

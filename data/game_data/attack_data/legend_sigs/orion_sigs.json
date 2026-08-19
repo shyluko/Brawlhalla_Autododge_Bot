@@ -1,0 +1,82 @@
+{
+  "legend": "Orion",
+  "weapons": [],
+  "signatures": {
+    "Spear": {
+      "Side": {
+        "name": "SpearSmashSideValkyrie",
+        "weapon": "Spear",
+        "direction": "Side",
+        "powerID": 722,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Neutral": {
+        "name": "SpearSmashNeutralValkyrie",
+        "weapon": "Spear",
+        "direction": "Neutral",
+        "powerID": 724,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "SpearSmashDownValkyrie",
+        "weapon": "Spear",
+        "direction": "Down",
+        "powerID": 727,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    },
+    "Axe": {
+      "Neutral": {
+        "name": "AxeSmashNeutralValkyrie",
+        "weapon": "Axe",
+        "direction": "Neutral",
+        "powerID": 730,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "AxeSmashSideValkyrie",
+        "weapon": "Axe",
+        "direction": "Side",
+        "powerID": 734,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "AxeSmashDownValkyrie",
+        "weapon": "Axe",
+        "direction": "Down",
+        "powerID": 737,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "12:13,60",
+        "hitboxes": []
+      }
+    }
+  }
+}

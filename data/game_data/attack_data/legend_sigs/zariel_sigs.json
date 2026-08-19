@@ -1,0 +1,147 @@
+{
+  "legend": "Zariel",
+  "weapons": [],
+  "signatures": {
+    "Fists": {
+      "Neutral": {
+        "name": "FistsSmashNeutralCelestial",
+        "weapon": "Fists",
+        "direction": "Neutral",
+        "powerID": 1610,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:7@1-4,59",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Side": {
+        "name": "FistsSmashSideCelestial",
+        "weapon": "Fists",
+        "direction": "Side",
+        "powerID": 1618,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:12@1-4,59",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Down": {
+        "name": "FistsSmashDownCelestial",
+        "weapon": "Fists",
+        "direction": "Down",
+        "powerID": 1623,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      }
+    },
+    "Bow": {
+      "Neutral": {
+        "name": "BowSmashNeutralCelestial",
+        "weapon": "Bow",
+        "direction": "Neutral",
+        "powerID": 1628,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,69",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Side": {
+        "name": "BowSmashSideCelestial",
+        "weapon": "Bow",
+        "direction": "Side",
+        "powerID": 1635,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,69",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Down": {
+        "name": "BowSmashDownCelestial",
+        "weapon": "Bow",
+        "direction": "Down",
+        "powerID": 1647,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:6@1-3,0:15@4,49",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "legend": "Sentinel",
+  "weapons": [],
+  "signatures": {
+    "Hammer": {
+      "Neutral": {
+        "name": "HammerSmashNeutralSuper",
+        "weapon": "Hammer",
+        "direction": "Neutral",
+        "powerID": 668,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "73",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "HammerSmashSideSuper",
+        "weapon": "Hammer",
+        "direction": "Side",
+        "powerID": 3022,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,23",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "HammerSmashDownSuper",
+        "weapon": "Hammer",
+        "direction": "Down",
+        "powerID": 672,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "2:14@2-7,56",
+        "hitboxes": []
+      }
+    },
+    "Katar": {
+      "Neutral": {
+        "name": "KatarSmashNeutralSuper",
+        "weapon": "Katar",
+        "direction": "Neutral",
+        "powerID": 675,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "KatarSmashSideSuper",
+        "weapon": "Katar",
+        "direction": "Side",
+        "powerID": 677,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "KatarSmashDownSuper",
+        "weapon": "Katar",
+        "direction": "Down",
+        "powerID": 679,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,72",
+        "hitboxes": []
+      }
+    }
+  }
+}

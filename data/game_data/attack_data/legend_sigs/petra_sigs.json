@@ -1,0 +1,108 @@
+{
+  "legend": "Petra",
+  "weapons": [],
+  "signatures": {
+    "Orb": {
+      "Neutral": {
+        "name": "OrbSmashNeutralRageFighter",
+        "weapon": "Orb",
+        "direction": "Neutral",
+        "powerID": 1396,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "OrbSmashSideRageFighter",
+        "weapon": "Orb",
+        "direction": "Side",
+        "powerID": 1822,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "6:2@3-3,0:2@4,0:12@5-10",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "OrbSmashDownRageFighter",
+        "weapon": "Orb",
+        "direction": "Down",
+        "powerID": 1951,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:5@1-2,0:11,0:4",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      }
+    },
+    "Fists": {
+      "Neutral": {
+        "name": "FistsSmashNeutralRageFighter",
+        "weapon": "Fists",
+        "direction": "Neutral",
+        "powerID": 1933,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "FistsSmashSideRageFighter",
+        "weapon": "Fists",
+        "direction": "Side",
+        "powerID": 1936,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "FistsSmashDownRageFighter",
+        "weapon": "Fists",
+        "direction": "Down",
+        "powerID": 1944,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 670.0,
+              "centerY": 0.0,
+              "x1": 670.0,
+              "y1": 0.0,
+              "x2": 670.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      }
+    }
+  }
+}

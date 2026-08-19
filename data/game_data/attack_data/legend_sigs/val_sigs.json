@@ -1,0 +1,82 @@
+{
+  "legend": "Val",
+  "weapons": [],
+  "signatures": {
+    "Sword": {
+      "Neutral": {
+        "name": "SwordSmashNeutralTechnoNinja",
+        "weapon": "Sword",
+        "direction": "Neutral",
+        "powerID": 992,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "SwordSmashSideTechnoNinja",
+        "weapon": "Sword",
+        "direction": "Side",
+        "powerID": 996,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "SwordSmashDownTechnoNinja",
+        "weapon": "Sword",
+        "direction": "Down",
+        "powerID": 1007,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      }
+    },
+    "Fists": {
+      "Neutral": {
+        "name": "FistsSmashNeutralTechnoNinja",
+        "weapon": "Fists",
+        "direction": "Neutral",
+        "powerID": 1017,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "FistsSmashSideTechnoNinja",
+        "weapon": "Fists",
+        "direction": "Side",
+        "powerID": 1024,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "FistsSmashDownTechnoNinja",
+        "weapon": "Fists",
+        "direction": "Down",
+        "powerID": 1027,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      }
+    }
+  }
+}

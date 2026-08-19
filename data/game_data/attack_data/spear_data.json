@@ -1,0 +1,592 @@
+{
+  "NLight": {
+    "name": "SpearNeutral",
+    "displayName": "NLight",
+    "powerID": 223,
+    "isAir": false,
+    "damage": "4",
+    "stun": 17,
+    "impulse": "40",
+    "castTime": "6:2@2,0:1@3",
+    "hurtboxRef": "SpearNLight",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 69.0,
+          "radiusY": 26.0,
+          "centerX": 248.0,
+          "centerY": -14.0,
+          "x1": 179.0,
+          "y1": -40.0,
+          "x2": 317.0,
+          "y2": 12.0
+        }
+      ],
+      [
+        {
+          "radiusX": 68.0,
+          "radiusY": 29.0,
+          "centerX": 247.0,
+          "centerY": -15.0,
+          "x1": 179.0,
+          "y1": -44.0,
+          "x2": 315.0,
+          "y2": 14.0
+        }
+      ]
+    ]
+  },
+  "NLight2": {
+    "name": "SpearNeutralCombo",
+    "displayName": "NLight2",
+    "powerID": 224,
+    "isAir": false,
+    "damage": "5",
+    "stun": 17,
+    "impulse": "40",
+    "castTime": "4:4@5",
+    "hurtboxRef": "SpearNLight",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 58.0,
+          "radiusY": 29.0,
+          "centerX": 257.0,
+          "centerY": 41.0,
+          "x1": 199.0,
+          "y1": 12.0,
+          "x2": 315.0,
+          "y2": 70.0
+        }
+      ]
+    ]
+  },
+  "NLight3": {
+    "name": "SpearNeutralHit",
+    "displayName": "NLight3",
+    "powerID": 1495,
+    "isAir": false,
+    "damage": "",
+    "stun": 0,
+    "impulse": "",
+    "castTime": "0@10",
+    "hurtboxRef": "SpearNLight",
+    "hitboxes": []
+  },
+  "SLight": {
+    "name": "SpearSide",
+    "displayName": "SLight",
+    "powerID": 226,
+    "isAir": false,
+    "damage": "0,8,8",
+    "stun": 18,
+    "impulse": "0,90,90",
+    "castTime": "3@3,8:1@6,0:1@7-7",
+    "hurtboxRef": "SpearSLight",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 120.0,
+          "radiusY": 100.0,
+          "centerX": 110.0,
+          "centerY": -10.0,
+          "x1": -10.0,
+          "y1": -110.0,
+          "x2": 230.0,
+          "y2": 90.0
+        }
+      ],
+      [
+        {
+          "radiusX": 45.0,
+          "radiusY": 35.0,
+          "centerX": 80.0,
+          "centerY": -34.0,
+          "x1": 35.0,
+          "y1": -69.0,
+          "x2": 125.0,
+          "y2": 1.0
+        },
+        {
+          "radiusX": 43.0,
+          "radiusY": 24.0,
+          "centerX": 154.0,
+          "centerY": -19.0,
+          "x1": 111.0,
+          "y1": -43.0,
+          "x2": 197.0,
+          "y2": 5.0
+        },
+        {
+          "radiusX": 20.0,
+          "radiusY": 12.0,
+          "centerX": 192.0,
+          "centerY": -19.0,
+          "x1": 172.0,
+          "y1": -31.0,
+          "x2": 212.0,
+          "y2": -7.0
+        },
+        {
+          "radiusX": 36.0,
+          "radiusY": 33.0,
+          "centerX": 129.0,
+          "centerY": -22.0,
+          "x1": 93.0,
+          "y1": -55.0,
+          "x2": 165.0,
+          "y2": 11.0
+        },
+        {
+          "radiusX": 55.0,
+          "radiusY": 34.0,
+          "centerX": 22.0,
+          "centerY": -44.0,
+          "x1": -33.0,
+          "y1": -78.0,
+          "x2": 77.0,
+          "y2": -10.0
+        }
+      ],
+      [
+        {
+          "radiusX": 125.0,
+          "radiusY": 33.0,
+          "centerX": 117.0,
+          "centerY": 19.0,
+          "x1": -8.0,
+          "y1": -14.0,
+          "x2": 242.0,
+          "y2": 52.0
+        },
+        {
+          "radiusX": 65.0,
+          "radiusY": 53.0,
+          "centerX": 163.0,
+          "centerY": 18.0,
+          "x1": 98.0,
+          "y1": -35.0,
+          "x2": 228.0,
+          "y2": 71.0
+        },
+        {
+          "radiusX": 88.0,
+          "radiusY": 67.0,
+          "centerX": 106.0,
+          "centerY": 12.0,
+          "x1": 18.0,
+          "y1": -55.0,
+          "x2": 194.0,
+          "y2": 79.0
+        },
+        {
+          "radiusX": 54.0,
+          "radiusY": 40.0,
+          "centerX": 63.0,
+          "centerY": -23.0,
+          "x1": 9.0,
+          "y1": -63.0,
+          "x2": 117.0,
+          "y2": 17.0
+        }
+      ]
+    ]
+  },
+  "NAir": {
+    "name": "SpearAir",
+    "displayName": "NAir",
+    "powerID": 232,
+    "isAir": true,
+    "damage": "t12",
+    "stun": 22,
+    "impulse": "44~34",
+    "castTime": "15:6@6-8",
+    "hurtboxRef": "SpearNAir",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 142.0,
+          "radiusY": 142.0,
+          "centerX": 43.0,
+          "centerY": -14.0,
+          "x1": -99.0,
+          "y1": -156.0,
+          "x2": 185.0,
+          "y2": 128.0
+        }
+      ]
+    ]
+  },
+  "SAir": {
+    "name": "SpearAirSide",
+    "displayName": "SAir",
+    "powerID": 234,
+    "isAir": true,
+    "damage": "16",
+    "stun": 22,
+    "impulse": "42",
+    "castTime": "13:2@5-5",
+    "hurtboxRef": "SpearSAir",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 27.0,
+          "radiusY": 29.0,
+          "centerX": 238.0,
+          "centerY": -25.0,
+          "x1": 211.0,
+          "y1": -54.0,
+          "x2": 265.0,
+          "y2": 4.0
+        },
+        {
+          "radiusX": 32.0,
+          "radiusY": 34.0,
+          "centerX": 253.0,
+          "centerY": -5.0,
+          "x1": 221.0,
+          "y1": -39.0,
+          "x2": 285.0,
+          "y2": 29.0
+        },
+        {
+          "radiusX": 34.0,
+          "radiusY": 40.0,
+          "centerX": 273.0,
+          "centerY": 22.0,
+          "x1": 239.0,
+          "y1": -18.0,
+          "x2": 307.0,
+          "y2": 62.0
+        },
+        {
+          "radiusX": 30.0,
+          "radiusY": 41.0,
+          "centerX": 289.0,
+          "centerY": 42.0,
+          "x1": 259.0,
+          "y1": 1.0,
+          "x2": 319.0,
+          "y2": 83.0
+        },
+        {
+          "radiusX": 32.0,
+          "radiusY": 28.0,
+          "centerX": 307.0,
+          "centerY": 63.0,
+          "x1": 275.0,
+          "y1": 35.0,
+          "x2": 339.0,
+          "y2": 91.0
+        },
+        {
+          "radiusX": 28.0,
+          "radiusY": 10.0,
+          "centerX": 319.0,
+          "centerY": 79.0,
+          "x1": 291.0,
+          "y1": 69.0,
+          "x2": 347.0,
+          "y2": 89.0
+        }
+      ]
+    ]
+  },
+  "Recovery": {
+    "name": "SpearAirUpHeavy",
+    "displayName": "Recovery",
+    "powerID": 237,
+    "isAir": true,
+    "damage": "17,17,0",
+    "stun": 25,
+    "impulse": "60,60,0",
+    "castTime": "15:8@7,0:6@12,0@16",
+    "hurtboxRef": "SpearRecovery",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 165.0,
+          "radiusY": 21.0,
+          "centerX": 55.0,
+          "centerY": -90.0,
+          "x1": -110.0,
+          "y1": -111.0,
+          "x2": 220.0,
+          "y2": -69.0
+        }
+      ]
+    ]
+  },
+  "DAir": {
+    "name": "SpearAirDown",
+    "displayName": "DAir",
+    "powerID": 3043,
+    "isAir": true,
+    "damage": "0,1",
+    "stun": 11,
+    "impulse": "0",
+    "castTime": "6:2@3,0:0@3",
+    "hurtboxRef": "SpearDAir",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 14.0,
+          "radiusY": 14.0,
+          "centerX": 14.0,
+          "centerY": 169.0,
+          "x1": 0.0,
+          "y1": 155.0,
+          "x2": 28.0,
+          "y2": 183.0
+        }
+      ],
+      [
+        {
+          "radiusX": 5.0,
+          "radiusY": 5.0,
+          "centerX": 10.0,
+          "centerY": 237.0,
+          "x1": 5.0,
+          "y1": 232.0,
+          "x2": 15.0,
+          "y2": 242.0
+        }
+      ]
+    ]
+  },
+  "GP": {
+    "name": "SpearGroundPound",
+    "displayName": "GP",
+    "powerID": 241,
+    "isAir": true,
+    "damage": "18",
+    "stun": 22,
+    "impulse": "53",
+    "castTime": "16@5,0:375",
+    "hurtboxRef": "",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 1.0,
+          "radiusY": 20.0,
+          "centerX": 0.0,
+          "centerY": 46.0,
+          "x1": -1.0,
+          "y1": 26.0,
+          "x2": 1.0,
+          "y2": 66.0
+        },
+        {
+          "radiusX": 100.0,
+          "radiusY": 21.0,
+          "centerX": 0.0,
+          "centerY": 46.0,
+          "x1": -100.0,
+          "y1": 25.0,
+          "x2": 100.0,
+          "y2": 67.0
+        }
+      ]
+    ]
+  },
+  "DLight": {
+    "name": "SpearDown",
+    "displayName": "DLight",
+    "powerID": 248,
+    "isAir": false,
+    "damage": "0,t1,t1,t1,t3",
+    "stun": 25,
+    "impulse": "0,70,70,70,40",
+    "castTime": "9@6,1@7,1@8,0:1@8-8,0:1@9",
+    "hurtboxRef": "SpearDLight",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 0.0,
+          "radiusY": 0.0,
+          "centerX": 0.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 0.0,
+          "y2": 0.0
+        }
+      ],
+      [
+        {
+          "radiusX": 34.0,
+          "radiusY": 42.0,
+          "centerX": 118.0,
+          "centerY": -78.0,
+          "x1": 84.0,
+          "y1": -120.0,
+          "x2": 152.0,
+          "y2": -36.0
+        },
+        {
+          "radiusX": 45.0,
+          "radiusY": 24.0,
+          "centerX": 91.0,
+          "centerY": -38.0,
+          "x1": 46.0,
+          "y1": -62.0,
+          "x2": 136.0,
+          "y2": -14.0
+        }
+      ],
+      [
+        {
+          "radiusX": 38.0,
+          "radiusY": 39.0,
+          "centerX": 100.0,
+          "centerY": -38.0,
+          "x1": 62.0,
+          "y1": -77.0,
+          "x2": 138.0,
+          "y2": 1.0
+        },
+        {
+          "radiusX": 39.0,
+          "radiusY": 38.0,
+          "centerX": 75.0,
+          "centerY": -2.0,
+          "x1": 36.0,
+          "y1": -40.0,
+          "x2": 114.0,
+          "y2": 36.0
+        },
+        {
+          "radiusX": 28.0,
+          "radiusY": 59.0,
+          "centerX": 127.0,
+          "centerY": -106.0,
+          "x1": 99.0,
+          "y1": -165.0,
+          "x2": 155.0,
+          "y2": -47.0
+        }
+      ],
+      [
+        {
+          "radiusX": 38.0,
+          "radiusY": 39.0,
+          "centerX": 100.0,
+          "centerY": -38.0,
+          "x1": 62.0,
+          "y1": -77.0,
+          "x2": 138.0,
+          "y2": 1.0
+        },
+        {
+          "radiusX": 39.0,
+          "radiusY": 38.0,
+          "centerX": 75.0,
+          "centerY": -2.0,
+          "x1": 36.0,
+          "y1": -40.0,
+          "x2": 114.0,
+          "y2": 36.0
+        },
+        {
+          "radiusX": 28.0,
+          "radiusY": 59.0,
+          "centerX": 127.0,
+          "centerY": -106.0,
+          "x1": 99.0,
+          "y1": -165.0,
+          "x2": 155.0,
+          "y2": -47.0
+        }
+      ],
+      [
+        {
+          "radiusX": 44.0,
+          "radiusY": 20.0,
+          "centerX": 106.0,
+          "centerY": -143.0,
+          "x1": 62.0,
+          "y1": -163.0,
+          "x2": 150.0,
+          "y2": -123.0
+        },
+        {
+          "radiusX": 58.0,
+          "radiusY": 33.0,
+          "centerX": 98.0,
+          "centerY": -115.0,
+          "x1": 40.0,
+          "y1": -148.0,
+          "x2": 156.0,
+          "y2": -82.0
+        }
+      ]
+    ]
+  },
+  "DLight2": {
+    "name": "SpearDownHit",
+    "displayName": "DLight2",
+    "powerID": 249,
+    "isAir": false,
+    "damage": "0,2",
+    "stun": 25,
+    "impulse": "0,55",
+    "castTime": "0:5@1-3,0:3@4-5",
+    "hurtboxRef": "SpearDLight2",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 107.0,
+          "radiusY": 48.0,
+          "centerX": 72.0,
+          "centerY": -29.0,
+          "x1": -35.0,
+          "y1": -77.0,
+          "x2": 179.0,
+          "y2": 19.0
+        },
+        {
+          "radiusX": 71.0,
+          "radiusY": 35.0,
+          "centerX": 48.0,
+          "centerY": 17.0,
+          "x1": -23.0,
+          "y1": -18.0,
+          "x2": 119.0,
+          "y2": 52.0
+        }
+      ],
+      [
+        {
+          "radiusX": 69.0,
+          "radiusY": 30.0,
+          "centerX": 92.0,
+          "centerY": -17.0,
+          "x1": 23.0,
+          "y1": -47.0,
+          "x2": 161.0,
+          "y2": 13.0
+        },
+        {
+          "radiusX": 51.0,
+          "radiusY": 31.0,
+          "centerX": 56.0,
+          "centerY": 13.0,
+          "x1": 5.0,
+          "y1": -18.0,
+          "x2": 107.0,
+          "y2": 44.0
+        },
+        {
+          "radiusX": 15.0,
+          "radiusY": 15.0,
+          "centerX": 149.0,
+          "centerY": -37.0,
+          "x1": 134.0,
+          "y1": -52.0,
+          "x2": 164.0,
+          "y2": -22.0
+        }
+      ]
+    ]
+  }
+}

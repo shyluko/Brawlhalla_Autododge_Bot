@@ -1,0 +1,268 @@
+{
+  "legend": "Magyar",
+  "weapons": [],
+  "signatures": {
+    "Greatsword": {
+      "Neutral": {
+        "name": "GreatswordSmashNeutralGhostArmor",
+        "weapon": "Greatsword",
+        "direction": "Neutral",
+        "powerID": 2319,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "2:6@2-4,0:2@5,0:55",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "GreatswordSmashSideGhostArmor",
+        "weapon": "Greatsword",
+        "direction": "Side",
+        "powerID": 2325,
+        "isAir": false,
+        "damage": "7,7,7,7,0,0",
+        "stun": 27,
+        "impulse": "75,75,50,40,0,0",
+        "castTime": "14:2@3,0:1@4,0:2@5,0:1@6,0:2@7,52",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 26.0,
+              "radiusY": 26.0,
+              "centerX": 158.0,
+              "centerY": 40.0,
+              "x1": 132.0,
+              "y1": 14.0,
+              "x2": 184.0,
+              "y2": 66.0
+            },
+            {
+              "radiusX": 28.0,
+              "radiusY": 28.0,
+              "centerX": 200.0,
+              "centerY": 32.0,
+              "x1": 172.0,
+              "y1": 4.0,
+              "x2": 228.0,
+              "y2": 60.0
+            },
+            {
+              "radiusX": 21.0,
+              "radiusY": 28.0,
+              "centerX": 123.0,
+              "centerY": 44.0,
+              "x1": 102.0,
+              "y1": 16.0,
+              "x2": 144.0,
+              "y2": 72.0
+            }
+          ],
+          [
+            {
+              "radiusX": 32.0,
+              "radiusY": 27.0,
+              "centerX": 174.0,
+              "centerY": 35.0,
+              "x1": 142.0,
+              "y1": 8.0,
+              "x2": 206.0,
+              "y2": 62.0
+            },
+            {
+              "radiusX": 30.0,
+              "radiusY": 24.0,
+              "centerX": 207.0,
+              "centerY": 30.0,
+              "x1": 177.0,
+              "y1": 6.0,
+              "x2": 237.0,
+              "y2": 54.0
+            },
+            {
+              "radiusX": 23.0,
+              "radiusY": 21.0,
+              "centerX": 93.0,
+              "centerY": 47.0,
+              "x1": 70.0,
+              "y1": 26.0,
+              "x2": 116.0,
+              "y2": 68.0
+            },
+            {
+              "radiusX": 22.0,
+              "radiusY": 24.0,
+              "centerX": 130.0,
+              "centerY": 42.0,
+              "x1": 108.0,
+              "y1": 18.0,
+              "x2": 152.0,
+              "y2": 66.0
+            }
+          ],
+          [
+            {
+              "radiusX": 36.0,
+              "radiusY": 32.0,
+              "centerX": 226.0,
+              "centerY": 0.0,
+              "x1": 190.0,
+              "y1": -32.0,
+              "x2": 262.0,
+              "y2": 32.0
+            },
+            {
+              "radiusX": 18.0,
+              "radiusY": 20.0,
+              "centerX": 192.0,
+              "centerY": 32.0,
+              "x1": 174.0,
+              "y1": 12.0,
+              "x2": 210.0,
+              "y2": 52.0
+            },
+            {
+              "radiusX": 14.0,
+              "radiusY": 14.0,
+              "centerX": 196.0,
+              "centerY": -30.0,
+              "x1": 182.0,
+              "y1": -44.0,
+              "x2": 210.0,
+              "y2": -16.0
+            }
+          ],
+          [
+            {
+              "radiusX": 41.0,
+              "radiusY": 32.0,
+              "centerX": 219.0,
+              "centerY": -2.0,
+              "x1": 178.0,
+              "y1": -34.0,
+              "x2": 260.0,
+              "y2": 30.0
+            },
+            {
+              "radiusX": 26.0,
+              "radiusY": 14.0,
+              "centerX": 200.0,
+              "centerY": -26.0,
+              "x1": 174.0,
+              "y1": -40.0,
+              "x2": 226.0,
+              "y2": -12.0
+            },
+            {
+              "radiusX": 27.0,
+              "radiusY": 14.0,
+              "centerX": 195.0,
+              "centerY": 32.0,
+              "x1": 168.0,
+              "y1": 18.0,
+              "x2": 222.0,
+              "y2": 46.0
+            },
+            {
+              "radiusX": 14.0,
+              "radiusY": 14.0,
+              "centerX": 172.0,
+              "centerY": 38.0,
+              "x1": 158.0,
+              "y1": 24.0,
+              "x2": 186.0,
+              "y2": 52.0
+            }
+          ],
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ],
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Down": {
+        "name": "GreatswordSmashDownGhostArmor",
+        "weapon": "Greatsword",
+        "direction": "Down",
+        "powerID": 2327,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "3:4,0:7,0:55",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      }
+    },
+    "Hammer": {
+      "Neutral": {
+        "name": "HammerSmashNeutralGhostArmor",
+        "weapon": "Hammer",
+        "direction": "Neutral",
+        "powerID": 2329,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "HammerSmashSideGhostArmor",
+        "weapon": "Hammer",
+        "direction": "Side",
+        "powerID": 2334,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "15:40@7",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "HammerSmashDownGhostArmor",
+        "weapon": "Hammer",
+        "direction": "Down",
+        "powerID": 2336,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "4:14@3-11,0:49",
+        "hitboxes": []
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "legend": "Barraza",
+  "weapons": [],
+  "signatures": {
+    "Axe": {
+      "Down": {
+        "name": "AxeSmashDownApoc",
+        "weapon": "Axe",
+        "direction": "Down",
+        "powerID": 778,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "AxeSmashSideApoc",
+        "weapon": "Axe",
+        "direction": "Side",
+        "powerID": 780,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Neutral": {
+        "name": "AxeSmashNeutralApoc",
+        "weapon": "Axe",
+        "direction": "Neutral",
+        "powerID": 786,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,72",
+        "hitboxes": []
+      }
+    },
+    "Pistol": {
+      "Neutral": {
+        "name": "PistolSmashNeutralApoc",
+        "weapon": "Pistol",
+        "direction": "Neutral",
+        "powerID": 791,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "PistolSmashDownApoc",
+        "weapon": "Pistol",
+        "direction": "Down",
+        "powerID": 796,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "PistolSmashSideApoc",
+        "weapon": "Pistol",
+        "direction": "Side",
+        "powerID": 801,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    }
+  }
+}

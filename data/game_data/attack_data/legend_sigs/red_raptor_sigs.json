@@ -1,0 +1,95 @@
+{
+  "legend": "Red Raptor",
+  "weapons": [],
+  "signatures": {
+    "Boots": {
+      "Neutral": {
+        "name": "BootsSmashNeutralSentai",
+        "weapon": "Boots",
+        "direction": "Neutral",
+        "powerID": 2889,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "BootsSmashSideSentai",
+        "weapon": "Boots",
+        "direction": "Side",
+        "powerID": 2891,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "BootsSmashDownSentai",
+        "weapon": "Boots",
+        "direction": "Down",
+        "powerID": 2893,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    },
+    "Orb": {
+      "Neutral": {
+        "name": "OrbSmashNeutralSentai",
+        "weapon": "Orb",
+        "direction": "Neutral",
+        "powerID": 2895,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "OrbSmashSideSentai",
+        "weapon": "Orb",
+        "direction": "Side",
+        "powerID": 2897,
+        "isAir": false,
+        "damage": "0,0,4,4,4",
+        "stun": 20,
+        "impulse": "0,0,75,75,75",
+        "castTime": "2:6@1-2,0:8,0:2@7,0:6@8,0:39",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 85.0,
+              "radiusY": 57.0,
+              "centerX": 88.0,
+              "centerY": 12.0,
+              "x1": 3.0,
+              "y1": -45.0,
+              "x2": 173.0,
+              "y2": 69.0
+            }
+          ]
+        ]
+      },
+      "Down": {
+        "name": "OrbSmashDownSentai",
+        "weapon": "Orb",
+        "direction": "Down",
+        "powerID": 2899,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    }
+  }
+}

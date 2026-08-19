@@ -1,0 +1,82 @@
+{
+  "legend": "Asuri",
+  "weapons": [],
+  "signatures": {
+    "Sword": {
+      "Neutral": {
+        "name": "SwordSmashNeutralCat",
+        "weapon": "Sword",
+        "direction": "Neutral",
+        "powerID": 740,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "SwordSmashDownCat",
+        "weapon": "Sword",
+        "direction": "Down",
+        "powerID": 742,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,68",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "SwordSmashSideCat",
+        "weapon": "Sword",
+        "direction": "Side",
+        "powerID": 745,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "12:40@6",
+        "hitboxes": []
+      }
+    },
+    "Katar": {
+      "Neutral": {
+        "name": "KatarSmashNeutralCat",
+        "weapon": "Katar",
+        "direction": "Neutral",
+        "powerID": 747,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "KatarSmashDownCat",
+        "weapon": "Katar",
+        "direction": "Down",
+        "powerID": 752,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "KatarSmashSideCat",
+        "weapon": "Katar",
+        "direction": "Side",
+        "powerID": 756,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "legend": "Onyx",
+  "weapons": [],
+  "signatures": {
+    "Cannon": {
+      "Neutral": {
+        "name": "CannonSmashNeutralGargoyle",
+        "weapon": "Cannon",
+        "direction": "Neutral",
+        "powerID": 774,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:0,59",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Side": {
+        "name": "CannonSmashSideGargoyle",
+        "weapon": "Cannon",
+        "direction": "Side",
+        "powerID": 776,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:0,69",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Down": {
+        "name": "CannonSmashDownGargoyle",
+        "weapon": "Cannon",
+        "direction": "Down",
+        "powerID": 2106,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,110",
+        "hitboxes": []
+      }
+    },
+    "Fists": {
+      "Neutral": {
+        "name": "FistsSmashNeutralGargoyle",
+        "weapon": "Fists",
+        "direction": "Neutral",
+        "powerID": 2108,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "FistsSmashSideGargoyle",
+        "weapon": "Fists",
+        "direction": "Side",
+        "powerID": 2111,
+        "isAir": false,
+        "damage": "0",
+        "stun": 25,
+        "impulse": "0",
+        "castTime": "4:2@4,0:0@5,0:9@5-9,0:1,0:40",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Down": {
+        "name": "FistsSmashDownGargoyle",
+        "weapon": "Fists",
+        "direction": "Down",
+        "powerID": 2141,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+import { Button, ComboBox, LineEdit, VerticalBox, HorizontalBox } from "std-widgets.slint";
+
+export component ProfilesPage inherits VerticalBox {
+    in property <[string]> profiles: ["default"];
+    in property <string> active-profile: "default";
+    in-out property <string> profile-name-input: "default";
+    in property <string> status-text: "";
+
+    callback save-profile(string);
+    callback load-profile(string);
+    callback duplicate-profile(string, string);
+    callback delete-profile(string);
+    callback reset-profile();
+    callback export-profile();
+    callback import-profile();
+
+    Text { text: "Active profile: " + root.active-profile; color: #e6e8eb; font-weight: 700; }
+
+    HorizontalBox {
+        LineEdit { text <=> root.profile-name-input; placeholder-text: "profile name"; }
+        Button { text: "Save"; clicked => { root.save-profile(root.profile-name-input); } }
+    }
+
+    ComboBox {
+        model: root.profiles;
+        current-value: root.active-profile;
+        selected(value) => { root.load-profile(value); }
+    }
+
+    HorizontalBox {
+        Button { text: "Load"; clicked => { root.load-profile(root.active-profile); } }
+        Button { text: "Duplicate"; clicked => { root.duplicate-profile(root.active-profile, root.profile-name-input); } }
+        Button { text: "Delete"; clicked => { root.delete-profile(root.active-profile); } }
+        Button { text: "Reset to defaults"; clicked => { root.reset-profile(); } }
+    }
+
+    HorizontalBox {
+        Button { text: "Export to file"; clicked => { root.export-profile(); } }
+        Button { text: "Import from file"; clicked => { root.import-profile(); } }
+    }
+
+    Text { text: root.status-text; color: #9098a3; wrap: word-wrap; }
+}

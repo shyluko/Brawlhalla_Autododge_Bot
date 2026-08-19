@@ -1,0 +1,82 @@
+{
+  "legend": "Bodvar",
+  "weapons": [],
+  "signatures": {
+    "Hammer": {
+      "Neutral": {
+        "name": "HammerSmashNeutralViking",
+        "weapon": "Hammer",
+        "direction": "Neutral",
+        "powerID": 461,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "HammerSmashSideViking",
+        "weapon": "Hammer",
+        "direction": "Side",
+        "powerID": 463,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,71",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "HammerSmashDownViking",
+        "weapon": "Hammer",
+        "direction": "Down",
+        "powerID": 465,
+        "isAir": false,
+        "damage": "0",
+        "stun": 18,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      }
+    },
+    "Sword": {
+      "Neutral": {
+        "name": "SwordSmashNeutralViking",
+        "weapon": "Sword",
+        "direction": "Neutral",
+        "powerID": 470,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "SwordSmashSideViking",
+        "weapon": "Sword",
+        "direction": "Side",
+        "powerID": 474,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "SwordSmashDownViking",
+        "weapon": "Sword",
+        "direction": "Down",
+        "powerID": 476,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,84",
+        "hitboxes": []
+      }
+    }
+  }
+}

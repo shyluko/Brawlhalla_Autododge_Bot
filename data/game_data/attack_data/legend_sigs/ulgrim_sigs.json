@@ -1,0 +1,313 @@
+{
+  "legend": "Ulgrim",
+  "weapons": [],
+  "signatures": {
+    "Axe": {
+      "Down": {
+        "name": "AxeSmashDownDwarf",
+        "weapon": "Axe",
+        "direction": "Down",
+        "powerID": 804,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "AxeSmashSideDwarf",
+        "weapon": "Axe",
+        "direction": "Side",
+        "powerID": 806,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Neutral": {
+        "name": "AxeSmashNeutralDwarf",
+        "weapon": "Axe",
+        "direction": "Neutral",
+        "powerID": 809,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    },
+    "Lance": {
+      "Neutral": {
+        "name": "LanceSmashNeutralDwarf",
+        "weapon": "Lance",
+        "direction": "Neutral",
+        "powerID": 813,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "LanceSmashDownDwarf",
+        "weapon": "Lance",
+        "direction": "Down",
+        "powerID": 815,
+        "isAir": false,
+        "damage": "0,5,5,5,5",
+        "stun": 25,
+        "impulse": "0,35,35,35,35",
+        "castTime": "0:13@1-6,9:2@10,0:1,0:2,0:50",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 68.0,
+              "radiusY": 48.0,
+              "centerX": 192.0,
+              "centerY": 20.0,
+              "x1": 124.0,
+              "y1": -28.0,
+              "x2": 260.0,
+              "y2": 68.0
+            },
+            {
+              "radiusX": 64.0,
+              "radiusY": 60.0,
+              "centerX": 243.0,
+              "centerY": -15.0,
+              "x1": 179.0,
+              "y1": -75.0,
+              "x2": 307.0,
+              "y2": 45.0
+            },
+            {
+              "radiusX": 59.0,
+              "radiusY": 52.0,
+              "centerX": 283.0,
+              "centerY": -39.0,
+              "x1": 224.0,
+              "y1": -91.0,
+              "x2": 342.0,
+              "y2": 13.0
+            },
+            {
+              "radiusX": 48.0,
+              "radiusY": 43.0,
+              "centerX": 319.0,
+              "centerY": -60.0,
+              "x1": 271.0,
+              "y1": -103.0,
+              "x2": 367.0,
+              "y2": -17.0
+            },
+            {
+              "radiusX": 29.0,
+              "radiusY": 29.0,
+              "centerX": 354.0,
+              "centerY": -77.0,
+              "x1": 325.0,
+              "y1": -106.0,
+              "x2": 383.0,
+              "y2": -48.0
+            }
+          ],
+          [
+            {
+              "radiusX": 68.0,
+              "radiusY": 31.0,
+              "centerX": 192.0,
+              "centerY": 3.0,
+              "x1": 124.0,
+              "y1": -28.0,
+              "x2": 260.0,
+              "y2": 34.0
+            },
+            {
+              "radiusX": 65.0,
+              "radiusY": 45.5,
+              "centerX": 244.0,
+              "centerY": -29.0,
+              "x1": 179.0,
+              "y1": -74.5,
+              "x2": 309.0,
+              "y2": 16.5
+            },
+            {
+              "radiusX": 56.5,
+              "radiusY": 42.0,
+              "centerX": 280.0,
+              "centerY": -49.0,
+              "x1": 223.5,
+              "y1": -91.0,
+              "x2": 336.5,
+              "y2": -7.0
+            },
+            {
+              "radiusX": 47.0,
+              "radiusY": 34.0,
+              "centerX": 318.0,
+              "centerY": -69.0,
+              "x1": 271.0,
+              "y1": -103.0,
+              "x2": 365.0,
+              "y2": -35.0
+            },
+            {
+              "radiusX": 29.0,
+              "radiusY": 29.0,
+              "centerX": 354.0,
+              "centerY": -77.0,
+              "x1": 325.0,
+              "y1": -106.0,
+              "x2": 383.0,
+              "y2": -48.0
+            }
+          ],
+          [
+            {
+              "radiusX": 53.0,
+              "radiusY": 53.0,
+              "centerX": 254.0,
+              "centerY": -22.0,
+              "x1": 201.0,
+              "y1": -75.0,
+              "x2": 307.0,
+              "y2": 31.0
+            },
+            {
+              "radiusX": 59.0,
+              "radiusY": 52.0,
+              "centerX": 283.0,
+              "centerY": -39.0,
+              "x1": 224.0,
+              "y1": -91.0,
+              "x2": 342.0,
+              "y2": 13.0
+            },
+            {
+              "radiusX": 48.0,
+              "radiusY": 43.0,
+              "centerX": 319.0,
+              "centerY": -60.0,
+              "x1": 271.0,
+              "y1": -103.0,
+              "x2": 367.0,
+              "y2": -17.0
+            },
+            {
+              "radiusX": 29.0,
+              "radiusY": 29.0,
+              "centerX": 354.0,
+              "centerY": -77.0,
+              "x1": 325.0,
+              "y1": -106.0,
+              "x2": 383.0,
+              "y2": -48.0
+            }
+          ],
+          [
+            {
+              "radiusX": 57.0,
+              "radiusY": 47.0,
+              "centerX": 285.0,
+              "centerY": -44.0,
+              "x1": 228.0,
+              "y1": -91.0,
+              "x2": 342.0,
+              "y2": 3.0
+            },
+            {
+              "radiusX": 48.0,
+              "radiusY": 43.0,
+              "centerX": 319.0,
+              "centerY": -60.0,
+              "x1": 271.0,
+              "y1": -103.0,
+              "x2": 367.0,
+              "y2": -17.0
+            },
+            {
+              "radiusX": 29.0,
+              "radiusY": 29.0,
+              "centerX": 354.0,
+              "centerY": -77.0,
+              "x1": 325.0,
+              "y1": -106.0,
+              "x2": 383.0,
+              "y2": -48.0
+            }
+          ],
+          [
+            {
+              "radiusX": 24.0,
+              "radiusY": 23.0,
+              "centerX": 211.0,
+              "centerY": -52.0,
+              "x1": 187.0,
+              "y1": -75.0,
+              "x2": 235.0,
+              "y2": -29.0
+            },
+            {
+              "radiusX": 30.0,
+              "radiusY": 25.0,
+              "centerX": 236.0,
+              "centerY": -77.0,
+              "x1": 206.0,
+              "y1": -102.0,
+              "x2": 266.0,
+              "y2": -52.0
+            },
+            {
+              "radiusX": 33.0,
+              "radiusY": 23.5,
+              "centerX": 270.0,
+              "centerY": -88.0,
+              "x1": 237.0,
+              "y1": -111.5,
+              "x2": 303.0,
+              "y2": -64.5
+            },
+            {
+              "radiusX": 32.0,
+              "radiusY": 20.5,
+              "centerX": 306.0,
+              "centerY": -104.0,
+              "x1": 274.0,
+              "y1": -124.5,
+              "x2": 338.0,
+              "y2": -83.5
+            },
+            {
+              "radiusX": 39.0,
+              "radiusY": 18.5,
+              "centerX": 331.0,
+              "centerY": -119.0,
+              "x1": 292.0,
+              "y1": -137.5,
+              "x2": 370.0,
+              "y2": -100.5
+            }
+          ]
+        ]
+      },
+      "Side": {
+        "name": "LanceSmashSideDwarf",
+        "weapon": "Lance",
+        "direction": "Side",
+        "powerID": 819,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    }
+  }
+}

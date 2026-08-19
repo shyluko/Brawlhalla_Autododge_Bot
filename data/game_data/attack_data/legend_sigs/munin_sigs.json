@@ -1,0 +1,95 @@
+{
+  "legend": "Munin",
+  "weapons": [],
+  "signatures": {
+    "Scythe": {
+      "Neutral": {
+        "name": "ScytheSmashNeutralBirdBard",
+        "weapon": "Scythe",
+        "direction": "Neutral",
+        "powerID": 2378,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,60",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "ScytheSmashSideBirdBard",
+        "weapon": "Scythe",
+        "direction": "Side",
+        "powerID": 2383,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,84",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "ScytheSmashDownBirdBard",
+        "weapon": "Scythe",
+        "direction": "Down",
+        "powerID": 2389,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:14,62",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      }
+    },
+    "Bow": {
+      "Neutral": {
+        "name": "BowSmashNeutralBirdBard",
+        "weapon": "Bow",
+        "direction": "Neutral",
+        "powerID": 2395,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:5@1-3,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "BowSmashSideBirdBard",
+        "weapon": "Bow",
+        "direction": "Side",
+        "powerID": 2398,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,65",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "BowSmashDownBirdBard",
+        "weapon": "Bow",
+        "direction": "Down",
+        "powerID": 2410,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,47",
+        "hitboxes": []
+      }
+    }
+  }
+}

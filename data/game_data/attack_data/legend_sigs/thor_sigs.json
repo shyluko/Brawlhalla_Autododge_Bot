@@ -1,0 +1,166 @@
+{
+  "legend": "Thor",
+  "weapons": [],
+  "signatures": {
+    "Orb": {
+      "Neutral": {
+        "name": "OrbSmashNeutralThor",
+        "weapon": "Orb",
+        "direction": "Neutral",
+        "powerID": 1566,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "OrbSmashSideThor",
+        "weapon": "Orb",
+        "direction": "Side",
+        "powerID": 1578,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "OrbSmashDownThor",
+        "weapon": "Orb",
+        "direction": "Down",
+        "powerID": 1659,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "6:1@3,0:2@4,0:1@5,0:4@6,0:4@8,0:4@10,0:3@11",
+        "hitboxes": []
+      }
+    },
+    "Hammer": {
+      "Neutral": {
+        "name": "HammerSmashNeutralThor",
+        "weapon": "Hammer",
+        "direction": "Neutral",
+        "powerID": 1716,
+        "isAir": false,
+        "damage": "5",
+        "stun": 20,
+        "impulse": "80",
+        "castTime": "11:2,0:1,0:7,0:12,0:36",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 19.0,
+              "radiusY": 30.0,
+              "centerX": 68.0,
+              "centerY": -174.0,
+              "x1": 49.0,
+              "y1": -204.0,
+              "x2": 87.0,
+              "y2": -144.0
+            }
+          ],
+          [
+            {
+              "radiusX": 58.0,
+              "radiusY": 54.0,
+              "centerX": 51.0,
+              "centerY": -207.0,
+              "x1": -7.0,
+              "y1": -261.0,
+              "x2": 109.0,
+              "y2": -153.0
+            }
+          ],
+          [
+            {
+              "radiusX": 67.0,
+              "radiusY": 51.0,
+              "centerX": 34.0,
+              "centerY": -202.0,
+              "x1": -33.0,
+              "y1": -253.0,
+              "x2": 101.0,
+              "y2": -151.0
+            },
+            {
+              "radiusX": 23.0,
+              "radiusY": 48.0,
+              "centerX": 58.0,
+              "centerY": -274.0,
+              "x1": 35.0,
+              "y1": -322.0,
+              "x2": 81.0,
+              "y2": -226.0
+            }
+          ],
+          [
+            {
+              "radiusX": 78.0,
+              "radiusY": 75.0,
+              "centerX": -16.0,
+              "centerY": -237.0,
+              "x1": -94.0,
+              "y1": -312.0,
+              "x2": 62.0,
+              "y2": -162.0
+            }
+          ],
+          [
+            {
+              "radiusX": 85.0,
+              "radiusY": 81.0,
+              "centerX": -14.0,
+              "centerY": -239.0,
+              "x1": -99.0,
+              "y1": -320.0,
+              "x2": 71.0,
+              "y2": -158.0
+            }
+          ]
+        ]
+      },
+      "Side": {
+        "name": "HammerSmashSideThor",
+        "weapon": "Hammer",
+        "direction": "Side",
+        "powerID": 1686,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:5,0:39",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "HammerSmashDownThor",
+        "weapon": "Hammer",
+        "direction": "Down",
+        "powerID": 1731,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "2:5,0:0,0:44",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      }
+    }
+  }
+}

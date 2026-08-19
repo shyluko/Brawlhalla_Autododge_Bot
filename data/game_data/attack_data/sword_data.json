@@ -1,0 +1,979 @@
+{
+  "NLight": {
+    "name": "SwordNeutral",
+    "displayName": "NLight",
+    "powerID": 30,
+    "isAir": false,
+    "damage": "4",
+    "stun": 18,
+    "impulse": "21",
+    "castTime": "6:2@2",
+    "hurtboxRef": "SwordNLight",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 94.0,
+          "radiusY": 41.0,
+          "centerX": 141.0,
+          "centerY": -16.0,
+          "x1": 47.0,
+          "y1": -57.0,
+          "x2": 235.0,
+          "y2": 25.0
+        },
+        {
+          "radiusX": 76.0,
+          "radiusY": 21.0,
+          "centerX": 110.0,
+          "centerY": 22.0,
+          "x1": 34.0,
+          "y1": 1.0,
+          "x2": 186.0,
+          "y2": 43.0
+        },
+        {
+          "radiusX": 46.0,
+          "radiusY": 20.0,
+          "centerX": 69.0,
+          "centerY": 43.0,
+          "x1": 23.0,
+          "y1": 23.0,
+          "x2": 115.0,
+          "y2": 63.0
+        },
+        {
+          "radiusX": 57.0,
+          "radiusY": 14.0,
+          "centerX": 118.0,
+          "centerY": -52.0,
+          "x1": 61.0,
+          "y1": -66.0,
+          "x2": 175.0,
+          "y2": -38.0
+        }
+      ]
+    ]
+  },
+  "NLight2": {
+    "name": "SwordNeutralCombo",
+    "displayName": "NLight2",
+    "powerID": 31,
+    "isAir": false,
+    "damage": "5",
+    "stun": 18,
+    "impulse": "21",
+    "castTime": "3:2@2,0:2@3",
+    "hurtboxRef": "SwordNLight2",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 103.0,
+          "radiusY": 68.0,
+          "centerX": 133.0,
+          "centerY": -7.0,
+          "x1": 30.0,
+          "y1": -75.0,
+          "x2": 236.0,
+          "y2": 61.0
+        },
+        {
+          "radiusX": 79.0,
+          "radiusY": 73.0,
+          "centerX": 137.0,
+          "centerY": -8.0,
+          "x1": 58.0,
+          "y1": -81.0,
+          "x2": 216.0,
+          "y2": 65.0
+        }
+      ]
+    ]
+  },
+  "NLight3": {
+    "name": "SwordNeutralHit",
+    "displayName": "NLight3",
+    "powerID": 32,
+    "isAir": false,
+    "damage": "5,5,0",
+    "stun": 21,
+    "impulse": "45,45,0",
+    "castTime": "6:1@3,0:1@4,0:1@5",
+    "hurtboxRef": "SwordNLight3",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 135.0,
+          "radiusY": 26.0,
+          "centerX": 185.0,
+          "centerY": -7.0,
+          "x1": 50.0,
+          "y1": -33.0,
+          "x2": 320.0,
+          "y2": 19.0
+        },
+        {
+          "radiusX": 109.0,
+          "radiusY": 28.0,
+          "centerX": 133.0,
+          "centerY": 21.0,
+          "x1": 24.0,
+          "y1": -7.0,
+          "x2": 242.0,
+          "y2": 49.0
+        }
+      ],
+      [
+        {
+          "radiusX": 116.0,
+          "radiusY": 33.0,
+          "centerX": 214.0,
+          "centerY": -10.0,
+          "x1": 98.0,
+          "y1": -43.0,
+          "x2": 330.0,
+          "y2": 23.0
+        },
+        {
+          "radiusX": 72.0,
+          "radiusY": 28.0,
+          "centerX": 170.0,
+          "centerY": 21.0,
+          "x1": 98.0,
+          "y1": -7.0,
+          "x2": 242.0,
+          "y2": 49.0
+        },
+        {
+          "radiusX": 90.0,
+          "radiusY": 17.0,
+          "centerX": 181.0,
+          "centerY": -40.0,
+          "x1": 91.0,
+          "y1": -57.0,
+          "x2": 271.0,
+          "y2": -23.0
+        }
+      ],
+      [
+        {
+          "radiusX": 101.0,
+          "radiusY": 17.0,
+          "centerX": 231.0,
+          "centerY": -18.0,
+          "x1": 130.0,
+          "y1": -35.0,
+          "x2": 332.0,
+          "y2": -1.0
+        },
+        {
+          "radiusX": 84.0,
+          "radiusY": 15.0,
+          "centerX": 198.0,
+          "centerY": -40.0,
+          "x1": 114.0,
+          "y1": -55.0,
+          "x2": 282.0,
+          "y2": -25.0
+        }
+      ]
+    ]
+  },
+  "DLight": {
+    "name": "SwordDown",
+    "displayName": "DLight",
+    "powerID": 34,
+    "isAir": false,
+    "damage": "2",
+    "stun": 17,
+    "impulse": "55,70,80",
+    "castTime": "9:1@3,0:2@4,0:1@5-5",
+    "hurtboxRef": "SwordDLight",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 98.0,
+          "radiusY": 21.0,
+          "centerX": 132.0,
+          "centerY": 65.0,
+          "x1": 34.0,
+          "y1": 44.0,
+          "x2": 230.0,
+          "y2": 86.0
+        },
+        {
+          "radiusX": 15.0,
+          "radiusY": 15.0,
+          "centerX": 230.0,
+          "centerY": 66.0,
+          "x1": 215.0,
+          "y1": 51.0,
+          "x2": 245.0,
+          "y2": 81.0
+        },
+        {
+          "radiusX": 14.0,
+          "radiusY": 14.0,
+          "centerX": 253.0,
+          "centerY": 68.0,
+          "x1": 239.0,
+          "y1": 54.0,
+          "x2": 267.0,
+          "y2": 82.0
+        }
+      ],
+      [
+        {
+          "radiusX": 87.0,
+          "radiusY": 22.0,
+          "centerX": 172.0,
+          "centerY": 64.0,
+          "x1": 85.0,
+          "y1": 42.0,
+          "x2": 259.0,
+          "y2": 86.0
+        },
+        {
+          "radiusX": 16.0,
+          "radiusY": 15.0,
+          "centerX": 267.0,
+          "centerY": 70.0,
+          "x1": 251.0,
+          "y1": 55.0,
+          "x2": 283.0,
+          "y2": 85.0
+        }
+      ],
+      [
+        {
+          "radiusX": 87.0,
+          "radiusY": 22.0,
+          "centerX": 160.0,
+          "centerY": 64.0,
+          "x1": 73.0,
+          "y1": 42.0,
+          "x2": 247.0,
+          "y2": 86.0
+        },
+        {
+          "radiusX": 18.0,
+          "radiusY": 14.0,
+          "centerX": 258.0,
+          "centerY": 66.0,
+          "x1": 240.0,
+          "y1": 52.0,
+          "x2": 276.0,
+          "y2": 80.0
+        }
+      ]
+    ]
+  },
+  "DLight2": {
+    "name": "SwordDownHit",
+    "displayName": "DLight2",
+    "powerID": 35,
+    "isAir": false,
+    "damage": "0,5",
+    "stun": 21,
+    "impulse": "0,60",
+    "castTime": "1,0:4@2-3",
+    "hurtboxRef": "SwordDLight2",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 95.0,
+          "radiusY": 125.0,
+          "centerX": 120.0,
+          "centerY": -95.0,
+          "x1": 25.0,
+          "y1": -220.0,
+          "x2": 215.0,
+          "y2": 30.0
+        }
+      ],
+      [
+        {
+          "radiusX": 37.0,
+          "radiusY": 51.0,
+          "centerX": 131.0,
+          "centerY": -136.0,
+          "x1": 94.0,
+          "y1": -187.0,
+          "x2": 168.0,
+          "y2": -85.0
+        },
+        {
+          "radiusX": 47.0,
+          "radiusY": 41.0,
+          "centerX": 111.0,
+          "centerY": -97.0,
+          "x1": 64.0,
+          "y1": -138.0,
+          "x2": 158.0,
+          "y2": -56.0
+        },
+        {
+          "radiusX": 52.0,
+          "radiusY": 37.0,
+          "centerX": 90.0,
+          "centerY": -62.0,
+          "x1": 38.0,
+          "y1": -99.0,
+          "x2": 142.0,
+          "y2": -25.0
+        },
+        {
+          "radiusX": 48.0,
+          "radiusY": 30.0,
+          "centerX": 64.0,
+          "centerY": -19.0,
+          "x1": 16.0,
+          "y1": -49.0,
+          "x2": 112.0,
+          "y2": 11.0
+        },
+        {
+          "radiusX": 41.0,
+          "radiusY": 28.0,
+          "centerX": 31.0,
+          "centerY": 15.0,
+          "x1": -10.0,
+          "y1": -13.0,
+          "x2": 72.0,
+          "y2": 43.0
+        }
+      ]
+    ]
+  },
+  "SLight": {
+    "name": "SwordSide",
+    "displayName": "SLight",
+    "powerID": 37,
+    "isAir": false,
+    "damage": "0,t2,t1,t1,t11,0",
+    "stun": 15,
+    "impulse": "0,61,61,61,61,0",
+    "castTime": "4:5@3,0:2@7,0:4@8,0:4@10,0:2@12,0@13",
+    "hurtboxRef": "SwordSLight",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 0.0,
+          "radiusY": 0.0,
+          "centerX": 0.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 0.0,
+          "y2": 0.0
+        }
+      ],
+      [
+        {
+          "radiusX": 85.0,
+          "radiusY": 60.0,
+          "centerX": 76.0,
+          "centerY": -4.0,
+          "x1": -9.0,
+          "y1": -64.0,
+          "x2": 161.0,
+          "y2": 56.0
+        },
+        {
+          "radiusX": 89.0,
+          "radiusY": 20.0,
+          "centerX": 12.0,
+          "centerY": -53.0,
+          "x1": -77.0,
+          "y1": -73.0,
+          "x2": 101.0,
+          "y2": -33.0
+        }
+      ],
+      [
+        {
+          "radiusX": 113.0,
+          "radiusY": 48.0,
+          "centerX": 30.0,
+          "centerY": 26.0,
+          "x1": -83.0,
+          "y1": -22.0,
+          "x2": 143.0,
+          "y2": 74.0
+        }
+      ],
+      [
+        {
+          "radiusX": 79.0,
+          "radiusY": 60.0,
+          "centerX": -55.0,
+          "centerY": 0.0,
+          "x1": -134.0,
+          "y1": -60.0,
+          "x2": 24.0,
+          "y2": 60.0
+        }
+      ],
+      [
+        {
+          "radiusX": 112.0,
+          "radiusY": 95.0,
+          "centerX": 67.0,
+          "centerY": -38.0,
+          "x1": -45.0,
+          "y1": -133.0,
+          "x2": 179.0,
+          "y2": 57.0
+        },
+        {
+          "radiusX": 74.0,
+          "radiusY": 37.0,
+          "centerX": 28.0,
+          "centerY": -108.0,
+          "x1": -46.0,
+          "y1": -145.0,
+          "x2": 102.0,
+          "y2": -71.0
+        }
+      ],
+      [
+        {
+          "radiusX": 116.0,
+          "radiusY": 110.0,
+          "centerX": 68.0,
+          "centerY": -29.0,
+          "x1": -48.0,
+          "y1": -139.0,
+          "x2": 184.0,
+          "y2": 81.0
+        }
+      ]
+    ]
+  },
+  "SAir": {
+    "name": "SwordAirSide",
+    "displayName": "SAir",
+    "powerID": 38,
+    "isAir": true,
+    "damage": "7,0",
+    "stun": 13,
+    "impulse": "75,0",
+    "castTime": "12:1@4-4,0@5",
+    "hurtboxRef": "SwordSAir",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 54.0,
+          "radiusY": 47.0,
+          "centerX": 149.0,
+          "centerY": -15.0,
+          "x1": 95.0,
+          "y1": -62.0,
+          "x2": 203.0,
+          "y2": 32.0
+        },
+        {
+          "radiusX": 48.0,
+          "radiusY": 37.0,
+          "centerX": 194.0,
+          "centerY": -24.0,
+          "x1": 146.0,
+          "y1": -61.0,
+          "x2": 242.0,
+          "y2": 13.0
+        },
+        {
+          "radiusX": 26.0,
+          "radiusY": 28.0,
+          "centerX": 237.0,
+          "centerY": -32.0,
+          "x1": 211.0,
+          "y1": -60.0,
+          "x2": 263.0,
+          "y2": -4.0
+        }
+      ],
+      [
+        {
+          "radiusX": 63.0,
+          "radiusY": 53.0,
+          "centerX": 140.0,
+          "centerY": -13.0,
+          "x1": 77.0,
+          "y1": -66.0,
+          "x2": 203.0,
+          "y2": 40.0
+        },
+        {
+          "radiusX": 48.0,
+          "radiusY": 43.0,
+          "centerX": 194.0,
+          "centerY": -22.0,
+          "x1": 146.0,
+          "y1": -65.0,
+          "x2": 242.0,
+          "y2": 21.0
+        },
+        {
+          "radiusX": 28.0,
+          "radiusY": 28.0,
+          "centerX": 239.0,
+          "centerY": -32.0,
+          "x1": 211.0,
+          "y1": -60.0,
+          "x2": 267.0,
+          "y2": -4.0
+        }
+      ]
+    ]
+  },
+  "NAir": {
+    "name": "SwordAir",
+    "displayName": "NAir",
+    "powerID": 43,
+    "isAir": true,
+    "damage": "16",
+    "stun": 20,
+    "impulse": "50",
+    "castTime": "14@7,0:1@8-8",
+    "hurtboxRef": "",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 39.0,
+          "radiusY": 33.0,
+          "centerX": -123.0,
+          "centerY": -127.0,
+          "x1": -162.0,
+          "y1": -160.0,
+          "x2": -84.0,
+          "y2": -94.0
+        },
+        {
+          "radiusX": 49.0,
+          "radiusY": 34.0,
+          "centerX": -116.0,
+          "centerY": -114.0,
+          "x1": -165.0,
+          "y1": -148.0,
+          "x2": -67.0,
+          "y2": -80.0
+        },
+        {
+          "radiusX": 40.0,
+          "radiusY": 27.0,
+          "centerX": -130.0,
+          "centerY": -79.0,
+          "x1": -170.0,
+          "y1": -106.0,
+          "x2": -90.0,
+          "y2": -52.0
+        }
+      ],
+      [
+        {
+          "radiusX": 34.0,
+          "radiusY": 53.0,
+          "centerX": 105.0,
+          "centerY": -134.0,
+          "x1": 71.0,
+          "y1": -187.0,
+          "x2": 139.0,
+          "y2": -81.0
+        },
+        {
+          "radiusX": 28.0,
+          "radiusY": 35.0,
+          "centerX": 126.0,
+          "centerY": -103.0,
+          "x1": 98.0,
+          "y1": -138.0,
+          "x2": 154.0,
+          "y2": -68.0
+        },
+        {
+          "radiusX": 116.0,
+          "radiusY": 51.0,
+          "centerX": -6.0,
+          "centerY": -182.0,
+          "x1": -122.0,
+          "y1": -233.0,
+          "x2": 110.0,
+          "y2": -131.0
+        },
+        {
+          "radiusX": 82.0,
+          "radiusY": 36.0,
+          "centerX": -5.0,
+          "centerY": -210.0,
+          "x1": -87.0,
+          "y1": -246.0,
+          "x2": 77.0,
+          "y2": -174.0
+        },
+        {
+          "radiusX": 44.0,
+          "radiusY": 15.0,
+          "centerX": -5.0,
+          "centerY": -239.0,
+          "x1": -49.0,
+          "y1": -254.0,
+          "x2": 39.0,
+          "y2": -224.0
+        },
+        {
+          "radiusX": 35.0,
+          "radiusY": 35.0,
+          "centerX": -103.0,
+          "centerY": -164.0,
+          "x1": -138.0,
+          "y1": -199.0,
+          "x2": -68.0,
+          "y2": -129.0
+        },
+        {
+          "radiusX": 14.0,
+          "radiusY": 14.0,
+          "centerX": 64.0,
+          "centerY": -134.0,
+          "x1": 50.0,
+          "y1": -148.0,
+          "x2": 78.0,
+          "y2": -120.0
+        },
+        {
+          "radiusX": 24.0,
+          "radiusY": 30.0,
+          "centerX": -129.0,
+          "centerY": -138.0,
+          "x1": -153.0,
+          "y1": -168.0,
+          "x2": -105.0,
+          "y2": -108.0
+        }
+      ]
+    ]
+  },
+  "Recovery": {
+    "name": "SwordAirUpHeavy",
+    "displayName": "Recovery",
+    "powerID": 46,
+    "isAir": true,
+    "damage": "t1,t1,t2,t2,t2,t2,t2,t2",
+    "stun": 20,
+    "impulse": "88,76,71,65,62,59,51,38",
+    "castTime": "11:1@4,0:1@5,0:1@6,0:1@7,0:1@8,0:1@9,0:1@10,0:1@11",
+    "hurtboxRef": "",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 60.0,
+          "radiusY": 62.0,
+          "centerX": 0.0,
+          "centerY": -19.0,
+          "x1": -60.0,
+          "y1": -81.0,
+          "x2": 60.0,
+          "y2": 43.0
+        },
+        {
+          "radiusX": 75.0,
+          "radiusY": 22.0,
+          "centerX": 0.0,
+          "centerY": -18.0,
+          "x1": -75.0,
+          "y1": -40.0,
+          "x2": 75.0,
+          "y2": 4.0
+        }
+      ],
+      [
+        {
+          "radiusX": 60.0,
+          "radiusY": 77.0,
+          "centerX": 0.0,
+          "centerY": -19.0,
+          "x1": -60.0,
+          "y1": -96.0,
+          "x2": 60.0,
+          "y2": 58.0
+        },
+        {
+          "radiusX": 79.0,
+          "radiusY": 40.0,
+          "centerX": 2.0,
+          "centerY": -9.0,
+          "x1": -77.0,
+          "y1": -49.0,
+          "x2": 81.0,
+          "y2": 31.0
+        }
+      ],
+      [
+        {
+          "radiusX": 60.0,
+          "radiusY": 94.0,
+          "centerX": 0.0,
+          "centerY": -4.0,
+          "x1": -60.0,
+          "y1": -98.0,
+          "x2": 60.0,
+          "y2": 90.0
+        },
+        {
+          "radiusX": 79.0,
+          "radiusY": 40.0,
+          "centerX": 2.0,
+          "centerY": -9.0,
+          "x1": -77.0,
+          "y1": -49.0,
+          "x2": 81.0,
+          "y2": 31.0
+        }
+      ],
+      [
+        {
+          "radiusX": 60.0,
+          "radiusY": 98.0,
+          "centerX": 0.0,
+          "centerY": -17.0,
+          "x1": -60.0,
+          "y1": -115.0,
+          "x2": 60.0,
+          "y2": 81.0
+        },
+        {
+          "radiusX": 80.0,
+          "radiusY": 61.0,
+          "centerX": -7.0,
+          "centerY": -7.0,
+          "x1": -87.0,
+          "y1": -68.0,
+          "x2": 73.0,
+          "y2": 54.0
+        }
+      ],
+      [
+        {
+          "radiusX": 60.0,
+          "radiusY": 99.0,
+          "centerX": 0.0,
+          "centerY": -29.0,
+          "x1": -60.0,
+          "y1": -128.0,
+          "x2": 60.0,
+          "y2": 70.0
+        },
+        {
+          "radiusX": 80.0,
+          "radiusY": 61.0,
+          "centerX": -1.0,
+          "centerY": -13.0,
+          "x1": -81.0,
+          "y1": -74.0,
+          "x2": 79.0,
+          "y2": 48.0
+        }
+      ],
+      [
+        {
+          "radiusX": 60.0,
+          "radiusY": 106.0,
+          "centerX": 0.0,
+          "centerY": -18.0,
+          "x1": -60.0,
+          "y1": -124.0,
+          "x2": 60.0,
+          "y2": 88.0
+        },
+        {
+          "radiusX": 80.0,
+          "radiusY": 61.0,
+          "centerX": -2.0,
+          "centerY": -13.0,
+          "x1": -82.0,
+          "y1": -74.0,
+          "x2": 78.0,
+          "y2": 48.0
+        }
+      ],
+      [
+        {
+          "radiusX": 60.0,
+          "radiusY": 110.0,
+          "centerX": 0.0,
+          "centerY": -29.0,
+          "x1": -60.0,
+          "y1": -139.0,
+          "x2": 60.0,
+          "y2": 81.0
+        },
+        {
+          "radiusX": 80.0,
+          "radiusY": 61.0,
+          "centerX": 0.0,
+          "centerY": -13.0,
+          "x1": -80.0,
+          "y1": -74.0,
+          "x2": 80.0,
+          "y2": 48.0
+        }
+      ],
+      [
+        {
+          "radiusX": 60.0,
+          "radiusY": 110.0,
+          "centerX": 0.0,
+          "centerY": -29.0,
+          "x1": -60.0,
+          "y1": -139.0,
+          "x2": 60.0,
+          "y2": 81.0
+        },
+        {
+          "radiusX": 80.0,
+          "radiusY": 61.0,
+          "centerX": 0.0,
+          "centerY": -13.0,
+          "x1": -80.0,
+          "y1": -74.0,
+          "x2": 80.0,
+          "y2": 48.0
+        }
+      ]
+    ]
+  },
+  "DAir": {
+    "name": "SwordAirDown",
+    "displayName": "DAir",
+    "powerID": 49,
+    "isAir": true,
+    "damage": "16",
+    "stun": 18,
+    "impulse": "52",
+    "castTime": "15@12,0:1@12-12",
+    "hurtboxRef": "",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 45.0,
+          "radiusY": 17.0,
+          "centerX": 18.0,
+          "centerY": 152.0,
+          "x1": -27.0,
+          "y1": 135.0,
+          "x2": 63.0,
+          "y2": 169.0
+        },
+        {
+          "radiusX": 85.0,
+          "radiusY": 25.0,
+          "centerX": 17.0,
+          "centerY": 122.0,
+          "x1": -68.0,
+          "y1": 97.0,
+          "x2": 102.0,
+          "y2": 147.0
+        },
+        {
+          "radiusX": 107.0,
+          "radiusY": 15.0,
+          "centerX": 19.0,
+          "centerY": 98.0,
+          "x1": -88.0,
+          "y1": 83.0,
+          "x2": 126.0,
+          "y2": 113.0
+        },
+        {
+          "radiusX": 15.0,
+          "radiusY": 15.0,
+          "centerX": 125.0,
+          "centerY": 75.0,
+          "x1": 110.0,
+          "y1": 60.0,
+          "x2": 140.0,
+          "y2": 90.0
+        },
+        {
+          "radiusX": 15.0,
+          "radiusY": 15.0,
+          "centerX": -85.0,
+          "centerY": 75.0,
+          "x1": -100.0,
+          "y1": 60.0,
+          "x2": -70.0,
+          "y2": 90.0
+        }
+      ]
+    ]
+  },
+  "GP": {
+    "name": "SwordGroundPound",
+    "displayName": "GP",
+    "powerID": 52,
+    "isAir": true,
+    "damage": "22",
+    "stun": 22,
+    "impulse": "50",
+    "castTime": "12:2@6,0:25,0:344",
+    "hurtboxRef": "",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 1.0,
+          "radiusY": 20.0,
+          "centerX": 0.0,
+          "centerY": 105.0,
+          "x1": -1.0,
+          "y1": 85.0,
+          "x2": 1.0,
+          "y2": 125.0
+        }
+      ],
+      [
+        {
+          "radiusX": 1.0,
+          "radiusY": 20.0,
+          "centerX": 0.0,
+          "centerY": 200.0,
+          "x1": -1.0,
+          "y1": 180.0,
+          "x2": 1.0,
+          "y2": 220.0
+        },
+        {
+          "radiusX": 21.0,
+          "radiusY": 68.0,
+          "centerX": 26.0,
+          "centerY": 152.0,
+          "x1": 5.0,
+          "y1": 84.0,
+          "x2": 47.0,
+          "y2": 220.0
+        }
+      ],
+      [
+        {
+          "radiusX": 1.0,
+          "radiusY": 20.0,
+          "centerX": 0.0,
+          "centerY": 200.0,
+          "x1": -1.0,
+          "y1": 180.0,
+          "x2": 1.0,
+          "y2": 220.0
+        },
+        {
+          "radiusX": 21.0,
+          "radiusY": 68.0,
+          "centerX": 26.0,
+          "centerY": 152.0,
+          "x1": 5.0,
+          "y1": 84.0,
+          "x2": 47.0,
+          "y2": 220.0
+        }
+      ]
+    ]
+  }
+}

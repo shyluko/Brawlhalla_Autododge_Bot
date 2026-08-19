@@ -1,0 +1,82 @@
+{
+  "legend": "Sidra",
+  "weapons": [],
+  "signatures": {
+    "Cannon": {
+      "Neutral": {
+        "name": "CannonSmashNeutralCorsair",
+        "weapon": "Cannon",
+        "direction": "Neutral",
+        "powerID": 1764,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "CannonSmashSideCorsair",
+        "weapon": "Cannon",
+        "direction": "Side",
+        "powerID": 1789,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:1@1,0:2@2,0:1@3,0:2@4,0:1@5,60",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "CannonSmashDownCorsair",
+        "weapon": "Cannon",
+        "direction": "Down",
+        "powerID": 1718,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      }
+    },
+    "Sword": {
+      "Neutral": {
+        "name": "SwordSmashNeutralCorsair",
+        "weapon": "Sword",
+        "direction": "Neutral",
+        "powerID": 1721,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "SwordSmashSideCorsair",
+        "weapon": "Sword",
+        "direction": "Side",
+        "powerID": 1769,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "SwordSmashDownCorsair",
+        "weapon": "Sword",
+        "direction": "Down",
+        "powerID": 1758,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,72",
+        "hitboxes": []
+      }
+    }
+  }
+}

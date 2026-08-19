@@ -1,0 +1,82 @@
+{
+  "legend": "Gnash",
+  "weapons": [],
+  "signatures": {
+    "Hammer": {
+      "Neutral": {
+        "name": "HammerSmashNeutralCaveman",
+        "weapon": "Hammer",
+        "direction": "Neutral",
+        "powerID": 535,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,60",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "HammerSmashSideCaveman",
+        "weapon": "Hammer",
+        "direction": "Side",
+        "powerID": 537,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "HammerSmashDownCaveman",
+        "weapon": "Hammer",
+        "direction": "Down",
+        "powerID": 539,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      }
+    },
+    "Spear": {
+      "Neutral": {
+        "name": "SpearSmashNeutralCaveman",
+        "weapon": "Spear",
+        "direction": "Neutral",
+        "powerID": 546,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "SpearSmashSideCaveman",
+        "weapon": "Spear",
+        "direction": "Side",
+        "powerID": 548,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "SpearSmashDownCaveman",
+        "weapon": "Spear",
+        "direction": "Down",
+        "powerID": 551,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0:16@1-8,0,53",
+        "hitboxes": []
+      }
+    }
+  }
+}

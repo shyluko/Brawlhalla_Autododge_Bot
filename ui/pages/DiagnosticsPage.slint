@@ -1,0 +1,25 @@
+import { Button, VerticalBox, HorizontalBox } from "std-widgets.slint";
+
+export component DiagnosticsPage inherits VerticalBox {
+    in property <bool> debug-expanded: true;
+    in property <string> validation-text: "";
+    in property <string> debug-text: "";
+    in property <string> hotkey-conflict: "";
+
+    callback toggle-debug();
+    callback export-diagnostics();
+    callback run-validation();
+
+    Text { text: "CONFIRMED OFFSETS (docs/OFFSETS.md)"; color: #3fd47a; font-weight: 700; }
+    Text { text: "Position X +0x140   Position Y +0x138   Attack family +0x050   Attack ID +0x06C"; wrap: word-wrap; }
+    Text { text: "Local marker +0x250 = 9 (conditional). Capture: F2 0F 10 8B 40 01 00 00"; wrap: word-wrap; }
+    Text { text: "Candidates are never auto-promoted."; color: #f0a63e; wrap: word-wrap; }
+    if root.hotkey-conflict != "": Text { text: root.hotkey-conflict; color: #d43f56; wrap: word-wrap; }
+
+    HorizontalBox {
+        Button { text: "Export diagnostics (F9)"; clicked => { root.export-diagnostics(); } }
+        Button { text: root.debug-expanded ? "Hide debug" : "Show debug"; clicked => { root.toggle-debug(); } }
+    }
+    Text { text: root.validation-text == "" ? "No validation report yet." : root.validation-text; color: #e6e8eb; wrap: word-wrap; }
+    if root.debug-expanded: Text { text: root.debug-text == "" ? "Debug empty." : root.debug-text; color: #9098a3; wrap: word-wrap; }
+}

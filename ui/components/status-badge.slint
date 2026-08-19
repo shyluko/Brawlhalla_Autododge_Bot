@@ -1,0 +1,26 @@
+import { CheckBox } from "std-widgets.slint";
+
+// Small colored pill used for ON/OFF-style runtime indicators (process found,
+// hook installed, bot enabled, etc.). Presentation only - no app logic.
+export component StatusBadge inherits Rectangle {
+    in property <string> text: "";
+    in property <bool> ok: false;
+    in property <color> ok-color: #3fd47a;
+    in property <color> bad-color: #f0a63e;
+
+    background: ok ? ok-color.with-alpha(0.15) : bad-color.with-alpha(0.15);
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: ok ? ok-color : bad-color;
+    height: 26px;
+    width: label.preferred-width + 20px;
+
+    label := Text {
+        x: 10px;
+        text: root.text;
+        color: root.ok ? root.ok-color : root.bad-color;
+        vertical-alignment: center;
+        horizontal-alignment: center;
+        font-size: 12px;
+    }
+}

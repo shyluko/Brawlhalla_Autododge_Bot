@@ -1,0 +1,82 @@
+{
+  "legend": "Ember",
+  "weapons": [],
+  "signatures": {
+    "Bow": {
+      "Neutral": {
+        "name": "BowSmashNeutralElf",
+        "weapon": "Bow",
+        "direction": "Neutral",
+        "powerID": 825,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "BowSmashSideElf",
+        "weapon": "Bow",
+        "direction": "Side",
+        "powerID": 829,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "BowSmashDownElf",
+        "weapon": "Bow",
+        "direction": "Down",
+        "powerID": 832,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,71",
+        "hitboxes": []
+      }
+    },
+    "Katar": {
+      "Neutral": {
+        "name": "KatarSmashNeutralElf",
+        "weapon": "Katar",
+        "direction": "Neutral",
+        "powerID": 837,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "KatarSmashSideElf",
+        "weapon": "Katar",
+        "direction": "Side",
+        "powerID": 840,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "KatarSmashDownElf",
+        "weapon": "Katar",
+        "direction": "Down",
+        "powerID": 843,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "6:10,41",
+        "hitboxes": []
+      }
+    }
+  }
+}

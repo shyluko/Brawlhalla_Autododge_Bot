@@ -1,0 +1,685 @@
+{
+  "NLight": {
+    "name": "HammerNeutral",
+    "displayName": "NLight",
+    "powerID": 118,
+    "isAir": false,
+    "damage": "5",
+    "stun": 20,
+    "impulse": "50",
+    "castTime": "6:5@2-3",
+    "hurtboxRef": "HammerNLight",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 49.0,
+          "radiusY": 24.0,
+          "centerX": 83.0,
+          "centerY": -4.0,
+          "x1": 34.0,
+          "y1": -28.0,
+          "x2": 132.0,
+          "y2": 20.0
+        },
+        {
+          "radiusX": 25.0,
+          "radiusY": 15.0,
+          "centerX": 106.0,
+          "centerY": -18.0,
+          "x1": 81.0,
+          "y1": -33.0,
+          "x2": 131.0,
+          "y2": -3.0
+        }
+      ]
+    ]
+  },
+  "NLight2": {
+    "name": "HammerNeutralCombo",
+    "displayName": "NLight2",
+    "powerID": 119,
+    "isAir": false,
+    "damage": "5",
+    "stun": 27,
+    "impulse": "50",
+    "castTime": "4:5@3-4",
+    "hurtboxRef": "HammerNLight2",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 49.0,
+          "radiusY": 25.0,
+          "centerX": 131.0,
+          "centerY": 8.0,
+          "x1": 82.0,
+          "y1": -17.0,
+          "x2": 180.0,
+          "y2": 33.0
+        },
+        {
+          "radiusX": 15.0,
+          "radiusY": 15.0,
+          "centerX": 163.0,
+          "centerY": -12.0,
+          "x1": 148.0,
+          "y1": -27.0,
+          "x2": 178.0,
+          "y2": 3.0
+        }
+      ]
+    ]
+  },
+  "NLight3": {
+    "name": "HammerNeutralHit",
+    "displayName": "NLight3",
+    "powerID": 109,
+    "isAir": false,
+    "damage": "",
+    "stun": 0,
+    "impulse": "",
+    "castTime": "0@5",
+    "hurtboxRef": "HammerNLight2",
+    "hitboxes": []
+  },
+  "Recovery": {
+    "name": "HammerAirUpHeavy",
+    "displayName": "Recovery",
+    "powerID": 121,
+    "isAir": true,
+    "damage": "2,0",
+    "stun": 25,
+    "impulse": "1,0",
+    "castTime": "12:3@5-5,0:1@7",
+    "hurtboxRef": "",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 70.0,
+          "radiusY": 40.0,
+          "centerX": -58.0,
+          "centerY": -230.0,
+          "x1": -128.0,
+          "y1": -270.0,
+          "x2": 12.0,
+          "y2": -190.0
+        },
+        {
+          "radiusX": 45.0,
+          "radiusY": 60.0,
+          "centerX": -91.0,
+          "centerY": -198.0,
+          "x1": -136.0,
+          "y1": -258.0,
+          "x2": -46.0,
+          "y2": -138.0
+        }
+      ],
+      [
+        {
+          "radiusX": 0.0,
+          "radiusY": 0.0,
+          "centerX": 0.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 0.0,
+          "y2": 0.0
+        }
+      ]
+    ]
+  },
+  "NAir": {
+    "name": "HammerAir",
+    "displayName": "NAir",
+    "powerID": 126,
+    "isAir": true,
+    "damage": "20,20,0",
+    "stun": 28,
+    "impulse": "40,40,0",
+    "castTime": "16:2@7,0:1@8-8,0@9",
+    "hurtboxRef": "HammerNAir",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 32.0,
+          "radiusY": 27.0,
+          "centerX": 121.0,
+          "centerY": -259.0,
+          "x1": 89.0,
+          "y1": -286.0,
+          "x2": 153.0,
+          "y2": -232.0
+        },
+        {
+          "radiusX": 36.0,
+          "radiusY": 50.0,
+          "centerX": 115.0,
+          "centerY": -205.0,
+          "x1": 79.0,
+          "y1": -255.0,
+          "x2": 151.0,
+          "y2": -155.0
+        },
+        {
+          "radiusX": 32.0,
+          "radiusY": 48.0,
+          "centerX": 104.0,
+          "centerY": -152.0,
+          "x1": 72.0,
+          "y1": -200.0,
+          "x2": 136.0,
+          "y2": -104.0
+        },
+        {
+          "radiusX": 41.0,
+          "radiusY": 31.0,
+          "centerX": 90.0,
+          "centerY": -114.0,
+          "x1": 49.0,
+          "y1": -145.0,
+          "x2": 131.0,
+          "y2": -83.0
+        },
+        {
+          "radiusX": 28.0,
+          "radiusY": 21.0,
+          "centerX": 80.0,
+          "centerY": -69.0,
+          "x1": 52.0,
+          "y1": -90.0,
+          "x2": 108.0,
+          "y2": -48.0
+        },
+        {
+          "radiusX": 19.0,
+          "radiusY": 14.0,
+          "centerX": 72.0,
+          "centerY": -38.0,
+          "x1": 53.0,
+          "y1": -52.0,
+          "x2": 91.0,
+          "y2": -24.0
+        }
+      ],
+      [
+        {
+          "radiusX": 15.0,
+          "radiusY": 21.0,
+          "centerX": -88.0,
+          "centerY": -261.0,
+          "x1": -103.0,
+          "y1": -282.0,
+          "x2": -73.0,
+          "y2": -240.0
+        },
+        {
+          "radiusX": 34.0,
+          "radiusY": 23.0,
+          "centerX": -51.0,
+          "centerY": -287.0,
+          "x1": -85.0,
+          "y1": -310.0,
+          "x2": -17.0,
+          "y2": -264.0
+        },
+        {
+          "radiusX": 94.0,
+          "radiusY": 29.0,
+          "centerX": 41.0,
+          "centerY": -296.0,
+          "x1": -53.0,
+          "y1": -325.0,
+          "x2": 135.0,
+          "y2": -267.0
+        },
+        {
+          "radiusX": 55.0,
+          "radiusY": 26.0,
+          "centerX": 44.0,
+          "centerY": -311.0,
+          "x1": -11.0,
+          "y1": -337.0,
+          "x2": 99.0,
+          "y2": -285.0
+        },
+        {
+          "radiusX": 32.0,
+          "radiusY": 21.0,
+          "centerX": 109.0,
+          "centerY": -285.0,
+          "x1": 77.0,
+          "y1": -306.0,
+          "x2": 141.0,
+          "y2": -264.0
+        }
+      ],
+      [
+        {
+          "radiusX": 80.0,
+          "radiusY": 80.0,
+          "centerX": 80.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": -80.0,
+          "x2": 160.0,
+          "y2": 80.0
+        }
+      ]
+    ]
+  },
+  "SAir": {
+    "name": "HammerAirSide",
+    "displayName": "SAir",
+    "powerID": 129,
+    "isAir": true,
+    "damage": "20,18,0",
+    "stun": 25,
+    "impulse": "58,52,0",
+    "castTime": "16:2@7,0:1@8,0@9",
+    "hurtboxRef": "HammerSAir",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 48.0,
+          "radiusY": 15.0,
+          "centerX": 106.0,
+          "centerY": 35.0,
+          "x1": 58.0,
+          "y1": 20.0,
+          "x2": 154.0,
+          "y2": 50.0
+        },
+        {
+          "radiusX": 60.0,
+          "radiusY": 19.0,
+          "centerX": 198.0,
+          "centerY": 34.0,
+          "x1": 138.0,
+          "y1": 15.0,
+          "x2": 258.0,
+          "y2": 53.0
+        },
+        {
+          "radiusX": 27.0,
+          "radiusY": 40.0,
+          "centerX": 262.0,
+          "centerY": 8.0,
+          "x1": 235.0,
+          "y1": -32.0,
+          "x2": 289.0,
+          "y2": 48.0
+        }
+      ],
+      [
+        {
+          "radiusX": 27.0,
+          "radiusY": 14.0,
+          "centerX": 144.0,
+          "centerY": -72.0,
+          "x1": 117.0,
+          "y1": -86.0,
+          "x2": 171.0,
+          "y2": -58.0
+        },
+        {
+          "radiusX": 32.0,
+          "radiusY": 17.0,
+          "centerX": 183.0,
+          "centerY": -54.0,
+          "x1": 151.0,
+          "y1": -71.0,
+          "x2": 215.0,
+          "y2": -37.0
+        },
+        {
+          "radiusX": 44.0,
+          "radiusY": 32.0,
+          "centerX": 224.0,
+          "centerY": -16.0,
+          "x1": 180.0,
+          "y1": -48.0,
+          "x2": 268.0,
+          "y2": 16.0
+        }
+      ],
+      [
+        {
+          "radiusX": 0.0,
+          "radiusY": 0.0,
+          "centerX": 0.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 0.0,
+          "y2": 0.0
+        }
+      ]
+    ]
+  },
+  "DAir": {
+    "name": "HammerAirDown",
+    "displayName": "DAir",
+    "powerID": 132,
+    "isAir": true,
+    "damage": "2",
+    "stun": 18,
+    "impulse": "1",
+    "castTime": "10:2@4,0:1@5,0:1@6,0:1@7-7,0:1@8",
+    "hurtboxRef": "HammerDAir",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 34.0,
+          "radiusY": 41.0,
+          "centerX": -91.0,
+          "centerY": 107.0,
+          "x1": -125.0,
+          "y1": 66.0,
+          "x2": -57.0,
+          "y2": 148.0
+        }
+      ],
+      [
+        {
+          "radiusX": 37.0,
+          "radiusY": 34.0,
+          "centerX": -63.0,
+          "centerY": 144.0,
+          "x1": -100.0,
+          "y1": 110.0,
+          "x2": -26.0,
+          "y2": 178.0
+        },
+        {
+          "radiusX": 26.0,
+          "radiusY": 36.0,
+          "centerX": -45.0,
+          "centerY": 158.0,
+          "x1": -71.0,
+          "y1": 122.0,
+          "x2": -19.0,
+          "y2": 194.0
+        }
+      ],
+      [
+        {
+          "radiusX": 45.0,
+          "radiusY": 35.0,
+          "centerX": -25.0,
+          "centerY": 169.0,
+          "x1": -70.0,
+          "y1": 134.0,
+          "x2": 20.0,
+          "y2": 204.0
+        },
+        {
+          "radiusX": 40.0,
+          "radiusY": 28.0,
+          "centerX": -20.0,
+          "centerY": 150.0,
+          "x1": -60.0,
+          "y1": 122.0,
+          "x2": 20.0,
+          "y2": 178.0
+        }
+      ],
+      [
+        {
+          "radiusX": 40.0,
+          "radiusY": 25.0,
+          "centerX": 15.0,
+          "centerY": 170.0,
+          "x1": -25.0,
+          "y1": 145.0,
+          "x2": 55.0,
+          "y2": 195.0
+        },
+        {
+          "radiusX": 39.0,
+          "radiusY": 26.0,
+          "centerX": 20.0,
+          "centerY": 147.0,
+          "x1": -19.0,
+          "y1": 121.0,
+          "x2": 59.0,
+          "y2": 173.0
+        }
+      ],
+      [
+        {
+          "radiusX": 26.0,
+          "radiusY": 26.0,
+          "centerX": 20.0,
+          "centerY": 168.0,
+          "x1": -6.0,
+          "y1": 142.0,
+          "x2": 46.0,
+          "y2": 194.0
+        },
+        {
+          "radiusX": 36.0,
+          "radiusY": 27.0,
+          "centerX": 45.0,
+          "centerY": 160.0,
+          "x1": 9.0,
+          "y1": 133.0,
+          "x2": 81.0,
+          "y2": 187.0
+        },
+        {
+          "radiusX": 29.0,
+          "radiusY": 36.0,
+          "centerX": 40.0,
+          "centerY": 153.0,
+          "x1": 11.0,
+          "y1": 117.0,
+          "x2": 69.0,
+          "y2": 189.0
+        }
+      ]
+    ]
+  },
+  "GP": {
+    "name": "HammerGroundPound",
+    "displayName": "GP",
+    "powerID": 136,
+    "isAir": true,
+    "damage": "0,25,25",
+    "stun": 22,
+    "impulse": "0,48,48",
+    "castTime": "15:7@7,0:32@10,0:313",
+    "hurtboxRef": "HammerGP",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 1.0,
+          "radiusY": 20.0,
+          "centerX": 0.0,
+          "centerY": 160.0,
+          "x1": -1.0,
+          "y1": 140.0,
+          "x2": 1.0,
+          "y2": 180.0
+        },
+        {
+          "radiusX": 80.0,
+          "radiusY": 66.5,
+          "centerX": -10.0,
+          "centerY": 138.0,
+          "x1": -90.0,
+          "y1": 71.5,
+          "x2": 70.0,
+          "y2": 204.5
+        },
+        {
+          "radiusX": 58.5,
+          "radiusY": 47.5,
+          "centerX": -5.0,
+          "centerY": 72.0,
+          "x1": -63.5,
+          "y1": 24.5,
+          "x2": 53.5,
+          "y2": 119.5
+        }
+      ]
+    ]
+  },
+  "SLight": {
+    "name": "HammerSide",
+    "displayName": "SLight",
+    "powerID": 142,
+    "isAir": false,
+    "damage": "0,18,16",
+    "stun": 0,
+    "impulse": "0,56,30",
+    "castTime": "9:2@4,0:3@5,0:4@6-6",
+    "hurtboxRef": "HammerSLight",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 43.5,
+          "radiusY": 56.0,
+          "centerX": 179.0,
+          "centerY": -58.0,
+          "x1": 135.5,
+          "y1": -114.0,
+          "x2": 222.5,
+          "y2": -2.0
+        },
+        {
+          "radiusX": 48.0,
+          "radiusY": 66.0,
+          "centerX": 226.0,
+          "centerY": -45.0,
+          "x1": 178.0,
+          "y1": -111.0,
+          "x2": 274.0,
+          "y2": 21.0
+        }
+      ],
+      [
+        {
+          "radiusX": 58.0,
+          "radiusY": 48.0,
+          "centerX": 190.0,
+          "centerY": -50.0,
+          "x1": 132.0,
+          "y1": -98.0,
+          "x2": 248.0,
+          "y2": -2.0
+        },
+        {
+          "radiusX": 39.0,
+          "radiusY": 60.0,
+          "centerX": 217.0,
+          "centerY": -39.0,
+          "x1": 178.0,
+          "y1": -99.0,
+          "x2": 256.0,
+          "y2": 21.0
+        }
+      ],
+      [
+        {
+          "radiusX": 45.0,
+          "radiusY": 48.0,
+          "centerX": 203.0,
+          "centerY": -50.0,
+          "x1": 158.0,
+          "y1": -98.0,
+          "x2": 248.0,
+          "y2": -2.0
+        },
+        {
+          "radiusX": 39.0,
+          "radiusY": 60.0,
+          "centerX": 217.0,
+          "centerY": -39.0,
+          "x1": 178.0,
+          "y1": -99.0,
+          "x2": 256.0,
+          "y2": 21.0
+        }
+      ]
+    ]
+  },
+  "DLight": {
+    "name": "HammerDown",
+    "displayName": "DLight",
+    "powerID": 145,
+    "isAir": false,
+    "damage": "7",
+    "stun": 27,
+    "impulse": "35",
+    "castTime": "8:1@4,0:2",
+    "hurtboxRef": "",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 47.0,
+          "radiusY": 16.0,
+          "centerX": 98.0,
+          "centerY": 73.0,
+          "x1": 51.0,
+          "y1": 57.0,
+          "x2": 145.0,
+          "y2": 89.0
+        },
+        {
+          "radiusX": 25.0,
+          "radiusY": 21.0,
+          "centerX": 213.0,
+          "centerY": 47.0,
+          "x1": 188.0,
+          "y1": 26.0,
+          "x2": 238.0,
+          "y2": 68.0
+        },
+        {
+          "radiusX": 38.0,
+          "radiusY": 23.0,
+          "centerX": 177.0,
+          "centerY": 66.0,
+          "x1": 139.0,
+          "y1": 43.0,
+          "x2": 215.0,
+          "y2": 89.0
+        }
+      ],
+      [
+        {
+          "radiusX": 107.0,
+          "radiusY": 23.0,
+          "centerX": 124.0,
+          "centerY": 72.0,
+          "x1": 17.0,
+          "y1": 49.0,
+          "x2": 231.0,
+          "y2": 95.0
+        },
+        {
+          "radiusX": 56.0,
+          "radiusY": 33.0,
+          "centerX": 201.0,
+          "centerY": 59.0,
+          "x1": 145.0,
+          "y1": 26.0,
+          "x2": 257.0,
+          "y2": 92.0
+        }
+      ]
+    ]
+  },
+  "DLight2": {
+    "name": "HammerDownHit",
+    "displayName": "DLight2",
+    "powerID": 146,
+    "isAir": false,
+    "damage": "",
+    "stun": 0,
+    "impulse": "",
+    "castTime": "7@11",
+    "hurtboxRef": "",
+    "hitboxes": []
+  }
+}

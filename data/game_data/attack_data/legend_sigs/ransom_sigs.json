@@ -1,0 +1,302 @@
+{
+  "legend": "Ransom",
+  "weapons": [],
+  "signatures": {
+    "Chakram": {
+      "Neutral": {
+        "name": "ChakramSmashNeutralCyberVirus",
+        "weapon": "Chakram",
+        "direction": "Neutral",
+        "powerID": 56,
+        "isAir": false,
+        "damage": "0,0,0,0,0,0,0,0,0,0,0,1,0,0",
+        "stun": 31,
+        "impulse": "0,0,0,0,0,0,0,0,0,0,0,80,0,0",
+        "castTime": "0:3@1,0:2@2,0:0@3,0:4@3,0:4@5,0:2,0:1,0:2@9,0:1@10,0:2@11,0:1@12,0:2@13,0:5,72",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ],
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ],
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ],
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ],
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ],
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ],
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ],
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ],
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ],
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ],
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ],
+          [
+            {
+              "radiusX": 66.0,
+              "radiusY": 47.0,
+              "centerX": 133.0,
+              "centerY": -26.0,
+              "x1": 67.0,
+              "y1": -73.0,
+              "x2": 199.0,
+              "y2": 21.0
+            }
+          ],
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ],
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Side": {
+        "name": "ChakramSmashSideCyberVirus",
+        "weapon": "Chakram",
+        "direction": "Side",
+        "powerID": 59,
+        "isAir": false,
+        "damage": "t1",
+        "stun": 25,
+        "impulse": "80",
+        "castTime": "13:4@4-5,0:4",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 80.0,
+              "radiusY": 77.0,
+              "centerX": 232.0,
+              "centerY": 3.0,
+              "x1": 152.0,
+              "y1": -74.0,
+              "x2": 312.0,
+              "y2": 80.0
+            }
+          ],
+          [
+            {
+              "radiusX": 57.0,
+              "radiusY": 33.0,
+              "centerX": 195.0,
+              "centerY": 43.0,
+              "x1": 138.0,
+              "y1": 10.0,
+              "x2": 252.0,
+              "y2": 76.0
+            }
+          ]
+        ]
+      },
+      "Down": {
+        "name": "ChakramSmashDownCyberVirus",
+        "weapon": "Chakram",
+        "direction": "Down",
+        "powerID": 100,
+        "isAir": false,
+        "damage": "0,1",
+        "stun": 25,
+        "impulse": "0,80",
+        "castTime": "12:2@6,0:72",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 69.0,
+              "radiusY": 33.0,
+              "centerX": 121.0,
+              "centerY": 25.0,
+              "x1": 52.0,
+              "y1": -8.0,
+              "x2": 190.0,
+              "y2": 58.0
+            }
+          ]
+        ]
+      }
+    },
+    "Bow": {
+      "Neutral": {
+        "name": "BowSmashNeutralCyberVirus",
+        "weapon": "Bow",
+        "direction": "Neutral",
+        "powerID": 199,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "BowSmashSideCyberVirus",
+        "weapon": "Bow",
+        "direction": "Side",
+        "powerID": 239,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:4@1-2,0:4@3-4,0:1@5,54",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Down": {
+        "name": "BowSmashDownCyberVirus",
+        "weapon": "Bow",
+        "direction": "Down",
+        "powerID": 245,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,72",
+        "hitboxes": []
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+import { CheckBox, Slider, VerticalBox } from "std-widgets.slint";
+
+export component OffensePage inherits VerticalBox {
+    in-out property <bool> offense-enabled: false;
+    in-out property <bool> combo-recognition: true;
+    in-out property <bool> prediction-tuning: true;
+    in-out property <float> prediction-aggression: 0.5;
+    in property <string> prediction-aggression-label: "50%";
+
+    callback offense-enabled-changed(bool);
+    callback combo-recognition-changed(bool);
+    callback prediction-tuning-changed(bool);
+    callback prediction-aggression-changed(float);
+
+    Text { text: "Offense uses the autoplay move table and frame hitboxes. It is off by default."; color: #9098a3; wrap: word-wrap; }
+    CheckBox { text: "Enable offense (attack when a simulated hit window exists)"; checked: root.offense-enabled; toggled => { root.offense-enabled = self.checked; root.offense-enabled-changed(self.checked); } }
+    CheckBox { text: "Combo recognition (follow attack-table combo_next)"; checked: root.combo-recognition; toggled => { root.combo-recognition = self.checked; root.combo-recognition-changed(self.checked); } }
+    CheckBox { text: "Prediction tuning"; checked: root.prediction-tuning; toggled => { root.prediction-tuning = self.checked; root.prediction-tuning-changed(self.checked); } }
+    Text { text: "Prediction aggression: " + root.prediction-aggression-label; }
+    Slider {
+        minimum: 0; maximum: 100; value: root.prediction-aggression * 100;
+        changed(value) => { root.prediction-aggression = value / 100; root.prediction-aggression-changed(value / 100); }
+    }
+}

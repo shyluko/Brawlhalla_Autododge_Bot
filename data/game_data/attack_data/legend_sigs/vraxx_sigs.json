@@ -1,0 +1,82 @@
+{
+  "legend": "Vraxx",
+  "weapons": [],
+  "signatures": {
+    "Lance": {
+      "Neutral": {
+        "name": "LanceSmashNeutralAlien",
+        "weapon": "Lance",
+        "direction": "Neutral",
+        "powerID": 514,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "LanceSmashSideAlien",
+        "weapon": "Lance",
+        "direction": "Side",
+        "powerID": 519,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "LanceSmashDownAlien",
+        "weapon": "Lance",
+        "direction": "Down",
+        "powerID": 522,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,72",
+        "hitboxes": []
+      }
+    },
+    "Pistol": {
+      "Neutral": {
+        "name": "PistolSmashNeutralAlien",
+        "weapon": "Pistol",
+        "direction": "Neutral",
+        "powerID": 527,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "PistolSmashSideAlien",
+        "weapon": "Pistol",
+        "direction": "Side",
+        "powerID": 530,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "PistolSmashDownAlien",
+        "weapon": "Pistol",
+        "direction": "Down",
+        "powerID": 533,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    }
+  }
+}

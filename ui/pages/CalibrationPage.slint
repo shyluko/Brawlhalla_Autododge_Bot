@@ -1,0 +1,18 @@
+import { Button, CheckBox, VerticalBox } from "std-widgets.slint";
+
+export component CalibrationPage inherits VerticalBox {
+    in property <bool> calibration-mode: false;
+    in property <bool> analysis-mode: false;
+    in property <string> debug-text: "";
+
+    callback toggle-calibration();
+    callback toggle-analysis();
+    callback reset-calibration();
+
+    Text { text: "Calibration writes the existing CSV format and never promotes OFFSETS.md candidates."; color: #9098a3; wrap: word-wrap; }
+    CheckBox { text: "Write calibration.csv / calibration.log (F4)"; checked: root.calibration-mode; toggled => { root.toggle-calibration(); } }
+    CheckBox { text: "Developer analysis mode (observe values only)"; checked: root.analysis-mode; toggled => { root.toggle-analysis(); } }
+    Text { text: "Hold left and right in-game so local-player identification can correlate movement. New offset values stay candidates until you validate them manually."; color: #6d7480; wrap: word-wrap; }
+    Button { text: "Reset local-player calibration"; clicked => { root.reset-calibration(); } }
+    Text { text: root.debug-text == "" ? "No analysis sample yet." : root.debug-text; color: #e6e8eb; wrap: word-wrap; }
+}

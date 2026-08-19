@@ -1,0 +1,82 @@
+{
+  "legend": "Tezca",
+  "weapons": [],
+  "signatures": {
+    "Fists": {
+      "Neutral": {
+        "name": "FistsSmashNeutralLuchador",
+        "weapon": "Fists",
+        "direction": "Neutral",
+        "powerID": 4227,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "FistsSmashSideLuchador",
+        "weapon": "Fists",
+        "direction": "Side",
+        "powerID": 4216,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "FistsSmashDownLuchador",
+        "weapon": "Fists",
+        "direction": "Down",
+        "powerID": 4193,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,72",
+        "hitboxes": []
+      }
+    },
+    "Boots": {
+      "Neutral": {
+        "name": "BootsSmashNeutralLuchador",
+        "weapon": "Boots",
+        "direction": "Neutral",
+        "powerID": 4200,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "BootsSmashSideLuchador",
+        "weapon": "Boots",
+        "direction": "Side",
+        "powerID": 4260,
+        "isAir": false,
+        "damage": "",
+        "stun": 17,
+        "impulse": "",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "BootsSmashDownLuchador",
+        "weapon": "Boots",
+        "direction": "Down",
+        "powerID": 4236,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    }
+  }
+}

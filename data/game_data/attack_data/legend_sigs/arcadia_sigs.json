@@ -1,0 +1,108 @@
+{
+  "legend": "Arcadia",
+  "weapons": [],
+  "signatures": {
+    "Spear": {
+      "Neutral": {
+        "name": "SpearSmashNeutralFairyQueen",
+        "weapon": "Spear",
+        "direction": "Neutral",
+        "powerID": 2412,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,68",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "SpearSmashSideFairyQueen",
+        "weapon": "Spear",
+        "direction": "Side",
+        "powerID": 2417,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:7,0:2,70",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Down": {
+        "name": "SpearSmashDownFairyQueen",
+        "weapon": "Spear",
+        "direction": "Down",
+        "powerID": 2425,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    },
+    "Greatsword": {
+      "Neutral": {
+        "name": "GreatswordSmashNeutralFairyQueen",
+        "weapon": "Greatsword",
+        "direction": "Neutral",
+        "powerID": 2436,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,6:2,7",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Side": {
+        "name": "GreatswordSmashSideFairyQueen",
+        "weapon": "Greatsword",
+        "direction": "Side",
+        "powerID": 2441,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,23@15",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "GreatswordSmashDownFairyQueen",
+        "weapon": "Greatsword",
+        "direction": "Down",
+        "powerID": 2450,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    }
+  }
+}

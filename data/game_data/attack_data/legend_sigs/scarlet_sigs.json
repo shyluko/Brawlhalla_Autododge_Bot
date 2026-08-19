@@ -1,0 +1,82 @@
+{
+  "legend": "Scarlet",
+  "weapons": [],
+  "signatures": {
+    "Hammer": {
+      "Neutral": {
+        "name": "HammerSmashNeutralSteampunk",
+        "weapon": "Hammer",
+        "direction": "Neutral",
+        "powerID": 606,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "HammerSmashSideSteampunk",
+        "weapon": "Hammer",
+        "direction": "Side",
+        "powerID": 608,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,67",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "HammerSmashDownSteampunk",
+        "weapon": "Hammer",
+        "direction": "Down",
+        "powerID": 613,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,84",
+        "hitboxes": []
+      }
+    },
+    "Lance": {
+      "Neutral": {
+        "name": "LanceSmashNeutralSteampunk",
+        "weapon": "Lance",
+        "direction": "Neutral",
+        "powerID": 618,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "68",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "LanceSmashSideSteampunk",
+        "weapon": "Lance",
+        "direction": "Side",
+        "powerID": 621,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,10:50",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "LanceSmashDownSteampunk",
+        "weapon": "Lance",
+        "direction": "Down",
+        "powerID": 624,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "4,16,57",
+        "hitboxes": []
+      }
+    }
+  }
+}

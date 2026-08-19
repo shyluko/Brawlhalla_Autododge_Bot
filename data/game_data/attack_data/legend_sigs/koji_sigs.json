@@ -1,0 +1,115 @@
+{
+  "legend": "Koji",
+  "weapons": [],
+  "signatures": {
+    "Sword": {
+      "Neutral": {
+        "name": "SwordSmashNeutralSamurai",
+        "weapon": "Sword",
+        "direction": "Neutral",
+        "powerID": 871,
+        "isAir": false,
+        "damage": "0",
+        "stun": 18,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "SwordSmashSideSamurai",
+        "weapon": "Sword",
+        "direction": "Side",
+        "powerID": 878,
+        "isAir": false,
+        "damage": "0,11,0",
+        "stun": 25,
+        "impulse": "0,55,0",
+        "castTime": "3:7@3,6:4@8-9,60",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 17.0,
+              "radiusY": 10.0,
+              "centerX": 265.0,
+              "centerY": 4.0,
+              "x1": 248.0,
+              "y1": -6.0,
+              "x2": 282.0,
+              "y2": 14.0
+            },
+            {
+              "radiusX": 102.0,
+              "radiusY": 20.0,
+              "centerX": 125.0,
+              "centerY": 6.0,
+              "x1": 23.0,
+              "y1": -14.0,
+              "x2": 227.0,
+              "y2": 26.0
+            },
+            {
+              "radiusX": 23.0,
+              "radiusY": 15.0,
+              "centerX": 240.0,
+              "centerY": 7.0,
+              "x1": 217.0,
+              "y1": -8.0,
+              "x2": 263.0,
+              "y2": 22.0
+            }
+          ]
+        ]
+      },
+      "Down": {
+        "name": "SwordSmashDownSamurai",
+        "weapon": "Sword",
+        "direction": "Down",
+        "powerID": 880,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    },
+    "Bow": {
+      "Neutral": {
+        "name": "BowSmashNeutralSamurai",
+        "weapon": "Bow",
+        "direction": "Neutral",
+        "powerID": 882,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "BowSmashSideSamurai",
+        "weapon": "Bow",
+        "direction": "Side",
+        "powerID": 884,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:17@1-7,45",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "BowSmashDownSamurai",
+        "weapon": "Bow",
+        "direction": "Down",
+        "powerID": 886,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,0,2,0,60",
+        "hitboxes": []
+      }
+    }
+  }
+}

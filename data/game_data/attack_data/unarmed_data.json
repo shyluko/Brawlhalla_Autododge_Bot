@@ -1,0 +1,652 @@
+{
+  "NLight": {
+    "name": "BaseNeutral",
+    "displayName": "NLight",
+    "powerID": 1,
+    "isAir": false,
+    "damage": "3",
+    "stun": 17,
+    "impulse": "25",
+    "castTime": "5:2@2-2",
+    "hurtboxRef": "UnarmedNLight",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 45.0,
+          "radiusY": 33.0,
+          "centerX": 76.0,
+          "centerY": 4.0,
+          "x1": 31.0,
+          "y1": -29.0,
+          "x2": 121.0,
+          "y2": 37.0
+        }
+      ]
+    ]
+  },
+  "NLight2": {
+    "name": "BaseNeutralCombo",
+    "displayName": "NLight2",
+    "powerID": 2,
+    "isAir": false,
+    "damage": "3",
+    "stun": 17,
+    "impulse": "20",
+    "castTime": "6:5@3-4",
+    "hurtboxRef": "UnarmedNLight2",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 22.0,
+          "radiusY": 37.0,
+          "centerX": 51.0,
+          "centerY": -8.0,
+          "x1": 29.0,
+          "y1": -45.0,
+          "x2": 73.0,
+          "y2": 29.0
+        },
+        {
+          "radiusX": 37.0,
+          "radiusY": 36.0,
+          "centerX": 74.0,
+          "centerY": -29.0,
+          "x1": 37.0,
+          "y1": -65.0,
+          "x2": 111.0,
+          "y2": 7.0
+        }
+      ]
+    ]
+  },
+  "NLight3": {
+    "name": "BaseNeutralHit",
+    "displayName": "NLight3",
+    "powerID": 3,
+    "isAir": false,
+    "damage": "3",
+    "stun": 20,
+    "impulse": "26",
+    "castTime": "6:2@3-3",
+    "hurtboxRef": "UnarmedNLight3",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 44.0,
+          "radiusY": 65.0,
+          "centerX": 61.0,
+          "centerY": -2.0,
+          "x1": 17.0,
+          "y1": -67.0,
+          "x2": 105.0,
+          "y2": 63.0
+        }
+      ]
+    ]
+  },
+  "NLight4": {
+    "name": "BaseNeutralHit2",
+    "displayName": "NLight4",
+    "powerID": 4,
+    "isAir": false,
+    "damage": "0,0,0,3",
+    "stun": 23,
+    "impulse": "0,0,0,52",
+    "castTime": "3@2,3@3,3@4,2:4@5-6",
+    "hurtboxRef": "UnarmedNLight4",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 150.0,
+          "radiusY": 80.0,
+          "centerX": 50.0,
+          "centerY": 15.0,
+          "x1": -100.0,
+          "y1": -65.0,
+          "x2": 200.0,
+          "y2": 95.0
+        }
+      ],
+      [
+        {
+          "radiusX": 150.0,
+          "radiusY": 80.0,
+          "centerX": 50.0,
+          "centerY": 15.0,
+          "x1": -100.0,
+          "y1": -65.0,
+          "x2": 200.0,
+          "y2": 95.0
+        }
+      ],
+      [
+        {
+          "radiusX": 150.0,
+          "radiusY": 80.0,
+          "centerX": 50.0,
+          "centerY": 15.0,
+          "x1": -100.0,
+          "y1": -65.0,
+          "x2": 200.0,
+          "y2": 95.0
+        }
+      ],
+      [
+        {
+          "radiusX": 58.0,
+          "radiusY": 31.0,
+          "centerX": 39.0,
+          "centerY": 10.0,
+          "x1": -19.0,
+          "y1": -21.0,
+          "x2": 97.0,
+          "y2": 41.0
+        }
+      ]
+    ]
+  },
+  "NAir": {
+    "name": "BaseAir",
+    "displayName": "NAir",
+    "powerID": 6,
+    "isAir": true,
+    "damage": "3",
+    "stun": 17,
+    "impulse": "40",
+    "castTime": "7:4@3-4",
+    "hurtboxRef": "UnarmedNAir",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 34.0,
+          "radiusY": 53.0,
+          "centerX": 63.0,
+          "centerY": -10.0,
+          "x1": 29.0,
+          "y1": -63.0,
+          "x2": 97.0,
+          "y2": 43.0
+        },
+        {
+          "radiusX": 35.0,
+          "radiusY": 42.0,
+          "centerX": 59.0,
+          "centerY": 10.0,
+          "x1": 24.0,
+          "y1": -32.0,
+          "x2": 94.0,
+          "y2": 52.0
+        },
+        {
+          "radiusX": 15.0,
+          "radiusY": 15.0,
+          "centerX": 46.0,
+          "centerY": 46.0,
+          "x1": 31.0,
+          "y1": 31.0,
+          "x2": 61.0,
+          "y2": 61.0
+        }
+      ]
+    ]
+  },
+  "NAir2": {
+    "name": "BaseAirCombo",
+    "displayName": "NAir2",
+    "powerID": 7,
+    "isAir": true,
+    "damage": "3",
+    "stun": 21,
+    "impulse": "40",
+    "castTime": "8:4@8-9",
+    "hurtboxRef": "UnarmedNAir",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 47.0,
+          "radiusY": 27.0,
+          "centerX": 75.0,
+          "centerY": 4.0,
+          "x1": 28.0,
+          "y1": -23.0,
+          "x2": 122.0,
+          "y2": 31.0
+        },
+        {
+          "radiusX": 30.0,
+          "radiusY": 25.0,
+          "centerX": 44.0,
+          "centerY": 32.0,
+          "x1": 14.0,
+          "y1": 7.0,
+          "x2": 74.0,
+          "y2": 57.0
+        }
+      ]
+    ]
+  },
+  "Recovery": {
+    "name": "BaseAirUpHeavy",
+    "displayName": "Recovery",
+    "powerID": 10,
+    "isAir": true,
+    "damage": "15,15,15,0",
+    "stun": 25,
+    "impulse": "55,55,55,0",
+    "castTime": "11:2@5-5,0:2@6-6,0:2@7-7,0:4@8-9",
+    "hurtboxRef": "UnarmedRecovery",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 17.0,
+          "radiusY": 26.0,
+          "centerX": 23.0,
+          "centerY": -136.0,
+          "x1": 6.0,
+          "y1": -162.0,
+          "x2": 40.0,
+          "y2": -110.0
+        },
+        {
+          "radiusX": 18.0,
+          "radiusY": 56.0,
+          "centerX": 37.0,
+          "centerY": -81.0,
+          "x1": 19.0,
+          "y1": -137.0,
+          "x2": 55.0,
+          "y2": -25.0
+        },
+        {
+          "radiusX": 17.0,
+          "radiusY": 25.0,
+          "centerX": 35.0,
+          "centerY": -23.0,
+          "x1": 18.0,
+          "y1": -48.0,
+          "x2": 52.0,
+          "y2": 2.0
+        },
+        {
+          "radiusX": 17.0,
+          "radiusY": 58.0,
+          "centerX": 50.0,
+          "centerY": -42.0,
+          "x1": 33.0,
+          "y1": -100.0,
+          "x2": 67.0,
+          "y2": 16.0
+        }
+      ],
+      [
+        {
+          "radiusX": 17.0,
+          "radiusY": 26.0,
+          "centerX": 23.0,
+          "centerY": -136.0,
+          "x1": 6.0,
+          "y1": -162.0,
+          "x2": 40.0,
+          "y2": -110.0
+        },
+        {
+          "radiusX": 18.0,
+          "radiusY": 56.0,
+          "centerX": 37.0,
+          "centerY": -81.0,
+          "x1": 19.0,
+          "y1": -137.0,
+          "x2": 55.0,
+          "y2": -25.0
+        },
+        {
+          "radiusX": 17.0,
+          "radiusY": 53.0,
+          "centerX": 50.0,
+          "centerY": -47.0,
+          "x1": 33.0,
+          "y1": -100.0,
+          "x2": 67.0,
+          "y2": 6.0
+        }
+      ],
+      [
+        {
+          "radiusX": 17.0,
+          "radiusY": 26.0,
+          "centerX": 23.0,
+          "centerY": -136.0,
+          "x1": 6.0,
+          "y1": -162.0,
+          "x2": 40.0,
+          "y2": -110.0
+        },
+        {
+          "radiusX": 18.0,
+          "radiusY": 44.0,
+          "centerX": 37.0,
+          "centerY": -92.0,
+          "x1": 19.0,
+          "y1": -136.0,
+          "x2": 55.0,
+          "y2": -48.0
+        },
+        {
+          "radiusX": 17.0,
+          "radiusY": 40.0,
+          "centerX": 50.0,
+          "centerY": -60.0,
+          "x1": 33.0,
+          "y1": -100.0,
+          "x2": 67.0,
+          "y2": -20.0
+        }
+      ],
+      [
+        {
+          "radiusX": 62.0,
+          "radiusY": 95.0,
+          "centerX": 7.0,
+          "centerY": -67.0,
+          "x1": -55.0,
+          "y1": -162.0,
+          "x2": 69.0,
+          "y2": 28.0
+        }
+      ]
+    ]
+  },
+  "SAir": {
+    "name": "BaseAirSide",
+    "displayName": "SAir",
+    "powerID": 12,
+    "isAir": true,
+    "damage": "13",
+    "stun": 0,
+    "impulse": "45",
+    "castTime": "13:2@5,0:1@6,0:1@7",
+    "hurtboxRef": "UnarmedSAir",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 40.0,
+          "radiusY": 21.0,
+          "centerX": 83.0,
+          "centerY": 25.0,
+          "x1": 43.0,
+          "y1": 4.0,
+          "x2": 123.0,
+          "y2": 46.0
+        },
+        {
+          "radiusX": 28.0,
+          "radiusY": 24.0,
+          "centerX": 125.0,
+          "centerY": 53.0,
+          "x1": 97.0,
+          "y1": 29.0,
+          "x2": 153.0,
+          "y2": 77.0
+        }
+      ],
+      [
+        {
+          "radiusX": 30.0,
+          "radiusY": 21.0,
+          "centerX": 92.0,
+          "centerY": 25.0,
+          "x1": 62.0,
+          "y1": 4.0,
+          "x2": 122.0,
+          "y2": 46.0
+        },
+        {
+          "radiusX": 28.0,
+          "radiusY": 24.0,
+          "centerX": 125.0,
+          "centerY": 53.0,
+          "x1": 97.0,
+          "y1": 29.0,
+          "x2": 153.0,
+          "y2": 77.0
+        }
+      ],
+      [
+        {
+          "radiusX": 19.0,
+          "radiusY": 17.0,
+          "centerX": 133.0,
+          "centerY": 60.0,
+          "x1": 114.0,
+          "y1": 43.0,
+          "x2": 152.0,
+          "y2": 77.0
+        }
+      ]
+    ]
+  },
+  "DAir": {
+    "name": "BaseAirDown",
+    "displayName": "DAir",
+    "powerID": 13,
+    "isAir": true,
+    "damage": "0,t10",
+    "stun": 19,
+    "impulse": "0,65",
+    "castTime": "4,4:15@4",
+    "hurtboxRef": "",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 90.0,
+          "radiusY": 90.0,
+          "centerX": 80.0,
+          "centerY": 80.0,
+          "x1": -10.0,
+          "y1": -10.0,
+          "x2": 170.0,
+          "y2": 170.0
+        }
+      ],
+      [
+        {
+          "radiusX": 15.0,
+          "radiusY": 19.0,
+          "centerX": 45.0,
+          "centerY": 64.0,
+          "x1": 30.0,
+          "y1": 45.0,
+          "x2": 60.0,
+          "y2": 83.0
+        },
+        {
+          "radiusX": 17.0,
+          "radiusY": 23.0,
+          "centerX": 27.0,
+          "centerY": 40.0,
+          "x1": 10.0,
+          "y1": 17.0,
+          "x2": 44.0,
+          "y2": 63.0
+        },
+        {
+          "radiusX": 15.0,
+          "radiusY": 15.0,
+          "centerX": 21.0,
+          "centerY": 33.0,
+          "x1": 6.0,
+          "y1": 18.0,
+          "x2": 36.0,
+          "y2": 48.0
+        }
+      ]
+    ]
+  },
+  "GP": {
+    "name": "BaseGroundPound",
+    "displayName": "GP",
+    "powerID": 16,
+    "isAir": true,
+    "damage": "17",
+    "stun": 19,
+    "impulse": "48",
+    "castTime": "15:1@7,0:38@8,0:313",
+    "hurtboxRef": "",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 1.0,
+          "radiusY": 20.0,
+          "centerX": 0.0,
+          "centerY": 40.0,
+          "x1": -1.0,
+          "y1": 20.0,
+          "x2": 1.0,
+          "y2": 60.0
+        }
+      ],
+      [
+        {
+          "radiusX": 1.0,
+          "radiusY": 20.0,
+          "centerX": 0.0,
+          "centerY": 115.0,
+          "x1": -1.0,
+          "y1": 95.0,
+          "x2": 1.0,
+          "y2": 135.0
+        },
+        {
+          "radiusX": 24.0,
+          "radiusY": 50.0,
+          "centerX": -8.0,
+          "centerY": 85.0,
+          "x1": -32.0,
+          "y1": 35.0,
+          "x2": 16.0,
+          "y2": 135.0
+        }
+      ],
+      [
+        {
+          "radiusX": 1.0,
+          "radiusY": 20.0,
+          "centerX": 0.0,
+          "centerY": 115.0,
+          "x1": -1.0,
+          "y1": 95.0,
+          "x2": 1.0,
+          "y2": 135.0
+        },
+        {
+          "radiusX": 24.0,
+          "radiusY": 50.0,
+          "centerX": -8.0,
+          "centerY": 85.0,
+          "x1": -32.0,
+          "y1": 35.0,
+          "x2": 16.0,
+          "y2": 135.0
+        }
+      ]
+    ]
+  },
+  "SLight": {
+    "name": "BaseSide",
+    "displayName": "SLight",
+    "powerID": 20,
+    "isAir": false,
+    "damage": "0,0,13",
+    "stun": 18,
+    "impulse": "0,0,80~70",
+    "castTime": "2:1@2,3:1@4,1:3@5-6",
+    "hurtboxRef": "UnarmedSLight",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 80.0,
+          "radiusY": 70.0,
+          "centerX": 85.0,
+          "centerY": 10.0,
+          "x1": 5.0,
+          "y1": -60.0,
+          "x2": 165.0,
+          "y2": 80.0
+        }
+      ],
+      [
+        {
+          "radiusX": 80.0,
+          "radiusY": 70.0,
+          "centerX": 85.0,
+          "centerY": 10.0,
+          "x1": 5.0,
+          "y1": -60.0,
+          "x2": 165.0,
+          "y2": 80.0
+        }
+      ],
+      [
+        {
+          "radiusX": 73.0,
+          "radiusY": 29.0,
+          "centerX": 63.0,
+          "centerY": -12.0,
+          "x1": -10.0,
+          "y1": -41.0,
+          "x2": 136.0,
+          "y2": 17.0
+        }
+      ]
+    ]
+  },
+  "DLight": {
+    "name": "BaseDown",
+    "displayName": "DLight",
+    "powerID": 23,
+    "isAir": false,
+    "damage": "0,8,0",
+    "stun": 31,
+    "impulse": "0,45,0",
+    "castTime": "5:2@2,0:8@3-5,0:2@6-6",
+    "hurtboxRef": "UnarmedDLight",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 46.0,
+          "radiusY": 45.0,
+          "centerX": 31.0,
+          "centerY": 56.0,
+          "x1": -15.0,
+          "y1": 11.0,
+          "x2": 77.0,
+          "y2": 101.0
+        }
+      ],
+      [
+        {
+          "radiusX": 62.0,
+          "radiusY": 28.0,
+          "centerX": 62.0,
+          "centerY": 69.0,
+          "x1": 0.0,
+          "y1": 41.0,
+          "x2": 124.0,
+          "y2": 97.0
+        }
+      ],
+      [
+        {
+          "radiusX": 46.0,
+          "radiusY": 45.0,
+          "centerX": 62.0,
+          "centerY": 56.0,
+          "x1": 16.0,
+          "y1": 11.0,
+          "x2": 108.0,
+          "y2": 101.0
+        }
+      ]
+    ]
+  }
+}

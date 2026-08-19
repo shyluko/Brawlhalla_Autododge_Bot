@@ -1,0 +1,82 @@
+{
+  "legend": "Yumiko",
+  "weapons": [],
+  "signatures": {
+    "Bow": {
+      "Neutral": {
+        "name": "BowSmashNeutralNinetails",
+        "weapon": "Bow",
+        "direction": "Neutral",
+        "powerID": 1283,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "BowSmashSideNinetails",
+        "weapon": "Bow",
+        "direction": "Side",
+        "powerID": 1286,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "BowSmashDownNinetails",
+        "weapon": "Bow",
+        "direction": "Down",
+        "powerID": 1289,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,69",
+        "hitboxes": []
+      }
+    },
+    "Hammer": {
+      "Down": {
+        "name": "HammerSmashDownNinetails",
+        "weapon": "Hammer",
+        "direction": "Down",
+        "powerID": 1296,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,69",
+        "hitboxes": []
+      },
+      "Neutral": {
+        "name": "HammerSmashNeutralNinetails",
+        "weapon": "Hammer",
+        "direction": "Neutral",
+        "powerID": 1303,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "HammerSmashSideNinetails",
+        "weapon": "Hammer",
+        "direction": "Side",
+        "powerID": 1321,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      }
+    }
+  }
+}

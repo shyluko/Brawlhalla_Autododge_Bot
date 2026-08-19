@@ -1,0 +1,51 @@
+import { GroupBox, ScrollView, VerticalBox, HorizontalBox } from "std-widgets.slint";
+import { StatusBadge } from "../components/status-badge.slint";
+
+export component Dashboard inherits ScrollView {
+    in property <bool> process-found: false;
+    in property <bool> hook-installed: false;
+    in property <bool> safe-mode-active: false;
+    in property <bool> validation-ok: true;
+    in property <int> dodge-count: 0;
+    in property <int> entity-count: 0;
+    in property <string> engagement-text: "";
+    in property <string> decision-text: "";
+    in property <string> stats-text: "";
+    in property <string> recent-decisions-text: "";
+    in property <string> decision-banner: "";
+    in property <string> game-version: "unknown";
+    in property <string> notification-text: "";
+
+    VerticalBox {
+        HorizontalBox {
+            StatusBadge { text: root.process-found ? "PROCESS ONLINE" : "WAITING FOR GAME"; ok: root.process-found; }
+            StatusBadge { text: root.hook-installed ? "HOOK READY" : "HOOK NOT READY"; ok: root.hook-installed; }
+            StatusBadge { text: root.safe-mode-active ? "SAFE MODE" : "LIVE"; ok: !root.safe-mode-active; }
+            StatusBadge { text: root.validation-ok ? "VALIDATION OK" : "VALIDATION FAIL"; ok: root.validation-ok; }
+        }
+        if root.decision-banner != "": Rectangle {
+            background: #d43f56.with-alpha(0.18);
+            border-radius: 8px;
+            height: 88px;
+            Text {
+                text: root.decision-banner;
+                color: #ffd4db;
+                font-size: 16px;
+                font-weight: 700;
+                wrap: word-wrap;
+                horizontal-alignment: center;
+                vertical-alignment: center;
+            }
+        }
+        if root.notification-text != "": Text { text: root.notification-text; color: #f0a63e; wrap: word-wrap; }
+        Text { text: "Game version: " + root.game-version; color: #9098a3; font-size: 12px; }
+        HorizontalBox {
+            GroupBox { title: "Dodges"; Text { text: root.dodge-count; color: #d43f56; font-size: 20px; } }
+            GroupBox { title: "Entities"; Text { text: root.entity-count; color: #4ea6f2; font-size: 20px; } }
+        }
+        GroupBox { title: "Engagement"; Text { text: root.engagement-text; color: #e6e8eb; wrap: word-wrap; } }
+        GroupBox { title: "Last decision"; Text { text: root.decision-text; color: #e6e8eb; wrap: word-wrap; } }
+        GroupBox { title: "Session stats"; Text { text: root.stats-text; color: #e6e8eb; wrap: word-wrap; } }
+        GroupBox { title: "Recent decisions"; Text { text: root.recent-decisions-text == "" ? "None yet" : root.recent-decisions-text; color: #e6e8eb; wrap: word-wrap; } }
+    }
+}

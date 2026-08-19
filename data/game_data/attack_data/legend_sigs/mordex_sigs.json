@@ -1,0 +1,95 @@
+{
+  "legend": "Mordex",
+  "weapons": [],
+  "signatures": {
+    "Scythe": {
+      "Neutral": {
+        "name": "ScytheSmashNeutralWerewolf",
+        "weapon": "Scythe",
+        "direction": "Neutral",
+        "powerID": 2042,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "ScytheSmashSideWerewolf",
+        "weapon": "Scythe",
+        "direction": "Side",
+        "powerID": 2016,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "ScytheSmashDownWerewolf",
+        "weapon": "Scythe",
+        "direction": "Down",
+        "powerID": 2116,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "2:1@2,1:1@3,0:2@4,0:2@5,0:2@6,2@8,51",
+        "hitboxes": []
+      }
+    },
+    "Fists": {
+      "Neutral": {
+        "name": "FistsSmashNeutralWerewolf",
+        "weapon": "Fists",
+        "direction": "Neutral",
+        "powerID": 2058,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0@1,5@6,0:9,0",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Side": {
+        "name": "FistsSmashSideWerewolf",
+        "weapon": "Fists",
+        "direction": "Side",
+        "powerID": 2051,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "FistsSmashDownWerewolf",
+        "weapon": "Fists",
+        "direction": "Down",
+        "powerID": 2028,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    }
+  }
+}

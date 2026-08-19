@@ -1,0 +1,121 @@
+{
+  "legend": "Jaeyun",
+  "weapons": [],
+  "signatures": {
+    "Sword": {
+      "Neutral": {
+        "name": "SwordSmashNeutralSellsword",
+        "weapon": "Sword",
+        "direction": "Neutral",
+        "powerID": 2228,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:7,0:60",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Side": {
+        "name": "SwordSmashSideSellsword",
+        "weapon": "Sword",
+        "direction": "Side",
+        "powerID": 2231,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:7,0:60",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Down": {
+        "name": "SwordSmashDownSellsword",
+        "weapon": "Sword",
+        "direction": "Down",
+        "powerID": 2236,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "2:3@3,0:0@5,0:4,0:1@8,60@30",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      }
+    },
+    "Greatsword": {
+      "Neutral": {
+        "name": "GreatswordSmashNeutralSellsword",
+        "weapon": "Greatsword",
+        "direction": "Neutral",
+        "powerID": 2239,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0:1,0:60",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "GreatswordSmashSideSellsword",
+        "weapon": "Greatsword",
+        "direction": "Side",
+        "powerID": 2245,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:1,0:60",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "GreatswordSmashDownSellsword",
+        "weapon": "Greatsword",
+        "direction": "Down",
+        "powerID": 2252,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0:1,0:60",
+        "hitboxes": []
+      }
+    }
+  }
+}

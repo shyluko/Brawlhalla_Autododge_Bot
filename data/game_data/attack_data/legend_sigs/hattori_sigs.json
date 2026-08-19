@@ -1,0 +1,82 @@
+{
+  "legend": "Hattori",
+  "weapons": [],
+  "signatures": {
+    "Sword": {
+      "Neutral": {
+        "name": "SwordSmashNeutralNinja",
+        "weapon": "Sword",
+        "direction": "Neutral",
+        "powerID": 568,
+        "isAir": false,
+        "damage": "0",
+        "stun": 18,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "SwordSmashSideNinja",
+        "weapon": "Sword",
+        "direction": "Side",
+        "powerID": 572,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "SwordSmashDownNinja",
+        "weapon": "Sword",
+        "direction": "Down",
+        "powerID": 577,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:20,0:5,45",
+        "hitboxes": []
+      }
+    },
+    "Spear": {
+      "Neutral": {
+        "name": "SpearSmashNeutralNinja",
+        "weapon": "Spear",
+        "direction": "Neutral",
+        "powerID": 579,
+        "isAir": false,
+        "damage": "0",
+        "stun": 18,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "SpearSmashSideNinja",
+        "weapon": "Spear",
+        "direction": "Side",
+        "powerID": 583,
+        "isAir": false,
+        "damage": "0",
+        "stun": 18,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "SpearSmashDownNinja",
+        "weapon": "Spear",
+        "direction": "Down",
+        "powerID": 587,
+        "isAir": false,
+        "damage": "0",
+        "stun": 18,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    }
+  }
+}

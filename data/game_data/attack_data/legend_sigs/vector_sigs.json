@@ -1,0 +1,134 @@
+{
+  "legend": "Vector",
+  "weapons": [],
+  "signatures": {
+    "Bow": {
+      "Neutral": {
+        "name": "BowSmashNeutralActualRobot",
+        "weapon": "Bow",
+        "direction": "Neutral",
+        "powerID": 1958,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:14@1-6,58",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "BowSmashSideActualRobot",
+        "weapon": "Bow",
+        "direction": "Side",
+        "powerID": 1955,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0:0,69",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Down": {
+        "name": "BowSmashDownActualRobot",
+        "weapon": "Bow",
+        "direction": "Down",
+        "powerID": 1961,
+        "isAir": false,
+        "damage": "0",
+        "stun": 20,
+        "impulse": "0",
+        "castTime": "0,65",
+        "hitboxes": []
+      }
+    },
+    "Lance": {
+      "Neutral": {
+        "name": "LanceSmashNeutralActualRobot",
+        "weapon": "Lance",
+        "direction": "Neutral",
+        "powerID": 1967,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "6:9@4-9,0:50",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Side": {
+        "name": "LanceSmashSideActualRobot",
+        "weapon": "Lance",
+        "direction": "Side",
+        "powerID": 1973,
+        "isAir": false,
+        "damage": "0",
+        "stun": 20,
+        "impulse": "0",
+        "castTime": "0:5@1-3,0:0@4,0:14@4-11,0:54",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Down": {
+        "name": "LanceSmashDownActualRobot",
+        "weapon": "Lance",
+        "direction": "Down",
+        "powerID": 3956,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "8:12@4-8,50",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      }
+    }
+  }
+}

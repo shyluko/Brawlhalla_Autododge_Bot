@@ -1,0 +1,23 @@
+import { Slider, VerticalBox } from "std-widgets.slint";
+
+export component DefensePage inherits VerticalBox {
+    in-out property <float> dodge-padding-x: 35;
+    in-out property <float> dodge-padding-y: 30;
+    in-out property <float> react-chance: 1.0;
+    in property <string> dodge-padding-x-label: "35 px";
+    in property <string> dodge-padding-y-label: "30 px";
+    in property <string> react-chance-label: "100%";
+
+    callback dodge-padding-x-changed(float);
+    callback dodge-padding-y-changed(float);
+    callback react-chance-changed(float);
+
+    Text { text: "Hitbox dodge padding"; font-weight: 700; color: #9098a3; }
+    Text { text: "Extra room around predicted hitboxes before a dodge is issued."; color: #6d7480; wrap: word-wrap; }
+    Text { text: "Horizontal padding: " + root.dodge-padding-x-label; }
+    Slider { minimum: 0; maximum: 150; value: root.dodge-padding-x; changed(value) => { root.dodge-padding-x = value; root.dodge-padding-x-changed(value); } }
+    Text { text: "Vertical padding: " + root.dodge-padding-y-label; }
+    Slider { minimum: 0; maximum: 150; value: root.dodge-padding-y; changed(value) => { root.dodge-padding-y = value; root.dodge-padding-y-changed(value); } }
+    Text { text: "Chance to react to a valid threat: " + root.react-chance-label; }
+    Slider { minimum: 0; maximum: 100; value: root.react-chance * 100; changed(value) => { root.react-chance = value / 100; root.react-chance-changed(value / 100); } }
+}

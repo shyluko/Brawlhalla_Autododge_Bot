@@ -1,0 +1,82 @@
+{
+  "legend": "Ezio",
+  "weapons": [],
+  "signatures": {
+    "Orb": {
+      "Neutral": {
+        "name": "OrbSmashNeutralEzio",
+        "weapon": "Orb",
+        "direction": "Neutral",
+        "powerID": 2469,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "OrbSmashSideEzio",
+        "weapon": "Orb",
+        "direction": "Side",
+        "powerID": 2474,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "OrbSmashDownEzio",
+        "weapon": "Orb",
+        "direction": "Down",
+        "powerID": 2477,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "8:2@5,0:15@6-14,0:40@15-34",
+        "hitboxes": []
+      }
+    },
+    "Sword": {
+      "Neutral": {
+        "name": "SwordSmashNeutralEzio",
+        "weapon": "Sword",
+        "direction": "Neutral",
+        "powerID": 2482,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "SwordSmashSideEzio",
+        "weapon": "Sword",
+        "direction": "Side",
+        "powerID": 2487,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "SwordSmashDownEzio",
+        "weapon": "Sword",
+        "direction": "Down",
+        "powerID": 2493,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,72",
+        "hitboxes": []
+      }
+    }
+  }
+}

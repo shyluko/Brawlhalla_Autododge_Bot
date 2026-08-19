@@ -1,0 +1,82 @@
+{
+  "legend": "Roland",
+  "weapons": [],
+  "signatures": {
+    "Lance": {
+      "Neutral": {
+        "name": "LanceSmashNeutralKnight",
+        "weapon": "Lance",
+        "direction": "Neutral",
+        "powerID": 590,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "LanceSmashSideKnight",
+        "weapon": "Lance",
+        "direction": "Side",
+        "powerID": 593,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "LanceSmashDownKnight",
+        "weapon": "Lance",
+        "direction": "Down",
+        "powerID": 596,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    },
+    "Sword": {
+      "Neutral": {
+        "name": "SwordSmashNeutralKnight",
+        "weapon": "Sword",
+        "direction": "Neutral",
+        "powerID": 598,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "SwordSmashSideKnight",
+        "weapon": "Sword",
+        "direction": "Side",
+        "powerID": 600,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "SwordSmashDownKnight",
+        "weapon": "Sword",
+        "direction": "Down",
+        "powerID": 603,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    }
+  }
+}

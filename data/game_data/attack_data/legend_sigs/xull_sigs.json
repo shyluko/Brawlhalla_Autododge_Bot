@@ -1,0 +1,367 @@
+{
+  "legend": "Xull",
+  "weapons": [],
+  "signatures": {
+    "Axe": {
+      "Neutral": {
+        "name": "AxeSmashNeutralBrute",
+        "weapon": "Axe",
+        "direction": "Neutral",
+        "powerID": 1376,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "13:1@7,0@8,0:9@8,0:20",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Side": {
+        "name": "AxeSmashSideBrute",
+        "weapon": "Axe",
+        "direction": "Side",
+        "powerID": 1362,
+        "isAir": false,
+        "damage": "0,0,1",
+        "stun": 17,
+        "impulse": "0,0,110",
+        "castTime": "9:1@5,2:3@6,2:35@8",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 24.0,
+              "radiusY": 15.0,
+              "centerX": 5.0,
+              "centerY": -5.0,
+              "x1": -19.0,
+              "y1": -20.0,
+              "x2": 29.0,
+              "y2": 10.0
+            }
+          ]
+        ]
+      },
+      "Down": {
+        "name": "AxeSmashDownBrute",
+        "weapon": "Axe",
+        "direction": "Down",
+        "powerID": 1391,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    },
+    "Cannon": {
+      "Neutral": {
+        "name": "CannonSmashNeutralBrute",
+        "weapon": "Cannon",
+        "direction": "Neutral",
+        "powerID": 1428,
+        "isAir": false,
+        "damage": "1",
+        "stun": 15,
+        "impulse": "1",
+        "castTime": "16:1@8,0:2@9,0:1@10,0:2@11,0:1@12,0:1@13",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 15.0,
+              "radiusY": 24.0,
+              "centerX": 175.0,
+              "centerY": -230.0,
+              "x1": 160.0,
+              "y1": -254.0,
+              "x2": 190.0,
+              "y2": -206.0
+            },
+            {
+              "radiusX": 26.0,
+              "radiusY": 15.0,
+              "centerX": 211.0,
+              "centerY": -184.0,
+              "x1": 185.0,
+              "y1": -199.0,
+              "x2": 237.0,
+              "y2": -169.0
+            },
+            {
+              "radiusX": 22.0,
+              "radiusY": 21.0,
+              "centerX": 173.0,
+              "centerY": -203.0,
+              "x1": 151.0,
+              "y1": -224.0,
+              "x2": 195.0,
+              "y2": -182.0
+            },
+            {
+              "radiusX": 15.0,
+              "radiusY": 15.0,
+              "centerX": 161.0,
+              "centerY": -175.0,
+              "x1": 146.0,
+              "y1": -190.0,
+              "x2": 176.0,
+              "y2": -160.0
+            }
+          ],
+          [
+            {
+              "radiusX": 16.0,
+              "radiusY": 23.0,
+              "centerX": 208.0,
+              "centerY": -310.0,
+              "x1": 192.0,
+              "y1": -333.0,
+              "x2": 224.0,
+              "y2": -287.0
+            },
+            {
+              "radiusX": 18.0,
+              "radiusY": 19.0,
+              "centerX": 217.0,
+              "centerY": -282.0,
+              "x1": 199.0,
+              "y1": -301.0,
+              "x2": 235.0,
+              "y2": -263.0
+            },
+            {
+              "radiusX": 27.0,
+              "radiusY": 12.0,
+              "centerX": 252.0,
+              "centerY": -274.0,
+              "x1": 225.0,
+              "y1": -286.0,
+              "x2": 279.0,
+              "y2": -262.0
+            }
+          ],
+          [
+            {
+              "radiusX": 20.0,
+              "radiusY": 26.0,
+              "centerX": 229.0,
+              "centerY": -360.0,
+              "x1": 209.0,
+              "y1": -386.0,
+              "x2": 249.0,
+              "y2": -334.0
+            },
+            {
+              "radiusX": 22.0,
+              "radiusY": 22.0,
+              "centerX": 250.0,
+              "centerY": -324.0,
+              "x1": 228.0,
+              "y1": -346.0,
+              "x2": 272.0,
+              "y2": -302.0
+            },
+            {
+              "radiusX": 25.0,
+              "radiusY": 13.0,
+              "centerX": 290.0,
+              "centerY": -311.0,
+              "x1": 265.0,
+              "y1": -324.0,
+              "x2": 315.0,
+              "y2": -298.0
+            }
+          ],
+          [
+            {
+              "radiusX": 19.0,
+              "radiusY": 15.0,
+              "centerX": 244.0,
+              "centerY": -349.0,
+              "x1": 225.0,
+              "y1": -364.0,
+              "x2": 263.0,
+              "y2": -334.0
+            },
+            {
+              "radiusX": 23.0,
+              "radiusY": 15.0,
+              "centerX": 269.0,
+              "centerY": -334.0,
+              "x1": 246.0,
+              "y1": -349.0,
+              "x2": 292.0,
+              "y2": -319.0
+            },
+            {
+              "radiusX": 20.0,
+              "radiusY": 19.0,
+              "centerX": 304.0,
+              "centerY": -310.0,
+              "x1": 284.0,
+              "y1": -329.0,
+              "x2": 324.0,
+              "y2": -291.0
+            },
+            {
+              "radiusX": 18.0,
+              "radiusY": 17.0,
+              "centerX": 216.0,
+              "centerY": -366.0,
+              "x1": 198.0,
+              "y1": -383.0,
+              "x2": 234.0,
+              "y2": -349.0
+            }
+          ],
+          [
+            {
+              "radiusX": 19.0,
+              "radiusY": 15.0,
+              "centerX": 253.0,
+              "centerY": -358.0,
+              "x1": 234.0,
+              "y1": -373.0,
+              "x2": 272.0,
+              "y2": -343.0
+            },
+            {
+              "radiusX": 16.0,
+              "radiusY": 15.0,
+              "centerX": 281.0,
+              "centerY": -334.0,
+              "x1": 265.0,
+              "y1": -349.0,
+              "x2": 297.0,
+              "y2": -319.0
+            },
+            {
+              "radiusX": 20.0,
+              "radiusY": 15.0,
+              "centerX": 304.0,
+              "centerY": -306.0,
+              "x1": 284.0,
+              "y1": -321.0,
+              "x2": 324.0,
+              "y2": -291.0
+            },
+            {
+              "radiusX": 18.0,
+              "radiusY": 15.0,
+              "centerX": 225.0,
+              "centerY": -373.0,
+              "x1": 207.0,
+              "y1": -388.0,
+              "x2": 243.0,
+              "y2": -358.0
+            }
+          ],
+          [
+            {
+              "radiusX": 23.0,
+              "radiusY": 24.0,
+              "centerX": 300.0,
+              "centerY": -329.0,
+              "x1": 277.0,
+              "y1": -353.0,
+              "x2": 323.0,
+              "y2": -305.0
+            },
+            {
+              "radiusX": 26.0,
+              "radiusY": 24.0,
+              "centerX": 336.0,
+              "centerY": -344.0,
+              "x1": 310.0,
+              "y1": -368.0,
+              "x2": 362.0,
+              "y2": -320.0
+            },
+            {
+              "radiusX": 15.0,
+              "radiusY": 15.0,
+              "centerX": 278.0,
+              "centerY": -319.0,
+              "x1": 263.0,
+              "y1": -334.0,
+              "x2": 293.0,
+              "y2": -304.0
+            }
+          ]
+        ]
+      },
+      "Side": {
+        "name": "CannonSmashSideBrute",
+        "weapon": "Cannon",
+        "direction": "Side",
+        "powerID": 1359,
+        "isAir": false,
+        "damage": "0,0,5",
+        "stun": 17,
+        "impulse": "0,0,1",
+        "castTime": "15:1@6,0:1@7,2:35@8",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 22.0,
+              "radiusY": 30.0,
+              "centerX": 56.0,
+              "centerY": 26.0,
+              "x1": 34.0,
+              "y1": -4.0,
+              "x2": 78.0,
+              "y2": 56.0
+            },
+            {
+              "radiusX": 15.0,
+              "radiusY": 24.0,
+              "centerX": 34.0,
+              "centerY": 23.0,
+              "x1": 19.0,
+              "y1": -1.0,
+              "x2": 49.0,
+              "y2": 47.0
+            }
+          ]
+        ]
+      },
+      "Down": {
+        "name": "CannonSmashDownBrute",
+        "weapon": "Cannon",
+        "direction": "Down",
+        "powerID": 1399,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0@1,10:1@5,0:7@6",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      }
+    }
+  }
+}

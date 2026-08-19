@@ -1,0 +1,270 @@
+[
+  {
+    "id": 0,
+    "name": "AOT"
+  },
+  {
+    "id": 1,
+    "name": "ATLA"
+  },
+  {
+    "id": 2,
+    "name": "BP11"
+  },
+  {
+    "id": 3,
+    "name": "BP12"
+  },
+  {
+    "id": 4,
+    "name": "BP13"
+  },
+  {
+    "id": 5,
+    "name": "BP5"
+  },
+  {
+    "id": 6,
+    "name": "BP6"
+  },
+  {
+    "id": 7,
+    "name": "BP7"
+  },
+  {
+    "id": 8,
+    "name": "BP8"
+  },
+  {
+    "id": 9,
+    "name": "BP9"
+  },
+  {
+    "id": 10,
+    "name": "Backgrounds"
+  },
+  {
+    "id": 11,
+    "name": "Batavia"
+  },
+  {
+    "id": 12,
+    "name": "BattleHill"
+  },
+  {
+    "id": 13,
+    "name": "Blackguard"
+  },
+  {
+    "id": 14,
+    "name": "BloodMoon"
+  },
+  {
+    "id": 15,
+    "name": "Bombsketball"
+  },
+  {
+    "id": 16,
+    "name": "BrawlFest"
+  },
+  {
+    "id": 17,
+    "name": "Brawlball"
+  },
+  {
+    "id": 18,
+    "name": "Brawlhaven"
+  },
+  {
+    "id": 19,
+    "name": "Buddy"
+  },
+  {
+    "id": 20,
+    "name": "Climb"
+  },
+  {
+    "id": 21,
+    "name": "CrystalTemple"
+  },
+  {
+    "id": 22,
+    "name": "DemonIsland"
+  },
+  {
+    "id": 23,
+    "name": "Dojo"
+  },
+  {
+    "id": 24,
+    "name": "Elysium"
+  },
+  {
+    "id": 25,
+    "name": "Enigma"
+  },
+  {
+    "id": 26,
+    "name": "Fangwild"
+  },
+  {
+    "id": 27,
+    "name": "Fortress"
+  },
+  {
+    "id": 28,
+    "name": "FortressOfWolves"
+  },
+  {
+    "id": 29,
+    "name": "GreatHall"
+  },
+  {
+    "id": 30,
+    "name": "Grove"
+  },
+  {
+    "id": 31,
+    "name": "Halloween"
+  },
+  {
+    "id": 32,
+    "name": "Halo"
+  },
+  {
+    "id": 33,
+    "name": "Horde"
+  },
+  {
+    "id": 34,
+    "name": "HordeTwo"
+  },
+  {
+    "id": 35,
+    "name": "KFP"
+  },
+  {
+    "id": 36,
+    "name": "KingsPass"
+  },
+  {
+    "id": 37,
+    "name": "LostLabyrinth"
+  },
+  {
+    "id": 38,
+    "name": "MiamiDome"
+  },
+  {
+    "id": 39,
+    "name": "MosEisley"
+  },
+  {
+    "id": 40,
+    "name": "Mustafar"
+  },
+  {
+    "id": 41,
+    "name": "NordicWinter"
+  },
+  {
+    "id": 42,
+    "name": "Refinery"
+  },
+  {
+    "id": 43,
+    "name": "Ring"
+  },
+  {
+    "id": 44,
+    "name": "Rooftop"
+  },
+  {
+    "id": 45,
+    "name": "Seven"
+  },
+  {
+    "id": 46,
+    "name": "Sewer"
+  },
+  {
+    "id": 47,
+    "name": "ShipwreckFalls"
+  },
+  {
+    "id": 48,
+    "name": "Snow"
+  },
+  {
+    "id": 49,
+    "name": "Soccer"
+  },
+  {
+    "id": 50,
+    "name": "Soccer4"
+  },
+  {
+    "id": 51,
+    "name": "Space"
+  },
+  {
+    "id": 52,
+    "name": "Spongebob"
+  },
+  {
+    "id": 53,
+    "name": "Stadium"
+  },
+  {
+    "id": 54,
+    "name": "StreetFighter"
+  },
+  {
+    "id": 55,
+    "name": "StreetFighter2"
+  },
+  {
+    "id": 56,
+    "name": "Synthwave"
+  },
+  {
+    "id": 57,
+    "name": "Tekken"
+  },
+  {
+    "id": 58,
+    "name": "Temple"
+  },
+  {
+    "id": 59,
+    "name": "Test"
+  },
+  {
+    "id": 60,
+    "name": "ThreeShips"
+  },
+  {
+    "id": 61,
+    "name": "TitansEnd"
+  },
+  {
+    "id": 62,
+    "name": "TreeHouse"
+  },
+  {
+    "id": 63,
+    "name": "Tutorial"
+  },
+  {
+    "id": 64,
+    "name": "VolleyBattle"
+  },
+  {
+    "id": 65,
+    "name": "WarShuttle"
+  },
+  {
+    "id": 66,
+    "name": "Zombie"
+  }
+]

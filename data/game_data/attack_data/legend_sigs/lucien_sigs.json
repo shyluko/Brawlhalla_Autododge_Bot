@@ -1,0 +1,82 @@
+{
+  "legend": "Lucien",
+  "weapons": [],
+  "signatures": {
+    "Katar": {
+      "Neutral": {
+        "name": "KatarSmashNeutralHighwayman",
+        "weapon": "Katar",
+        "direction": "Neutral",
+        "powerID": 681,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "KatarSmashSideHighwayman",
+        "weapon": "Katar",
+        "direction": "Side",
+        "powerID": 684,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,71",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "KatarSmashDownHighwayman",
+        "weapon": "Katar",
+        "direction": "Down",
+        "powerID": 687,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,71",
+        "hitboxes": []
+      }
+    },
+    "Pistol": {
+      "Neutral": {
+        "name": "PistolSmashNeutralHighwayman",
+        "weapon": "Pistol",
+        "direction": "Neutral",
+        "powerID": 691,
+        "isAir": false,
+        "damage": "0",
+        "stun": 21,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "PistolSmashSideHighwayman",
+        "weapon": "Pistol",
+        "direction": "Side",
+        "powerID": 694,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,71",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "PistolSmashDownHighwayman",
+        "weapon": "Pistol",
+        "direction": "Down",
+        "powerID": 700,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "legend": "Loki",
+  "weapons": [],
+  "signatures": {
+    "Katar": {
+      "Neutral": {
+        "name": "KatarSmashNeutralLoki",
+        "weapon": "Katar",
+        "direction": "Neutral",
+        "powerID": 3200,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0:3@1-3,65",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "KatarSmashSideLoki",
+        "weapon": "Katar",
+        "direction": "Side",
+        "powerID": 3210,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0:10,0:70",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Down": {
+        "name": "KatarSmashDownLoki",
+        "weapon": "Katar",
+        "direction": "Down",
+        "powerID": 3220,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    },
+    "Scythe": {
+      "Neutral": {
+        "name": "ScytheSmashNeutralLoki",
+        "weapon": "Scythe",
+        "direction": "Neutral",
+        "powerID": 3230,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,60",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "ScytheSmashSideLoki",
+        "weapon": "Scythe",
+        "direction": "Side",
+        "powerID": 3240,
+        "isAir": false,
+        "damage": "0",
+        "stun": 5,
+        "impulse": "0",
+        "castTime": "0:1@1,0:2@2,0:4@3,0:4@5,0:60",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Down": {
+        "name": "ScytheSmashDownLoki",
+        "weapon": "Scythe",
+        "direction": "Down",
+        "powerID": 3250,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0:80",
+        "hitboxes": []
+      }
+    }
+  }
+}

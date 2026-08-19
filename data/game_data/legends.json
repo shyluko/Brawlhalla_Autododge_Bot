@@ -1,0 +1,1052 @@
+[
+  {
+    "id": 1,
+    "name": "???",
+    "internalName": "DEFAULT_CHARACTER",
+    "weapons": [
+      "",
+      ""
+    ],
+    "stats": {
+      "strength": 0,
+      "dexterity": 0,
+      "speed": 0,
+      "weight": 0
+    }
+  },
+  {
+    "id": 2,
+    "name": "RANDOM",
+    "internalName": "Random",
+    "weapons": [
+      "",
+      ""
+    ],
+    "stats": {
+      "strength": 0,
+      "dexterity": 0,
+      "speed": 0,
+      "weight": 0
+    }
+  },
+  {
+    "id": 3,
+    "name": "B\u00d6DVAR",
+    "internalName": "Viking",
+    "weapons": [
+      "Hammer",
+      "Sword"
+    ],
+    "stats": {
+      "strength": 6,
+      "dexterity": 6,
+      "speed": 5,
+      "weight": 5
+    }
+  },
+  {
+    "id": 4,
+    "name": "CASSIDY",
+    "internalName": "Cowgirl",
+    "weapons": [
+      "Pistol",
+      "Hammer"
+    ],
+    "stats": {
+      "strength": 6,
+      "dexterity": 8,
+      "speed": 4,
+      "weight": 4
+    }
+  },
+  {
+    "id": 5,
+    "name": "ORION",
+    "internalName": "Valkyrie",
+    "weapons": [
+      "RocketLance",
+      "Spear"
+    ],
+    "stats": {
+      "strength": 4,
+      "dexterity": 6,
+      "speed": 6,
+      "weight": 6
+    }
+  },
+  {
+    "id": 6,
+    "name": "LORD VRAXX",
+    "internalName": "Alien",
+    "weapons": [
+      "RocketLance",
+      "Pistol"
+    ],
+    "stats": {
+      "strength": 4,
+      "dexterity": 8,
+      "speed": 6,
+      "weight": 4
+    }
+  },
+  {
+    "id": 7,
+    "name": "GNASH",
+    "internalName": "Caveman",
+    "weapons": [
+      "Hammer",
+      "Spear"
+    ],
+    "stats": {
+      "strength": 7,
+      "dexterity": 3,
+      "speed": 7,
+      "weight": 5
+    }
+  },
+  {
+    "id": 8,
+    "name": "QUEEN NAI",
+    "internalName": "Witch",
+    "weapons": [
+      "Spear",
+      "Katar"
+    ],
+    "stats": {
+      "strength": 7,
+      "dexterity": 4,
+      "speed": 3,
+      "weight": 8
+    }
+  },
+  {
+    "id": 10,
+    "name": "HATTORI",
+    "internalName": "Ninja",
+    "weapons": [
+      "Sword",
+      "Spear"
+    ],
+    "stats": {
+      "strength": 4,
+      "dexterity": 6,
+      "speed": 8,
+      "weight": 4
+    }
+  },
+  {
+    "id": 11,
+    "name": "SIR ROLAND",
+    "internalName": "Knight",
+    "weapons": [
+      "RocketLance",
+      "Sword"
+    ],
+    "stats": {
+      "strength": 5,
+      "dexterity": 5,
+      "speed": 4,
+      "weight": 8
+    }
+  },
+  {
+    "id": 12,
+    "name": "SCARLET",
+    "internalName": "Steampunk",
+    "weapons": [
+      "Hammer",
+      "RocketLance"
+    ],
+    "stats": {
+      "strength": 8,
+      "dexterity": 5,
+      "speed": 4,
+      "weight": 5
+    }
+  },
+  {
+    "id": 13,
+    "name": "THATCH",
+    "internalName": "Thatch",
+    "weapons": [
+      "Sword",
+      "Pistol"
+    ],
+    "stats": {
+      "strength": 7,
+      "dexterity": 5,
+      "speed": 7,
+      "weight": 3
+    }
+  },
+  {
+    "id": 14,
+    "name": "ADA",
+    "internalName": "Cyber",
+    "weapons": [
+      "Pistol",
+      "Spear"
+    ],
+    "stats": {
+      "strength": 6,
+      "dexterity": 7,
+      "speed": 6,
+      "weight": 3
+    }
+  },
+  {
+    "id": 15,
+    "name": "SENTINEL",
+    "internalName": "Super",
+    "weapons": [
+      "Hammer",
+      "Katar"
+    ],
+    "stats": {
+      "strength": 5,
+      "dexterity": 4,
+      "speed": 6,
+      "weight": 7
+    }
+  },
+  {
+    "id": 9,
+    "name": "LUCIEN",
+    "internalName": "Highwayman",
+    "weapons": [
+      "Katar",
+      "Pistol"
+    ],
+    "stats": {
+      "strength": 3,
+      "dexterity": 5,
+      "speed": 8,
+      "weight": 6
+    }
+  },
+  {
+    "id": 16,
+    "name": "TEROS",
+    "internalName": "Minotaur",
+    "weapons": [
+      "Axe",
+      "Hammer"
+    ],
+    "stats": {
+      "strength": 8,
+      "dexterity": 3,
+      "speed": 5,
+      "weight": 6
+    }
+  },
+  {
+    "id": 19,
+    "name": "BRYNN",
+    "internalName": "ActualValk",
+    "weapons": [
+      "Axe",
+      "Spear"
+    ],
+    "stats": {
+      "strength": 5,
+      "dexterity": 5,
+      "speed": 7,
+      "weight": 5
+    }
+  },
+  {
+    "id": 20,
+    "name": "ASURI",
+    "internalName": "Cat",
+    "weapons": [
+      "Katar",
+      "Sword"
+    ],
+    "stats": {
+      "strength": 4,
+      "dexterity": 7,
+      "speed": 6,
+      "weight": 5
+    }
+  },
+  {
+    "id": 21,
+    "name": "BARRAZA",
+    "internalName": "Apoc",
+    "weapons": [
+      "Axe",
+      "Pistol"
+    ],
+    "stats": {
+      "strength": 6,
+      "dexterity": 4,
+      "speed": 4,
+      "weight": 8
+    }
+  },
+  {
+    "id": 18,
+    "name": "EMBER",
+    "internalName": "Elf",
+    "weapons": [
+      "Bow",
+      "Katar"
+    ],
+    "stats": {
+      "strength": 6,
+      "dexterity": 6,
+      "speed": 7,
+      "weight": 3
+    }
+  },
+  {
+    "id": 23,
+    "name": "AZOTH",
+    "internalName": "Skeleton",
+    "weapons": [
+      "Bow",
+      "Axe"
+    ],
+    "stats": {
+      "strength": 7,
+      "dexterity": 5,
+      "speed": 4,
+      "weight": 6
+    }
+  },
+  {
+    "id": 24,
+    "name": "KOJI",
+    "internalName": "Samurai",
+    "weapons": [
+      "Bow",
+      "Sword"
+    ],
+    "stats": {
+      "strength": 5,
+      "dexterity": 8,
+      "speed": 5,
+      "weight": 4
+    }
+  },
+  {
+    "id": 22,
+    "name": "ULGRIM",
+    "internalName": "Dwarf",
+    "weapons": [
+      "Axe",
+      "RocketLance"
+    ],
+    "stats": {
+      "strength": 6,
+      "dexterity": 3,
+      "speed": 6,
+      "weight": 7
+    }
+  },
+  {
+    "id": 25,
+    "name": "DIANA",
+    "internalName": "Marksman",
+    "weapons": [
+      "Bow",
+      "Pistol"
+    ],
+    "stats": {
+      "strength": 5,
+      "dexterity": 6,
+      "speed": 6,
+      "weight": 5
+    }
+  },
+  {
+    "id": 26,
+    "name": "JHALA",
+    "internalName": "Barbarian",
+    "weapons": [
+      "Axe",
+      "Sword"
+    ],
+    "stats": {
+      "strength": 7,
+      "dexterity": 7,
+      "speed": 5,
+      "weight": 3
+    }
+  },
+  {
+    "id": 28,
+    "name": "KOR",
+    "internalName": "Golem",
+    "weapons": [
+      "Fists",
+      "Hammer"
+    ],
+    "stats": {
+      "strength": 6,
+      "dexterity": 5,
+      "speed": 4,
+      "weight": 7
+    }
+  },
+  {
+    "id": 29,
+    "name": "WU SHANG",
+    "internalName": "Monk",
+    "weapons": [
+      "Fists",
+      "Spear"
+    ],
+    "stats": {
+      "strength": 5,
+      "dexterity": 7,
+      "speed": 5,
+      "weight": 5
+    }
+  },
+  {
+    "id": 30,
+    "name": "VAL",
+    "internalName": "TechnoNinja",
+    "weapons": [
+      "Fists",
+      "Sword"
+    ],
+    "stats": {
+      "strength": 4,
+      "dexterity": 5,
+      "speed": 7,
+      "weight": 6
+    }
+  },
+  {
+    "id": 31,
+    "name": "RAGNIR",
+    "internalName": "Dragon",
+    "weapons": [
+      "Katar",
+      "Axe"
+    ],
+    "stats": {
+      "strength": 5,
+      "dexterity": 6,
+      "speed": 5,
+      "weight": 6
+    }
+  },
+  {
+    "id": 32,
+    "name": "CROSS",
+    "internalName": "Mobster",
+    "weapons": [
+      "Pistol",
+      "Fists"
+    ],
+    "stats": {
+      "strength": 7,
+      "dexterity": 4,
+      "speed": 5,
+      "weight": 6
+    }
+  },
+  {
+    "id": 33,
+    "name": "MIRAGE",
+    "internalName": "Egyptian",
+    "weapons": [
+      "Scythe",
+      "Spear"
+    ],
+    "stats": {
+      "strength": 7,
+      "dexterity": 6,
+      "speed": 5,
+      "weight": 4
+    }
+  },
+  {
+    "id": 34,
+    "name": "NIX",
+    "internalName": "Reaper",
+    "weapons": [
+      "Scythe",
+      "Pistol"
+    ],
+    "stats": {
+      "strength": 4,
+      "dexterity": 5,
+      "speed": 6,
+      "weight": 7
+    }
+  },
+  {
+    "id": 35,
+    "name": "MORDEX",
+    "internalName": "Werewolf",
+    "weapons": [
+      "Scythe",
+      "Fists"
+    ],
+    "stats": {
+      "strength": 6,
+      "dexterity": 4,
+      "speed": 7,
+      "weight": 5
+    }
+  },
+  {
+    "id": 36,
+    "name": "YUMIKO",
+    "internalName": "Ninetails",
+    "weapons": [
+      "Bow",
+      "Hammer"
+    ],
+    "stats": {
+      "strength": 4,
+      "dexterity": 7,
+      "speed": 7,
+      "weight": 4
+    }
+  },
+  {
+    "id": 37,
+    "name": "ARTEMIS",
+    "internalName": "Spacehunter",
+    "weapons": [
+      "RocketLance",
+      "Scythe"
+    ],
+    "stats": {
+      "strength": 5,
+      "dexterity": 5,
+      "speed": 8,
+      "weight": 4
+    }
+  },
+  {
+    "id": 38,
+    "name": "CASPIAN",
+    "internalName": "Thief",
+    "weapons": [
+      "Fists",
+      "Katar"
+    ],
+    "stats": {
+      "strength": 7,
+      "dexterity": 5,
+      "speed": 6,
+      "weight": 4
+    }
+  },
+  {
+    "id": 39,
+    "name": "SIDRA",
+    "internalName": "Corsair",
+    "weapons": [
+      "Cannon",
+      "Sword"
+    ],
+    "stats": {
+      "strength": 6,
+      "dexterity": 4,
+      "speed": 6,
+      "weight": 6
+    }
+  },
+  {
+    "id": 40,
+    "name": "XULL",
+    "internalName": "Brute",
+    "weapons": [
+      "Cannon",
+      "Axe"
+    ],
+    "stats": {
+      "strength": 9,
+      "dexterity": 4,
+      "speed": 4,
+      "weight": 5
+    }
+  },
+  {
+    "id": 42,
+    "name": "KAYA",
+    "internalName": "Inuit",
+    "weapons": [
+      "Spear",
+      "Bow"
+    ],
+    "stats": {
+      "strength": 4,
+      "dexterity": 4,
+      "speed": 7,
+      "weight": 7
+    }
+  },
+  {
+    "id": 41,
+    "name": "ISAIAH",
+    "internalName": "Soldier",
+    "weapons": [
+      "Cannon",
+      "Pistol"
+    ],
+    "stats": {
+      "strength": 5,
+      "dexterity": 6,
+      "speed": 4,
+      "weight": 7
+    }
+  },
+  {
+    "id": 43,
+    "name": "JIRO",
+    "internalName": "Shinobi",
+    "weapons": [
+      "Sword",
+      "Scythe"
+    ],
+    "stats": {
+      "strength": 5,
+      "dexterity": 7,
+      "speed": 7,
+      "weight": 3
+    }
+  },
+  {
+    "id": 44,
+    "name": "LIN FEI",
+    "internalName": "Wuxia",
+    "weapons": [
+      "Katar",
+      "Cannon"
+    ],
+    "stats": {
+      "strength": 3,
+      "dexterity": 8,
+      "speed": 7,
+      "weight": 4
+    }
+  },
+  {
+    "id": 45,
+    "name": "ZARIEL",
+    "internalName": "Celestial",
+    "weapons": [
+      "Fists",
+      "Bow"
+    ],
+    "stats": {
+      "strength": 7,
+      "dexterity": 4,
+      "speed": 4,
+      "weight": 7
+    }
+  },
+  {
+    "id": 46,
+    "name": "RAYMAN",
+    "internalName": "Rayman",
+    "weapons": [
+      "Fists",
+      "Axe"
+    ],
+    "stats": {
+      "strength": 5,
+      "dexterity": 5,
+      "speed": 6,
+      "weight": 6
+    }
+  },
+  {
+    "id": 47,
+    "name": "DUSK",
+    "internalName": "Elfwar",
+    "weapons": [
+      "Spear",
+      "Orb"
+    ],
+    "stats": {
+      "strength": 6,
+      "dexterity": 7,
+      "speed": 5,
+      "weight": 4
+    }
+  },
+  {
+    "id": 48,
+    "name": "FAIT",
+    "internalName": "Spellwitch",
+    "weapons": [
+      "Scythe",
+      "Orb"
+    ],
+    "stats": {
+      "strength": 7,
+      "dexterity": 4,
+      "speed": 7,
+      "weight": 4
+    }
+  },
+  {
+    "id": 49,
+    "name": "THOR",
+    "internalName": "Thor",
+    "weapons": [
+      "Hammer",
+      "Orb"
+    ],
+    "stats": {
+      "strength": 6,
+      "dexterity": 4,
+      "speed": 5,
+      "weight": 7
+    }
+  },
+  {
+    "id": 50,
+    "name": "PETRA",
+    "internalName": "RageFighter",
+    "weapons": [
+      "Fists",
+      "Orb"
+    ],
+    "stats": {
+      "strength": 8,
+      "dexterity": 4,
+      "speed": 6,
+      "weight": 4
+    }
+  },
+  {
+    "id": 51,
+    "name": "VECTOR",
+    "internalName": "ActualRobot",
+    "weapons": [
+      "RocketLance",
+      "Bow"
+    ],
+    "stats": {
+      "strength": 5,
+      "dexterity": 4,
+      "speed": 7,
+      "weight": 6
+    }
+  },
+  {
+    "id": 52,
+    "name": "VOLKOV",
+    "internalName": "VampLord",
+    "weapons": [
+      "Axe",
+      "Scythe"
+    ],
+    "stats": {
+      "strength": 4,
+      "dexterity": 8,
+      "speed": 4,
+      "weight": 6
+    }
+  },
+  {
+    "id": 53,
+    "name": "ONYX",
+    "internalName": "Gargoyle",
+    "weapons": [
+      "Fists",
+      "Cannon"
+    ],
+    "stats": {
+      "strength": 5,
+      "dexterity": 4,
+      "speed": 5,
+      "weight": 8
+    }
+  },
+  {
+    "id": 54,
+    "name": "JAEYUN",
+    "internalName": "Sellsword",
+    "weapons": [
+      "Sword",
+      "Greatsword"
+    ],
+    "stats": {
+      "strength": 6,
+      "dexterity": 5,
+      "speed": 6,
+      "weight": 5
+    }
+  },
+  {
+    "id": 55,
+    "name": "MAKO",
+    "internalName": "ActualShark",
+    "weapons": [
+      "Katar",
+      "Greatsword"
+    ],
+    "stats": {
+      "strength": 6,
+      "dexterity": 4,
+      "speed": 8,
+      "weight": 4
+    }
+  },
+  {
+    "id": 56,
+    "name": "MAGYAR",
+    "internalName": "GhostArmor",
+    "weapons": [
+      "Hammer",
+      "Greatsword"
+    ],
+    "stats": {
+      "strength": 5,
+      "dexterity": 4,
+      "speed": 4,
+      "weight": 9
+    }
+  },
+  {
+    "id": 57,
+    "name": "RENO",
+    "internalName": "BountyHunter",
+    "weapons": [
+      "Pistol",
+      "Orb"
+    ],
+    "stats": {
+      "strength": 4,
+      "dexterity": 7,
+      "speed": 5,
+      "weight": 6
+    }
+  },
+  {
+    "id": 58,
+    "name": "MUNIN",
+    "internalName": "BirdBard",
+    "weapons": [
+      "Bow",
+      "Scythe"
+    ],
+    "stats": {
+      "strength": 5,
+      "dexterity": 6,
+      "speed": 7,
+      "weight": 4
+    }
+  },
+  {
+    "id": 59,
+    "name": "ARCADIA",
+    "internalName": "FairyQueen",
+    "weapons": [
+      "Spear",
+      "Greatsword"
+    ],
+    "stats": {
+      "strength": 7,
+      "dexterity": 7,
+      "speed": 4,
+      "weight": 4
+    }
+  },
+  {
+    "id": 60,
+    "name": "EZIO",
+    "internalName": "Ezio",
+    "weapons": [
+      "Sword",
+      "Orb"
+    ],
+    "stats": {
+      "strength": 5,
+      "dexterity": 7,
+      "speed": 6,
+      "weight": 4
+    }
+  },
+  {
+    "id": 63,
+    "name": "TEZCA",
+    "internalName": "Luchador",
+    "weapons": [
+      "Boots",
+      "Fists"
+    ],
+    "stats": {
+      "strength": 7,
+      "dexterity": 5,
+      "speed": 5,
+      "weight": 5
+    }
+  },
+  {
+    "id": 62,
+    "name": "THEA",
+    "internalName": "GreekSpeedster",
+    "weapons": [
+      "Boots",
+      "RocketLance"
+    ],
+    "stats": {
+      "strength": 4,
+      "dexterity": 6,
+      "speed": 9,
+      "weight": 3
+    }
+  },
+  {
+    "id": 17,
+    "name": "RED RAPTOR",
+    "internalName": "Sentai",
+    "weapons": [
+      "Boots",
+      "Orb"
+    ],
+    "stats": {
+      "strength": 6,
+      "dexterity": 6,
+      "speed": 6,
+      "weight": 4
+    }
+  },
+  {
+    "id": 27,
+    "name": "LOKI",
+    "internalName": "Loki",
+    "weapons": [
+      "Katar",
+      "Scythe"
+    ],
+    "stats": {
+      "strength": 4,
+      "dexterity": 8,
+      "speed": 5,
+      "weight": 5
+    }
+  },
+  {
+    "id": 61,
+    "name": "SEVEN",
+    "internalName": "Roboengineer",
+    "weapons": [
+      "Spear",
+      "Cannon"
+    ],
+    "stats": {
+      "strength": 7,
+      "dexterity": 3,
+      "speed": 4,
+      "weight": 8
+    }
+  },
+  {
+    "id": 64,
+    "name": "VIVI",
+    "internalName": "Assassin",
+    "weapons": [
+      "Boots",
+      "Pistol"
+    ],
+    "stats": {
+      "strength": 6,
+      "dexterity": 5,
+      "speed": 7,
+      "weight": 4
+    }
+  },
+  {
+    "id": 65,
+    "name": "IMUGI",
+    "internalName": "Imugi",
+    "weapons": [
+      "Axe",
+      "Greatsword"
+    ],
+    "stats": {
+      "strength": 8,
+      "dexterity": 3,
+      "speed": 3,
+      "weight": 8
+    }
+  },
+  {
+    "id": 66,
+    "name": "KING ZUVA",
+    "internalName": "AfricanKing",
+    "weapons": [
+      "Hammer",
+      "Boots"
+    ],
+    "stats": {
+      "strength": 8,
+      "dexterity": 4,
+      "speed": 4,
+      "weight": 6
+    }
+  },
+  {
+    "id": 67,
+    "name": "PRIYA",
+    "internalName": "BladeDancer",
+    "weapons": [
+      "Chakram",
+      "Sword"
+    ],
+    "stats": {
+      "strength": 4,
+      "dexterity": 6,
+      "speed": 7,
+      "weight": 5
+    }
+  },
+  {
+    "id": 68,
+    "name": "RANSOM",
+    "internalName": "CyberVirus",
+    "weapons": [
+      "Chakram",
+      "Bow"
+    ],
+    "stats": {
+      "strength": 7,
+      "dexterity": 4,
+      "speed": 8,
+      "weight": 3
+    }
+  },
+  {
+    "id": 69,
+    "name": "LADY VERA",
+    "internalName": "Cleric",
+    "weapons": [
+      "Chakram",
+      "Scythe"
+    ],
+    "stats": {
+      "strength": 3,
+      "dexterity": 7,
+      "speed": 4,
+      "weight": 8
+    }
+  },
+  {
+    "id": 70,
+    "name": "RUPTURE",
+    "internalName": "DarkheartMonster",
+    "weapons": [
+      "Katar",
+      "RocketLance"
+    ],
+    "stats": {
+      "strength": 9,
+      "dexterity": 3,
+      "speed": 5,
+      "weight": 5
+    }
+  }
+]

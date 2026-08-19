@@ -1,0 +1,258 @@
+{
+  "legend": "Mako",
+  "weapons": [],
+  "signatures": {
+    "Greatsword": {
+      "Neutral": {
+        "name": "GreatswordSmashNeutralActualShark",
+        "weapon": "Greatsword",
+        "direction": "Neutral",
+        "powerID": 2272,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "GreatswordSmashSideActualShark",
+        "weapon": "Greatsword",
+        "direction": "Side",
+        "powerID": 2278,
+        "isAir": false,
+        "damage": "t1",
+        "stun": 25,
+        "impulse": "70",
+        "castTime": "16:2,0:1,0:2,0:2,0:4,0:4,0:4,0:4",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 30.0,
+              "radiusY": 49.0,
+              "centerX": 107.0,
+              "centerY": 26.0,
+              "x1": 77.0,
+              "y1": -23.0,
+              "x2": 137.0,
+              "y2": 75.0
+            }
+          ],
+          [
+            {
+              "radiusX": 30.0,
+              "radiusY": 49.0,
+              "centerX": 107.0,
+              "centerY": 26.0,
+              "x1": 77.0,
+              "y1": -23.0,
+              "x2": 137.0,
+              "y2": 75.0
+            },
+            {
+              "radiusX": 19.0,
+              "radiusY": 39.0,
+              "centerX": 82.0,
+              "centerY": 37.0,
+              "x1": 63.0,
+              "y1": -2.0,
+              "x2": 101.0,
+              "y2": 76.0
+            }
+          ],
+          [
+            {
+              "radiusX": 45.0,
+              "radiusY": 50.0,
+              "centerX": 81.0,
+              "centerY": 26.0,
+              "x1": 36.0,
+              "y1": -24.0,
+              "x2": 126.0,
+              "y2": 76.0
+            }
+          ],
+          [
+            {
+              "radiusX": 50.0,
+              "radiusY": 50.0,
+              "centerX": 78.0,
+              "centerY": 26.0,
+              "x1": 28.0,
+              "y1": -24.0,
+              "x2": 128.0,
+              "y2": 76.0
+            }
+          ],
+          [
+            {
+              "radiusX": 78.0,
+              "radiusY": 51.0,
+              "centerX": 74.0,
+              "centerY": 30.0,
+              "x1": -4.0,
+              "y1": -21.0,
+              "x2": 152.0,
+              "y2": 81.0
+            }
+          ],
+          [
+            {
+              "radiusX": 80.0,
+              "radiusY": 51.0,
+              "centerX": 76.0,
+              "centerY": 30.0,
+              "x1": -4.0,
+              "y1": -21.0,
+              "x2": 156.0,
+              "y2": 81.0
+            }
+          ],
+          [
+            {
+              "radiusX": 80.0,
+              "radiusY": 51.0,
+              "centerX": 80.0,
+              "centerY": 30.0,
+              "x1": 0.0,
+              "y1": -21.0,
+              "x2": 160.0,
+              "y2": 81.0
+            }
+          ],
+          [
+            {
+              "radiusX": 80.0,
+              "radiusY": 51.0,
+              "centerX": 80.0,
+              "centerY": 30.0,
+              "x1": 0.0,
+              "y1": -21.0,
+              "x2": 160.0,
+              "y2": 81.0
+            }
+          ]
+        ]
+      },
+      "Down": {
+        "name": "GreatswordSmashDownActualShark",
+        "weapon": "Greatsword",
+        "direction": "Down",
+        "powerID": 2287,
+        "isAir": false,
+        "damage": "0,4,4,4",
+        "stun": 20,
+        "impulse": "0,50,50,50",
+        "castTime": "11:3@4,0:1,0:2@6,0:24",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ],
+          [
+            {
+              "radiusX": 68.0,
+              "radiusY": 53.0,
+              "centerX": 16.0,
+              "centerY": 27.0,
+              "x1": -52.0,
+              "y1": -26.0,
+              "x2": 84.0,
+              "y2": 80.0
+            }
+          ],
+          [
+            {
+              "radiusX": 69.0,
+              "radiusY": 60.0,
+              "centerX": 15.0,
+              "centerY": 22.0,
+              "x1": -54.0,
+              "y1": -38.0,
+              "x2": 84.0,
+              "y2": 82.0
+            }
+          ],
+          [
+            {
+              "radiusX": 74.0,
+              "radiusY": 60.0,
+              "centerX": 18.0,
+              "centerY": 22.0,
+              "x1": -56.0,
+              "y1": -38.0,
+              "x2": 92.0,
+              "y2": 82.0
+            },
+            {
+              "radiusX": 44.0,
+              "radiusY": 42.0,
+              "centerX": -32.0,
+              "centerY": 12.0,
+              "x1": -76.0,
+              "y1": -30.0,
+              "x2": 12.0,
+              "y2": 54.0
+            },
+            {
+              "radiusX": 30.0,
+              "radiusY": 33.0,
+              "centerX": 76.0,
+              "centerY": 9.0,
+              "x1": 46.0,
+              "y1": -24.0,
+              "x2": 106.0,
+              "y2": 42.0
+            }
+          ]
+        ]
+      }
+    },
+    "Katar": {
+      "Neutral": {
+        "name": "KatarSmashNeutralActualShark",
+        "weapon": "Katar",
+        "direction": "Neutral",
+        "powerID": 2291,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "KatarSmashSideActualShark",
+        "weapon": "Katar",
+        "direction": "Side",
+        "powerID": 2299,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "10:40",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "KatarSmashDownActualShark",
+        "weapon": "Katar",
+        "direction": "Down",
+        "powerID": 2304,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      }
+    }
+  }
+}

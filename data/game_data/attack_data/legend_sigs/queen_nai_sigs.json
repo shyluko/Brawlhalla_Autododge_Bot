@@ -1,0 +1,82 @@
+{
+  "legend": "Queen Nai",
+  "weapons": [],
+  "signatures": {
+    "Spear": {
+      "Neutral": {
+        "name": "SpearSmashNeutralWitch",
+        "weapon": "Spear",
+        "direction": "Neutral",
+        "powerID": 554,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:3,75",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "SpearSmashSideWitch",
+        "weapon": "Spear",
+        "direction": "Side",
+        "powerID": 556,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,6,78",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "SpearSmashDownWitch",
+        "weapon": "Spear",
+        "direction": "Down",
+        "powerID": 558,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,68",
+        "hitboxes": []
+      }
+    },
+    "Katar": {
+      "Neutral": {
+        "name": "KatarSmashNeutralWitch",
+        "weapon": "Katar",
+        "direction": "Neutral",
+        "powerID": 561,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,78",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "KatarSmashSideWitch",
+        "weapon": "Katar",
+        "direction": "Side",
+        "powerID": 564,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "KatarSmashDownWitch",
+        "weapon": "Katar",
+        "direction": "Down",
+        "powerID": 566,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      }
+    }
+  }
+}

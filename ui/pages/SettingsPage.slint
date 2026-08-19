@@ -1,0 +1,55 @@
+import { Button, CheckBox, LineEdit, Slider, VerticalBox, HorizontalBox } from "std-widgets.slint";
+
+export component SettingsPage inherits VerticalBox {
+    in-out property <string> settings-search: "";
+    in-out property <bool> auto-recover: true;
+    in-out property <bool> safe-mode: true;
+    in-out property <bool> process-watchdog: true;
+    in-out property <bool> adaptive-polling: true;
+    in-out property <bool> frame-skip: false;
+    in-out property <bool> sound-notifications: true;
+    in-out property <bool> minimize-to-tray: true;
+    in-out property <float> ui-scale: 1.0;
+    in property <string> ui-scale-label: "100%";
+
+    callback auto-recover-changed(bool);
+    callback safe-mode-changed(bool);
+    callback process-watchdog-changed(bool);
+    callback adaptive-polling-changed(bool);
+    callback frame-skip-changed(bool);
+    callback sound-notifications-changed(bool);
+    callback minimize-to-tray-changed(bool);
+    callback ui-scale-changed(float);
+    callback save-config();
+    callback reset-settings();
+    callback open-logs();
+    callback open-config();
+
+    function matches(label: string) -> bool {
+        return root.settings-search == "" || label.contains(root.settings-search);
+    }
+
+    Text { text: "Search settings"; color: #9098a3; }
+    LineEdit { text <=> root.settings-search; placeholder-text: "hook, sound, polling…"; }
+
+    if root.matches("auto-recover hook"): CheckBox { text: "Auto-recover hook"; checked: root.auto-recover; toggled => { root.auto-recover = self.checked; root.auto-recover-changed(self.checked); } }
+    if root.matches("safe mode"): CheckBox { text: "Pause decisions when identification or validation fails"; checked: root.safe-mode; toggled => { root.safe-mode = self.checked; root.safe-mode-changed(self.checked); } }
+    if root.matches("process watchdog"): CheckBox { text: "Process watchdog"; checked: root.process-watchdog; toggled => { root.process-watchdog = self.checked; root.process-watchdog-changed(self.checked); } }
+    if root.matches("adaptive polling"): CheckBox { text: "Adaptive polling"; checked: root.adaptive-polling; toggled => { root.adaptive-polling = self.checked; root.adaptive-polling-changed(self.checked); } }
+    if root.matches("frame skip"): CheckBox { text: "Frame skip"; checked: root.frame-skip; toggled => { root.frame-skip = self.checked; root.frame-skip-changed(self.checked); } }
+    if root.matches("sound"): CheckBox { text: "Sound notifications"; checked: root.sound-notifications; toggled => { root.sound-notifications = self.checked; root.sound-notifications-changed(self.checked); } }
+    if root.matches("tray"): CheckBox { text: "Minimize to tray"; checked: root.minimize-to-tray; toggled => { root.minimize-to-tray = self.checked; root.minimize-to-tray-changed(self.checked); } }
+    if root.matches("ui scale"): VerticalBox {
+        Text { text: "UI scale: " + root.ui-scale-label; }
+        Slider { minimum: 75; maximum: 150; value: root.ui-scale * 100; changed(value) => { root.ui-scale = value / 100; root.ui-scale-changed(value / 100); } }
+    }
+
+    HorizontalBox {
+        Button { text: "Save config"; clicked => { root.save-config(); } }
+        Button { text: "Reset these defaults"; clicked => { root.reset-settings(); } }
+    }
+    HorizontalBox {
+        Button { text: "Open logs folder"; clicked => { root.open-logs(); } }
+        Button { text: "Open config folder"; clicked => { root.open-config(); } }
+    }
+}

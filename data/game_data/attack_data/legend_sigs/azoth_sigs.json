@@ -1,0 +1,82 @@
+{
+  "legend": "Azoth",
+  "weapons": [],
+  "signatures": {
+    "Axe": {
+      "Neutral": {
+        "name": "AxeSmashNeutralSkeleton",
+        "weapon": "Axe",
+        "direction": "Neutral",
+        "powerID": 846,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:13,66",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "AxeSmashSideSkeleton",
+        "weapon": "Axe",
+        "direction": "Side",
+        "powerID": 851,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "2:8@3,0@9,62@31",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "AxeSmashDownSkeleton",
+        "weapon": "Axe",
+        "direction": "Down",
+        "powerID": 856,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0@1,84",
+        "hitboxes": []
+      }
+    },
+    "Bow": {
+      "Neutral": {
+        "name": "BowSmashNeutralSkeleton",
+        "weapon": "Bow",
+        "direction": "Neutral",
+        "powerID": 862,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "13@12,57",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "BowSmashSideSkeleton",
+        "weapon": "Bow",
+        "direction": "Side",
+        "powerID": 865,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "21@9,72@33",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "BowSmashDownSkeleton",
+        "weapon": "Bow",
+        "direction": "Down",
+        "powerID": 867,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "4,12,62",
+        "hitboxes": []
+      }
+    }
+  }
+}

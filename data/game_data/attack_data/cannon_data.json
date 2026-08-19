@@ -1,0 +1,990 @@
+{
+  "NLight": {
+    "name": "CannonNeutral",
+    "displayName": "NLight",
+    "powerID": 2124,
+    "isAir": false,
+    "damage": "0,6,6",
+    "stun": 29,
+    "impulse": "0,105,105",
+    "castTime": "4@3,5:3@6,0:3@7-7",
+    "hurtboxRef": "CannonNLight",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 0.0,
+          "radiusY": 0.0,
+          "centerX": 0.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 0.0,
+          "y2": 0.0
+        }
+      ],
+      [
+        {
+          "radiusX": 84.0,
+          "radiusY": 35.0,
+          "centerX": 143.0,
+          "centerY": 5.0,
+          "x1": 59.0,
+          "y1": -30.0,
+          "x2": 227.0,
+          "y2": 40.0
+        }
+      ],
+      [
+        {
+          "radiusX": 93.0,
+          "radiusY": 35.0,
+          "centerX": 208.0,
+          "centerY": 7.0,
+          "x1": 115.0,
+          "y1": -28.0,
+          "x2": 301.0,
+          "y2": 42.0
+        }
+      ]
+    ]
+  },
+  "NLight3": {
+    "name": "CannonNeutralHit",
+    "displayName": "NLight3",
+    "powerID": 2125,
+    "isAir": false,
+    "damage": "0",
+    "stun": 0,
+    "impulse": "0",
+    "castTime": "0,5:2@3,0:8@4-8",
+    "hurtboxRef": "CannonNLight2",
+    "hitboxes": []
+  },
+  "SLight": {
+    "name": "CannonSide",
+    "displayName": "SLight",
+    "powerID": 2128,
+    "isAir": false,
+    "damage": "0,0,15,15,0,0,0",
+    "stun": 0,
+    "impulse": "0,0,115,105,0,0,0",
+    "castTime": "6:1@3,0:2@4,0:1@5,0:3@6,0:3@7,0:2@8,0@9",
+    "hurtboxRef": "CannonSLight",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 80.0,
+          "radiusY": 80.0,
+          "centerX": 80.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": -80.0,
+          "x2": 160.0,
+          "y2": 80.0
+        }
+      ],
+      [
+        {
+          "radiusX": 80.0,
+          "radiusY": 80.0,
+          "centerX": 80.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": -80.0,
+          "x2": 160.0,
+          "y2": 80.0
+        }
+      ],
+      [
+        {
+          "radiusX": 46.0,
+          "radiusY": 72.0,
+          "centerX": 203.0,
+          "centerY": -81.0,
+          "x1": 157.0,
+          "y1": -153.0,
+          "x2": 249.0,
+          "y2": -9.0
+        },
+        {
+          "radiusX": 68.0,
+          "radiusY": 69.0,
+          "centerX": 160.0,
+          "centerY": -29.0,
+          "x1": 92.0,
+          "y1": -98.0,
+          "x2": 228.0,
+          "y2": 40.0
+        },
+        {
+          "radiusX": 42.0,
+          "radiusY": 42.0,
+          "centerX": 121.0,
+          "centerY": 17.0,
+          "x1": 79.0,
+          "y1": -25.0,
+          "x2": 163.0,
+          "y2": 59.0
+        }
+      ],
+      [
+        {
+          "radiusX": 45.0,
+          "radiusY": 51.0,
+          "centerX": 157.0,
+          "centerY": -124.0,
+          "x1": 112.0,
+          "y1": -175.0,
+          "x2": 202.0,
+          "y2": -73.0
+        },
+        {
+          "radiusX": 49.0,
+          "radiusY": 50.0,
+          "centerX": 121.0,
+          "centerY": -153.0,
+          "x1": 72.0,
+          "y1": -203.0,
+          "x2": 170.0,
+          "y2": -103.0
+        },
+        {
+          "radiusX": 34.0,
+          "radiusY": 51.0,
+          "centerX": 190.0,
+          "centerY": -81.0,
+          "x1": 156.0,
+          "y1": -132.0,
+          "x2": 224.0,
+          "y2": -30.0
+        }
+      ],
+      [
+        {
+          "radiusX": 40.0,
+          "radiusY": 41.0,
+          "centerX": 316.0,
+          "centerY": -185.0,
+          "x1": 276.0,
+          "y1": -226.0,
+          "x2": 356.0,
+          "y2": -144.0
+        },
+        {
+          "radiusX": 32.0,
+          "radiusY": 31.0,
+          "centerX": 276.0,
+          "centerY": -140.0,
+          "x1": 244.0,
+          "y1": -171.0,
+          "x2": 308.0,
+          "y2": -109.0
+        },
+        {
+          "radiusX": 31.0,
+          "radiusY": 31.0,
+          "centerX": 240.0,
+          "centerY": -99.0,
+          "x1": 209.0,
+          "y1": -130.0,
+          "x2": 271.0,
+          "y2": -68.0
+        }
+      ],
+      [
+        {
+          "radiusX": 80.0,
+          "radiusY": 80.0,
+          "centerX": 80.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": -80.0,
+          "x2": 160.0,
+          "y2": 80.0
+        }
+      ],
+      [
+        {
+          "radiusX": 80.0,
+          "radiusY": 80.0,
+          "centerX": 80.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": -80.0,
+          "x2": 160.0,
+          "y2": 80.0
+        }
+      ]
+    ]
+  },
+  "DLight": {
+    "name": "CannonDown",
+    "displayName": "DLight",
+    "powerID": 1117,
+    "isAir": false,
+    "damage": "0,0,0,0,10,10,0,0,0",
+    "stun": 30,
+    "impulse": "0,0,0,0,150,150,0,0,0",
+    "castTime": "1:1@2,0:1@3,0:2@4,0:4@5-6,0:2@7,0:2@8-8,0:2@9,1:1@10,2:1@11",
+    "hurtboxRef": "CannonDLight",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 46.0,
+          "radiusY": 45.0,
+          "centerX": 31.0,
+          "centerY": 56.0,
+          "x1": -15.0,
+          "y1": 11.0,
+          "x2": 77.0,
+          "y2": 101.0
+        }
+      ],
+      [
+        {
+          "radiusX": 46.0,
+          "radiusY": 45.0,
+          "centerX": 31.0,
+          "centerY": 56.0,
+          "x1": -15.0,
+          "y1": 11.0,
+          "x2": 77.0,
+          "y2": 101.0
+        }
+      ],
+      [
+        {
+          "radiusX": 46.0,
+          "radiusY": 45.0,
+          "centerX": 31.0,
+          "centerY": 56.0,
+          "x1": -15.0,
+          "y1": 11.0,
+          "x2": 77.0,
+          "y2": 101.0
+        }
+      ],
+      [
+        {
+          "radiusX": 46.0,
+          "radiusY": 45.0,
+          "centerX": 31.0,
+          "centerY": 56.0,
+          "x1": -15.0,
+          "y1": 11.0,
+          "x2": 77.0,
+          "y2": 101.0
+        }
+      ],
+      [
+        {
+          "radiusX": 112.0,
+          "radiusY": 21.0,
+          "centerX": 96.0,
+          "centerY": 52.0,
+          "x1": -16.0,
+          "y1": 31.0,
+          "x2": 208.0,
+          "y2": 73.0
+        },
+        {
+          "radiusX": 17.0,
+          "radiusY": 15.0,
+          "centerX": 202.0,
+          "centerY": 52.0,
+          "x1": 185.0,
+          "y1": 37.0,
+          "x2": 219.0,
+          "y2": 67.0
+        },
+        {
+          "radiusX": 95.0,
+          "radiusY": 39.0,
+          "centerX": 98.0,
+          "centerY": 18.0,
+          "x1": 3.0,
+          "y1": -21.0,
+          "x2": 193.0,
+          "y2": 57.0
+        },
+        {
+          "radiusX": 97.0,
+          "radiusY": 36.0,
+          "centerX": 85.0,
+          "centerY": -19.0,
+          "x1": -12.0,
+          "y1": -55.0,
+          "x2": 182.0,
+          "y2": 17.0
+        }
+      ],
+      [
+        {
+          "radiusX": 118.0,
+          "radiusY": 15.0,
+          "centerX": 107.0,
+          "centerY": 61.0,
+          "x1": -11.0,
+          "y1": 46.0,
+          "x2": 225.0,
+          "y2": 76.0
+        },
+        {
+          "radiusX": 19.0,
+          "radiusY": 15.0,
+          "centerX": 211.0,
+          "centerY": 51.0,
+          "x1": 192.0,
+          "y1": 36.0,
+          "x2": 230.0,
+          "y2": 66.0
+        },
+        {
+          "radiusX": 105.0,
+          "radiusY": 26.0,
+          "centerX": 109.0,
+          "centerY": 35.0,
+          "x1": 4.0,
+          "y1": 9.0,
+          "x2": 214.0,
+          "y2": 61.0
+        }
+      ],
+      [
+        {
+          "radiusX": 169.0,
+          "radiusY": 21.0,
+          "centerX": 114.0,
+          "centerY": 67.0,
+          "x1": -55.0,
+          "y1": 46.0,
+          "x2": 283.0,
+          "y2": 88.0
+        },
+        {
+          "radiusX": 153.0,
+          "radiusY": 24.0,
+          "centerX": 116.0,
+          "centerY": 37.0,
+          "x1": -37.0,
+          "y1": 13.0,
+          "x2": 269.0,
+          "y2": 61.0
+        },
+        {
+          "radiusX": 111.0,
+          "radiusY": 39.0,
+          "centerX": 114.0,
+          "centerY": 22.0,
+          "x1": 3.0,
+          "y1": -17.0,
+          "x2": 225.0,
+          "y2": 61.0
+        },
+        {
+          "radiusX": 82.0,
+          "radiusY": 27.0,
+          "centerX": 112.0,
+          "centerY": -11.0,
+          "x1": 30.0,
+          "y1": -38.0,
+          "x2": 194.0,
+          "y2": 16.0
+        }
+      ],
+      [
+        {
+          "radiusX": 169.0,
+          "radiusY": 21.0,
+          "centerX": 114.0,
+          "centerY": 67.0,
+          "x1": -55.0,
+          "y1": 46.0,
+          "x2": 283.0,
+          "y2": 88.0
+        },
+        {
+          "radiusX": 153.0,
+          "radiusY": 24.0,
+          "centerX": 116.0,
+          "centerY": 37.0,
+          "x1": -37.0,
+          "y1": 13.0,
+          "x2": 269.0,
+          "y2": 61.0
+        },
+        {
+          "radiusX": 111.0,
+          "radiusY": 39.0,
+          "centerX": 114.0,
+          "centerY": 22.0,
+          "x1": 3.0,
+          "y1": -17.0,
+          "x2": 225.0,
+          "y2": 61.0
+        },
+        {
+          "radiusX": 82.0,
+          "radiusY": 27.0,
+          "centerX": 112.0,
+          "centerY": -11.0,
+          "x1": 30.0,
+          "y1": -38.0,
+          "x2": 194.0,
+          "y2": 16.0
+        }
+      ],
+      [
+        {
+          "radiusX": 169.0,
+          "radiusY": 21.0,
+          "centerX": 114.0,
+          "centerY": 67.0,
+          "x1": -55.0,
+          "y1": 46.0,
+          "x2": 283.0,
+          "y2": 88.0
+        },
+        {
+          "radiusX": 153.0,
+          "radiusY": 24.0,
+          "centerX": 116.0,
+          "centerY": 37.0,
+          "x1": -37.0,
+          "y1": 13.0,
+          "x2": 269.0,
+          "y2": 61.0
+        },
+        {
+          "radiusX": 111.0,
+          "radiusY": 39.0,
+          "centerX": 114.0,
+          "centerY": 22.0,
+          "x1": 3.0,
+          "y1": -17.0,
+          "x2": 225.0,
+          "y2": 61.0
+        },
+        {
+          "radiusX": 82.0,
+          "radiusY": 27.0,
+          "centerX": 112.0,
+          "centerY": -11.0,
+          "x1": 30.0,
+          "y1": -38.0,
+          "x2": 194.0,
+          "y2": 16.0
+        }
+      ]
+    ]
+  },
+  "DLight2": {
+    "name": "CannonDownHit",
+    "displayName": "DLight2",
+    "powerID": 1118,
+    "isAir": false,
+    "damage": "",
+    "stun": 0,
+    "impulse": "",
+    "castTime": "0:1@12-13",
+    "hurtboxRef": "CannonDLight",
+    "hitboxes": []
+  },
+  "NAir": {
+    "name": "CannonAir",
+    "displayName": "NAir",
+    "powerID": 1120,
+    "isAir": true,
+    "damage": "16,16,0",
+    "stun": 25,
+    "impulse": "38,38,0",
+    "castTime": "13:1@4,0:2@4,0:1@5-5",
+    "hurtboxRef": "CannonNAir",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 69.0,
+          "radiusY": 37.0,
+          "centerX": 16.0,
+          "centerY": -214.0,
+          "x1": -53.0,
+          "y1": -251.0,
+          "x2": 85.0,
+          "y2": -177.0
+        },
+        {
+          "radiusX": 59.0,
+          "radiusY": 34.0,
+          "centerX": 1.0,
+          "centerY": -172.0,
+          "x1": -58.0,
+          "y1": -206.0,
+          "x2": 60.0,
+          "y2": -138.0
+        },
+        {
+          "radiusX": 47.0,
+          "radiusY": 42.0,
+          "centerX": 3.0,
+          "centerY": -263.0,
+          "x1": -44.0,
+          "y1": -305.0,
+          "x2": 50.0,
+          "y2": -221.0
+        },
+        {
+          "radiusX": 32.0,
+          "radiusY": 31.0,
+          "centerX": 73.0,
+          "centerY": -224.0,
+          "x1": 41.0,
+          "y1": -255.0,
+          "x2": 105.0,
+          "y2": -193.0
+        }
+      ],
+      [
+        {
+          "radiusX": 71.0,
+          "radiusY": 31.0,
+          "centerX": 22.0,
+          "centerY": -274.0,
+          "x1": -49.0,
+          "y1": -305.0,
+          "x2": 93.0,
+          "y2": -243.0
+        },
+        {
+          "radiusX": 98.0,
+          "radiusY": 48.0,
+          "centerX": 14.0,
+          "centerY": -235.0,
+          "x1": -84.0,
+          "y1": -283.0,
+          "x2": 112.0,
+          "y2": -187.0
+        },
+        {
+          "radiusX": 73.0,
+          "radiusY": 40.0,
+          "centerX": 40.0,
+          "centerY": -197.0,
+          "x1": -33.0,
+          "y1": -237.0,
+          "x2": 113.0,
+          "y2": -157.0
+        }
+      ],
+      [
+        {
+          "radiusX": 82.0,
+          "radiusY": 49.0,
+          "centerX": 27.0,
+          "centerY": -247.0,
+          "x1": -55.0,
+          "y1": -296.0,
+          "x2": 109.0,
+          "y2": -198.0
+        },
+        {
+          "radiusX": 89.0,
+          "radiusY": 63.0,
+          "centerX": 23.0,
+          "centerY": -211.0,
+          "x1": -66.0,
+          "y1": -274.0,
+          "x2": 112.0,
+          "y2": -148.0
+        }
+      ]
+    ]
+  },
+  "SAir": {
+    "name": "CannonAirSide",
+    "displayName": "SAir",
+    "powerID": 1124,
+    "isAir": true,
+    "damage": "0,1,t2,t1",
+    "stun": 19,
+    "impulse": "0,140,140,140",
+    "castTime": "8:5@5,0@7,0:2@7,0:1@8",
+    "hurtboxRef": "CannonSAir",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 32.0,
+          "radiusY": 56.0,
+          "centerX": 167.0,
+          "centerY": -18.0,
+          "x1": 135.0,
+          "y1": -74.0,
+          "x2": 199.0,
+          "y2": 38.0
+        },
+        {
+          "radiusX": 36.0,
+          "radiusY": 41.0,
+          "centerX": 120.0,
+          "centerY": -21.0,
+          "x1": 84.0,
+          "y1": -62.0,
+          "x2": 156.0,
+          "y2": 20.0
+        }
+      ],
+      [
+        {
+          "radiusX": 30.0,
+          "radiusY": 48.0,
+          "centerX": 165.0,
+          "centerY": -18.0,
+          "x1": 135.0,
+          "y1": -66.0,
+          "x2": 195.0,
+          "y2": 30.0
+        },
+        {
+          "radiusX": 56.0,
+          "radiusY": 32.0,
+          "centerX": 99.0,
+          "centerY": -21.0,
+          "x1": 43.0,
+          "y1": -53.0,
+          "x2": 155.0,
+          "y2": 11.0
+        }
+      ],
+      [
+        {
+          "radiusX": 30.0,
+          "radiusY": 45.0,
+          "centerX": 165.0,
+          "centerY": -21.0,
+          "x1": 135.0,
+          "y1": -66.0,
+          "x2": 195.0,
+          "y2": 24.0
+        },
+        {
+          "radiusX": 36.0,
+          "radiusY": 41.0,
+          "centerX": 120.0,
+          "centerY": -21.0,
+          "x1": 84.0,
+          "y1": -62.0,
+          "x2": 156.0,
+          "y2": 20.0
+        }
+      ],
+      [
+        {
+          "radiusX": 37.0,
+          "radiusY": 45.0,
+          "centerX": 138.0,
+          "centerY": -21.0,
+          "x1": 101.0,
+          "y1": -66.0,
+          "x2": 175.0,
+          "y2": 24.0
+        },
+        {
+          "radiusX": 44.0,
+          "radiusY": 32.0,
+          "centerX": 111.0,
+          "centerY": -22.0,
+          "x1": 67.0,
+          "y1": -54.0,
+          "x2": 155.0,
+          "y2": 10.0
+        },
+        {
+          "radiusX": 15.0,
+          "radiusY": 36.0,
+          "centerX": 172.0,
+          "centerY": -20.0,
+          "x1": 157.0,
+          "y1": -56.0,
+          "x2": 187.0,
+          "y2": 16.0
+        }
+      ]
+    ]
+  },
+  "DAir": {
+    "name": "CannonAirDown",
+    "displayName": "DAir",
+    "powerID": 2131,
+    "isAir": true,
+    "damage": "1",
+    "stun": 0,
+    "impulse": "0",
+    "castTime": "14:0@4",
+    "hurtboxRef": "CannonDAir",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 10.0,
+          "radiusY": 10.0,
+          "centerX": 202.0,
+          "centerY": 130.0,
+          "x1": 192.0,
+          "y1": 120.0,
+          "x2": 212.0,
+          "y2": 140.0
+        }
+      ]
+    ]
+  },
+  "Recovery": {
+    "name": "CannonAirUpHeavy",
+    "displayName": "Recovery",
+    "powerID": 1135,
+    "isAir": true,
+    "damage": "0,20,20,0",
+    "stun": 25,
+    "impulse": "0,50,50,0",
+    "castTime": "10@2,8:4@5,0:1@7,0@9",
+    "hurtboxRef": "CannonRec",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 0.0,
+          "radiusY": 0.0,
+          "centerX": 0.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 0.0,
+          "y2": 0.0
+        }
+      ],
+      [
+        {
+          "radiusX": 41.0,
+          "radiusY": 62.0,
+          "centerX": 228.0,
+          "centerY": -135.0,
+          "x1": 187.0,
+          "y1": -197.0,
+          "x2": 269.0,
+          "y2": -73.0
+        },
+        {
+          "radiusX": 70.0,
+          "radiusY": 60.0,
+          "centerX": 207.0,
+          "centerY": -100.0,
+          "x1": 137.0,
+          "y1": -160.0,
+          "x2": 277.0,
+          "y2": -40.0
+        },
+        {
+          "radiusX": 85.0,
+          "radiusY": 26.0,
+          "centerX": 189.0,
+          "centerY": -92.0,
+          "x1": 104.0,
+          "y1": -118.0,
+          "x2": 274.0,
+          "y2": -66.0
+        },
+        {
+          "radiusX": 20.0,
+          "radiusY": 21.0,
+          "centerX": 110.0,
+          "centerY": -83.0,
+          "x1": 90.0,
+          "y1": -104.0,
+          "x2": 130.0,
+          "y2": -62.0
+        },
+        {
+          "radiusX": 74.0,
+          "radiusY": 15.0,
+          "centerX": 184.0,
+          "centerY": -54.0,
+          "x1": 110.0,
+          "y1": -69.0,
+          "x2": 258.0,
+          "y2": -39.0
+        }
+      ],
+      [
+        {
+          "radiusX": 36.0,
+          "radiusY": 28.0,
+          "centerX": 177.0,
+          "centerY": -205.0,
+          "x1": 141.0,
+          "y1": -233.0,
+          "x2": 213.0,
+          "y2": -177.0
+        },
+        {
+          "radiusX": 56.0,
+          "radiusY": 25.0,
+          "centerX": 144.0,
+          "centerY": -212.0,
+          "x1": 88.0,
+          "y1": -237.0,
+          "x2": 200.0,
+          "y2": -187.0
+        },
+        {
+          "radiusX": 53.0,
+          "radiusY": 21.0,
+          "centerX": 179.0,
+          "centerY": -198.0,
+          "x1": 126.0,
+          "y1": -219.0,
+          "x2": 232.0,
+          "y2": -177.0
+        }
+      ],
+      [
+        {
+          "radiusX": 112.0,
+          "radiusY": 43.0,
+          "centerX": 120.0,
+          "centerY": -191.0,
+          "x1": 8.0,
+          "y1": -234.0,
+          "x2": 232.0,
+          "y2": -148.0
+        },
+        {
+          "radiusX": 89.0,
+          "radiusY": 53.0,
+          "centerX": 138.0,
+          "centerY": -194.0,
+          "x1": 49.0,
+          "y1": -247.0,
+          "x2": 227.0,
+          "y2": -141.0
+        },
+        {
+          "radiusX": 81.0,
+          "radiusY": 51.0,
+          "centerX": 189.0,
+          "centerY": -168.0,
+          "x1": 108.0,
+          "y1": -219.0,
+          "x2": 270.0,
+          "y2": -117.0
+        }
+      ]
+    ]
+  },
+  "GP": {
+    "name": "CannonGroundPound",
+    "displayName": "GP",
+    "powerID": 1139,
+    "isAir": true,
+    "damage": "0,1,1,1",
+    "stun": 18,
+    "impulse": "0,48,48,48",
+    "castTime": "9:5@4,5:1@8,0:36,0:313",
+    "hurtboxRef": "CannonGP",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 1.0,
+          "radiusY": 20.0,
+          "centerX": -30.0,
+          "centerY": 180.0,
+          "x1": -31.0,
+          "y1": 160.0,
+          "x2": -29.0,
+          "y2": 200.0
+        },
+        {
+          "radiusX": 15.0,
+          "radiusY": 19.0,
+          "centerX": -30.0,
+          "centerY": 116.0,
+          "x1": -45.0,
+          "y1": 97.0,
+          "x2": -15.0,
+          "y2": 135.0
+        }
+      ],
+      [
+        {
+          "radiusX": 1.0,
+          "radiusY": 20.0,
+          "centerX": -2.0,
+          "centerY": 155.0,
+          "x1": -3.0,
+          "y1": 135.0,
+          "x2": -1.0,
+          "y2": 175.0
+        },
+        {
+          "radiusX": 28.0,
+          "radiusY": 19.0,
+          "centerX": -30.0,
+          "centerY": 115.0,
+          "x1": -58.0,
+          "y1": 96.0,
+          "x2": -2.0,
+          "y2": 134.0
+        },
+        {
+          "radiusX": 15.0,
+          "radiusY": 57.0,
+          "centerX": -30.0,
+          "centerY": 51.0,
+          "x1": -45.0,
+          "y1": -6.0,
+          "x2": -15.0,
+          "y2": 108.0
+        }
+      ],
+      [
+        {
+          "radiusX": 1.0,
+          "radiusY": 20.0,
+          "centerX": -2.0,
+          "centerY": 155.0,
+          "x1": -3.0,
+          "y1": 135.0,
+          "x2": -1.0,
+          "y2": 175.0
+        },
+        {
+          "radiusX": 28.0,
+          "radiusY": 25.0,
+          "centerX": -30.0,
+          "centerY": 109.0,
+          "x1": -58.0,
+          "y1": 84.0,
+          "x2": -2.0,
+          "y2": 134.0
+        }
+      ],
+      [
+        {
+          "radiusX": 1.0,
+          "radiusY": 20.0,
+          "centerX": -2.0,
+          "centerY": 155.0,
+          "x1": -3.0,
+          "y1": 135.0,
+          "x2": -1.0,
+          "y2": 175.0
+        },
+        {
+          "radiusX": 28.0,
+          "radiusY": 16.0,
+          "centerX": -30.0,
+          "centerY": 118.0,
+          "x1": -58.0,
+          "y1": 102.0,
+          "x2": -2.0,
+          "y2": 134.0
+        }
+      ]
+    ]
+  }
+}

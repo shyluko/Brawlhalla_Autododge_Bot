@@ -1,0 +1,75 @@
+# ==========================================
+# Visual Studio
+# ==========================================
+
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ==========================================
+# Visual Studio / C++ build output
+# ==========================================
+
+Debug/
+Release/
+x64/
+x86/
+bin/
+build/
+build_out.txt
+
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.ipdb
+*.iobj
+*.tlog
+*.lastcodeanalysissucceeded
+
+# ==========================================
+# Runtime / generated files
+# ==========================================
+
+*.log
+calibration.log
+imgui.ini
+config/exports/
+
+# ==========================================
+# Release packages
+# ==========================================
+
+*.zip
+release/
+source release/
+
+# ==========================================
+# VS Code
+# ==========================================
+
+.vscode/
+
+# ==========================================
+# Windows / macOS
+# ==========================================
+
+Thumbs.db
+.DS_Store
+
+# ==========================================
+# Temporary files
+# ==========================================
+
+*.tmp
+*.temp
+
+# ==========================================
+# Generated release/source copies
+# ==========================================
+
+Brawlhalla_Autododge_Public_Release/
+Brawlhalla_Autododge_Source_Release/

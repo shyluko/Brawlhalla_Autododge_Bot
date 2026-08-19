@@ -1,0 +1,24 @@
+{
+  "files": [
+    "axe_data.json",
+    "boots_data.json",
+    "bow_data.json",
+    "cannon_data.json",
+    "chakram_data.json",
+    "fists_data.json",
+    "greatsword_data.json",
+    "hammer_data.json",
+    "katar_data.json",
+    "lance_data.json",
+    "legends.json",
+    "orb_data.json",
+    "physics_ref.json",
+    "pistol_data.json",
+    "scythe_data.json",
+    "spear_data.json",
+    "sword_data.json",
+    "unarmed_data.json",
+    "weapons.json"
+  ],
+  "description": "Brawlhalla game data extracted from SWZ files"
+}

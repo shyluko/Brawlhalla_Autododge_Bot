@@ -1,0 +1,37 @@
+import { Button, CheckBox, Slider, VerticalBox, HorizontalBox } from "std-widgets.slint";
+
+export component ControlsPage inherits VerticalBox {
+    in property <bool> active: false;
+    in property <bool> dry-run: false;
+    in property <bool> calibration-mode: false;
+    in property <bool> safe-mode-active: false;
+    in-out property <float> min-dodge-distance: 50;
+    in property <string> min-dodge-distance-label: "50 px";
+    in property <string> hotkey-help: "F1 toggle  F2 dry-run  F5 Safe Mode  F10 exit";
+
+    callback toggle-active();
+    callback toggle-dry-run();
+    callback toggle-calibration();
+    callback toggle-safe-mode();
+    callback request-reconnect();
+    callback request-test-dodge();
+    callback min-dodge-distance-changed(float);
+
+    Text { text: "Every action is also bound to a hotkey."; color: #9098a3; wrap: word-wrap; }
+    Text { text: root.hotkey-help; color: #4ea6f2; wrap: word-wrap; }
+
+    CheckBox { text: "Enable autododge (F1)"; checked: root.active; toggled => { root.toggle-active(); } }
+    CheckBox { text: "Dry-run mode (F2)"; checked: root.dry-run; toggled => { root.toggle-dry-run(); } }
+    CheckBox { text: "Calibration logging (F4)"; checked: root.calibration-mode; toggled => { root.toggle-calibration(); } }
+    CheckBox { text: "Safe Mode / Pause (F5)"; checked: root.safe-mode-active; toggled => { root.toggle-safe-mode(); } }
+
+    Text { text: "Minimum dodge threshold: " + root.min-dodge-distance-label; }
+    Slider {
+        minimum: 35; maximum: 240; value: root.min-dodge-distance;
+        changed(value) => { root.min-dodge-distance = value; root.min-dodge-distance-changed(value); }
+    }
+    HorizontalBox {
+        Button { text: "Reconnect (F6)"; clicked => { root.request-reconnect(); } }
+        Button { text: "Test dodge (F7)"; clicked => { root.request-test-dodge(); } }
+    }
+}

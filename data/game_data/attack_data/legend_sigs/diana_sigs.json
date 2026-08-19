@@ -1,0 +1,82 @@
+{
+  "legend": "Diana",
+  "weapons": [],
+  "signatures": {
+    "Bow": {
+      "Neutral": {
+        "name": "BowSmashNeutralMarksman",
+        "weapon": "Bow",
+        "direction": "Neutral",
+        "powerID": 890,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0@1,0:5,72@23",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "BowSmashSideMarksman",
+        "weapon": "Bow",
+        "direction": "Side",
+        "powerID": 898,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "3:1,1:1,1:1,1:1,0:1,40",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "BowSmashDownMarksman",
+        "weapon": "Bow",
+        "direction": "Down",
+        "powerID": 901,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0@1,70@22",
+        "hitboxes": []
+      }
+    },
+    "Pistol": {
+      "Neutral": {
+        "name": "PistolSmashNeutralMarksman",
+        "weapon": "Pistol",
+        "direction": "Neutral",
+        "powerID": 906,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "2@4,9:1@8,1:1@9,0:1@10,30",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "PistolSmashSideMarksman",
+        "weapon": "Pistol",
+        "direction": "Side",
+        "powerID": 908,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0@1,79@23",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "PistolSmashDownMarksman",
+        "weapon": "Pistol",
+        "direction": "Down",
+        "powerID": 914,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70@26",
+        "hitboxes": []
+      }
+    }
+  }
+}

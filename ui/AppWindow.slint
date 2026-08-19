@@ -1,0 +1,255 @@
+import { TabWidget, VerticalBox, HorizontalBox } from "std-widgets.slint";
+import { Dashboard } from "pages/Dashboard.slint";
+import { ControlsPage } from "pages/ControlsPage.slint";
+import { DefensePage } from "pages/DefensePage.slint";
+import { OffensePage } from "pages/OffensePage.slint";
+import { CalibrationPage } from "pages/CalibrationPage.slint";
+import { SettingsPage } from "pages/SettingsPage.slint";
+import { ProfilesPage } from "pages/ProfilesPage.slint";
+import { DiagnosticsPage } from "pages/DiagnosticsPage.slint";
+
+export component MainWindow inherits Window {
+    title: "Brawlhalla Autododge";
+    preferred-width: 1100px;
+    preferred-height: 720px;
+    background: #0e0f11;
+    default-font-size: 13px * root.ui-scale;
+
+    in property <bool> active: false;
+    in property <bool> dry-run: false;
+    in property <bool> calibration-mode: false;
+    in property <bool> analysis-mode: false;
+    in property <bool> process-found: false;
+    in property <bool> hook-installed: false;
+    in property <bool> safe-mode-active: false;
+    in property <bool> validation-ok: true;
+    in property <int> dodge-count: 0;
+    in property <int> entity-count: 0;
+    in property <string> status-text: "Initializing...";
+    in property <string> engagement-text: "";
+    in property <string> decision-text: "";
+    in property <string> stats-text: "";
+    in property <string> recent-decisions-text: "";
+    in property <string> decision-banner: "";
+    in property <string> game-version: "unknown";
+    in property <string> notification-text: "";
+    in property <string> validation-text: "";
+    in property <string> debug-text: "";
+    in property <string> hotkey-conflict: "";
+    in property <string> hotkey-help: "";
+    in property <bool> debug-expanded: true;
+
+    in-out property <float> min-dodge-distance: 50;
+    in property <string> min-dodge-distance-label: "50 px";
+    in-out property <bool> auto-recover: true;
+    in-out property <bool> safe-mode: true;
+    in-out property <bool> process-watchdog: true;
+    in-out property <bool> adaptive-polling: true;
+    in-out property <bool> frame-skip: false;
+    in-out property <bool> sound-notifications: true;
+    in-out property <bool> minimize-to-tray: true;
+    in-out property <float> dodge-padding-x: 35;
+    in-out property <float> dodge-padding-y: 30;
+    in-out property <float> react-chance: 1.0;
+    in property <string> dodge-padding-x-label: "35 px";
+    in property <string> dodge-padding-y-label: "30 px";
+    in property <string> react-chance-label: "100%";
+    in-out property <bool> offense-enabled: false;
+    in-out property <bool> combo-recognition: true;
+    in-out property <bool> prediction-tuning: true;
+    in-out property <float> prediction-aggression: 0.5;
+    in property <string> prediction-aggression-label: "50%";
+    in-out property <float> ui-scale: 1.0;
+    in property <string> ui-scale-label: "100%";
+    in-out property <string> settings-search: "";
+
+    in property <[string]> profiles: ["default"];
+    in property <string> active-profile: "default";
+    in property <string> profiles-status-text: "";
+
+    callback toggle-active();
+    callback toggle-dry-run();
+    callback toggle-calibration();
+    callback toggle-analysis();
+    callback toggle-safe-mode();
+    callback request-reconnect();
+    callback request-test-dodge();
+    callback min-dodge-distance-changed(float);
+    callback auto-recover-changed(bool);
+    callback safe-mode-changed(bool);
+    callback process-watchdog-changed(bool);
+    callback adaptive-polling-changed(bool);
+    callback frame-skip-changed(bool);
+    callback sound-notifications-changed(bool);
+    callback minimize-to-tray-changed(bool);
+    callback save-config();
+    callback reset-settings();
+    callback open-logs();
+    callback open-config();
+    callback dodge-padding-x-changed(float);
+    callback dodge-padding-y-changed(float);
+    callback react-chance-changed(float);
+    callback offense-enabled-changed(bool);
+    callback combo-recognition-changed(bool);
+    callback prediction-tuning-changed(bool);
+    callback prediction-aggression-changed(float);
+    callback ui-scale-changed(float);
+    callback save-profile(string);
+    callback load-profile(string);
+    callback duplicate-profile(string, string);
+    callback delete-profile(string);
+    callback reset-profile();
+    callback export-profile();
+    callback import-profile();
+    callback export-diagnostics();
+    callback reset-calibration();
+    callback toggle-debug();
+
+    VerticalBox {
+        padding: 12px;
+        HorizontalBox {
+            Text { text: "Brawlhalla Autododge"; font-size: 22px; font-weight: 700; color: #e6e8eb; }
+            Rectangle { horizontal-stretch: 1; }
+            Text {
+                text: root.safe-mode-active ? "SAFE MODE" : (root.active ? "BOT ENABLED" : "PAUSED");
+                color: root.safe-mode-active ? #f0a63e : (root.active ? #3fd47a : #9098a3);
+                font-size: 14px;
+                vertical-alignment: center;
+            }
+        }
+        Text { text: root.status-text; color: #9098a3; font-size: 12px; }
+
+        TabWidget {
+            Tab {
+                title: "Dashboard";
+                Dashboard {
+                    process-found: root.process-found;
+                    hook-installed: root.hook-installed;
+                    safe-mode-active: root.safe-mode-active;
+                    validation-ok: root.validation-ok;
+                    dodge-count: root.dodge-count;
+                    entity-count: root.entity-count;
+                    engagement-text: root.engagement-text;
+                    decision-text: root.decision-text;
+                    stats-text: root.stats-text;
+                    recent-decisions-text: root.recent-decisions-text;
+                    decision-banner: root.decision-banner;
+                    game-version: root.game-version;
+                    notification-text: root.notification-text;
+                }
+            }
+            Tab {
+                title: "Controls";
+                ControlsPage {
+                    active: root.active;
+                    dry-run: root.dry-run;
+                    calibration-mode: root.calibration-mode;
+                    safe-mode-active: root.safe-mode-active;
+                    min-dodge-distance: root.min-dodge-distance;
+                    min-dodge-distance-label: root.min-dodge-distance-label;
+                    hotkey-help: root.hotkey-help;
+                    toggle-active => { root.toggle-active(); }
+                    toggle-dry-run => { root.toggle-dry-run(); }
+                    toggle-calibration => { root.toggle-calibration(); }
+                    toggle-safe-mode => { root.toggle-safe-mode(); }
+                    request-reconnect => { root.request-reconnect(); }
+                    request-test-dodge => { root.request-test-dodge(); }
+                    min-dodge-distance-changed(value) => { root.min-dodge-distance = value; root.min-dodge-distance-changed(value); }
+                }
+            }
+            Tab {
+                title: "Defense";
+                DefensePage {
+                    dodge-padding-x: root.dodge-padding-x;
+                    dodge-padding-y: root.dodge-padding-y;
+                    react-chance: root.react-chance;
+                    dodge-padding-x-label: root.dodge-padding-x-label;
+                    dodge-padding-y-label: root.dodge-padding-y-label;
+                    react-chance-label: root.react-chance-label;
+                    dodge-padding-x-changed(value) => { root.dodge-padding-x = value; root.dodge-padding-x-changed(value); }
+                    dodge-padding-y-changed(value) => { root.dodge-padding-y = value; root.dodge-padding-y-changed(value); }
+                    react-chance-changed(value) => { root.react-chance = value; root.react-chance-changed(value); }
+                }
+            }
+            Tab {
+                title: "Offense";
+                OffensePage {
+                    offense-enabled: root.offense-enabled;
+                    combo-recognition: root.combo-recognition;
+                    prediction-tuning: root.prediction-tuning;
+                    prediction-aggression: root.prediction-aggression;
+                    prediction-aggression-label: root.prediction-aggression-label;
+                    offense-enabled-changed(value) => { root.offense-enabled = value; root.offense-enabled-changed(value); }
+                    combo-recognition-changed(value) => { root.combo-recognition = value; root.combo-recognition-changed(value); }
+                    prediction-tuning-changed(value) => { root.prediction-tuning = value; root.prediction-tuning-changed(value); }
+                    prediction-aggression-changed(value) => { root.prediction-aggression = value; root.prediction-aggression-changed(value); }
+                }
+            }
+            Tab {
+                title: "Calibration";
+                CalibrationPage {
+                    calibration-mode: root.calibration-mode;
+                    analysis-mode: root.analysis-mode;
+                    debug-text: root.debug-text;
+                    toggle-calibration => { root.toggle-calibration(); }
+                    toggle-analysis => { root.toggle-analysis(); }
+                    reset-calibration => { root.reset-calibration(); }
+                }
+            }
+            Tab {
+                title: "Settings";
+                SettingsPage {
+                    settings-search <=> root.settings-search;
+                    auto-recover: root.auto-recover;
+                    safe-mode: root.safe-mode;
+                    process-watchdog: root.process-watchdog;
+                    adaptive-polling: root.adaptive-polling;
+                    frame-skip: root.frame-skip;
+                    sound-notifications: root.sound-notifications;
+                    minimize-to-tray: root.minimize-to-tray;
+                    ui-scale: root.ui-scale;
+                    ui-scale-label: root.ui-scale-label;
+                    auto-recover-changed(value) => { root.auto-recover = value; root.auto-recover-changed(value); }
+                    safe-mode-changed(value) => { root.safe-mode = value; root.safe-mode-changed(value); }
+                    process-watchdog-changed(value) => { root.process-watchdog = value; root.process-watchdog-changed(value); }
+                    adaptive-polling-changed(value) => { root.adaptive-polling = value; root.adaptive-polling-changed(value); }
+                    frame-skip-changed(value) => { root.frame-skip = value; root.frame-skip-changed(value); }
+                    sound-notifications-changed(value) => { root.sound-notifications = value; root.sound-notifications-changed(value); }
+                    minimize-to-tray-changed(value) => { root.minimize-to-tray = value; root.minimize-to-tray-changed(value); }
+                    ui-scale-changed(value) => { root.ui-scale = value; root.ui-scale-changed(value); }
+                    save-config => { root.save-config(); }
+                    reset-settings => { root.reset-settings(); }
+                    open-logs => { root.open-logs(); }
+                    open-config => { root.open-config(); }
+                }
+            }
+            Tab {
+                title: "Profiles";
+                ProfilesPage {
+                    profiles: root.profiles;
+                    active-profile: root.active-profile;
+                    status-text: root.profiles-status-text;
+                    save-profile(name) => { root.save-profile(name); }
+                    load-profile(name) => { root.load-profile(name); }
+                    duplicate-profile(from, to) => { root.duplicate-profile(from, to); }
+                    delete-profile(name) => { root.delete-profile(name); }
+                    reset-profile => { root.reset-profile(); }
+                    export-profile => { root.export-profile(); }
+                    import-profile => { root.import-profile(); }
+                }
+            }
+            Tab {
+                title: "Diagnostics";
+                DiagnosticsPage {
+                    debug-expanded: root.debug-expanded;
+                    validation-text: root.validation-text;
+                    debug-text: root.debug-text;
+                    hotkey-conflict: root.hotkey-conflict;
+                    toggle-debug => { root.toggle-debug(); }
+                    export-diagnostics => { root.export-diagnostics(); }
+                    run-validation => { root.export-diagnostics(); }
+                }
+            }
+        }
+    }
+}

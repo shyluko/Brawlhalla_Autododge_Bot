@@ -1,0 +1,383 @@
+{
+  "legend": "Reno",
+  "weapons": [],
+  "signatures": {
+    "Pistol": {
+      "Neutral": {
+        "name": "PistolSmashNeutralBountyHunter",
+        "weapon": "Pistol",
+        "direction": "Neutral",
+        "powerID": 2340,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,71",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "PistolSmashSideBountyHunter",
+        "weapon": "Pistol",
+        "direction": "Side",
+        "powerID": 2345,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,71",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "PistolSmashDownBountyHunter",
+        "weapon": "Pistol",
+        "direction": "Down",
+        "powerID": 2353,
+        "isAir": false,
+        "damage": "0,0,5,5,5,5,5,5,5,5,5,5,5,5,0",
+        "stun": 20,
+        "impulse": "0,0,50,50,50,50,50,50,50,50,50,50,50,50,0",
+        "castTime": "3:7@2,0:5,0:2@6,0:1,3:2@9,0:1,3:2@12,0:1,3:2@15,0:1,3:2@18,0:1,3:2@21,0:1,0:4@23",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ],
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ],
+          [
+            {
+              "radiusX": 27.0,
+              "radiusY": 28.0,
+              "centerX": 205.0,
+              "centerY": 192.0,
+              "x1": 178.0,
+              "y1": 164.0,
+              "x2": 232.0,
+              "y2": 220.0
+            },
+            {
+              "radiusX": 34.0,
+              "radiusY": 32.0,
+              "centerX": 186.0,
+              "centerY": 175.0,
+              "x1": 152.0,
+              "y1": 143.0,
+              "x2": 220.0,
+              "y2": 207.0
+            },
+            {
+              "radiusX": 29.0,
+              "radiusY": 30.0,
+              "centerX": 167.0,
+              "centerY": 153.0,
+              "x1": 138.0,
+              "y1": 123.0,
+              "x2": 196.0,
+              "y2": 183.0
+            }
+          ],
+          [
+            {
+              "radiusX": 61.0,
+              "radiusY": 62.0,
+              "centerX": 189.0,
+              "centerY": 177.0,
+              "x1": 128.0,
+              "y1": 115.0,
+              "x2": 250.0,
+              "y2": 239.0
+            }
+          ],
+          [
+            {
+              "radiusX": 28.0,
+              "radiusY": 28.0,
+              "centerX": 220.0,
+              "centerY": 172.0,
+              "x1": 192.0,
+              "y1": 144.0,
+              "x2": 248.0,
+              "y2": 200.0
+            },
+            {
+              "radiusX": 33.0,
+              "radiusY": 30.0,
+              "centerX": 202.0,
+              "centerY": 161.0,
+              "x1": 169.0,
+              "y1": 131.0,
+              "x2": 235.0,
+              "y2": 191.0
+            },
+            {
+              "radiusX": 30.0,
+              "radiusY": 28.0,
+              "centerX": 181.0,
+              "centerY": 147.0,
+              "x1": 151.0,
+              "y1": 119.0,
+              "x2": 211.0,
+              "y2": 175.0
+            }
+          ],
+          [
+            {
+              "radiusX": 61.0,
+              "radiusY": 62.0,
+              "centerX": 208.0,
+              "centerY": 162.0,
+              "x1": 147.0,
+              "y1": 100.0,
+              "x2": 269.0,
+              "y2": 224.0
+            }
+          ],
+          [
+            {
+              "radiusX": 28.0,
+              "radiusY": 30.0,
+              "centerX": 204.0,
+              "centerY": 192.0,
+              "x1": 176.0,
+              "y1": 162.0,
+              "x2": 232.0,
+              "y2": 222.0
+            },
+            {
+              "radiusX": 30.0,
+              "radiusY": 31.0,
+              "centerX": 188.0,
+              "centerY": 177.0,
+              "x1": 158.0,
+              "y1": 146.0,
+              "x2": 218.0,
+              "y2": 208.0
+            },
+            {
+              "radiusX": 25.0,
+              "radiusY": 26.0,
+              "centerX": 169.0,
+              "centerY": 156.0,
+              "x1": 144.0,
+              "y1": 130.0,
+              "x2": 194.0,
+              "y2": 182.0
+            }
+          ],
+          [
+            {
+              "radiusX": 61.0,
+              "radiusY": 62.0,
+              "centerX": 195.0,
+              "centerY": 186.0,
+              "x1": 134.0,
+              "y1": 124.0,
+              "x2": 256.0,
+              "y2": 248.0
+            }
+          ],
+          [
+            {
+              "radiusX": 27.0,
+              "radiusY": 31.0,
+              "centerX": 201.0,
+              "centerY": 188.0,
+              "x1": 174.0,
+              "y1": 157.0,
+              "x2": 228.0,
+              "y2": 219.0
+            },
+            {
+              "radiusX": 28.0,
+              "radiusY": 32.0,
+              "centerX": 182.0,
+              "centerY": 169.0,
+              "x1": 154.0,
+              "y1": 137.0,
+              "x2": 210.0,
+              "y2": 201.0
+            },
+            {
+              "radiusX": 26.0,
+              "radiusY": 26.0,
+              "centerX": 164.0,
+              "centerY": 151.0,
+              "x1": 138.0,
+              "y1": 125.0,
+              "x2": 190.0,
+              "y2": 177.0
+            }
+          ],
+          [
+            {
+              "radiusX": 61.0,
+              "radiusY": 62.0,
+              "centerX": 189.0,
+              "centerY": 178.0,
+              "x1": 128.0,
+              "y1": 116.0,
+              "x2": 250.0,
+              "y2": 240.0
+            }
+          ],
+          [
+            {
+              "radiusX": 29.0,
+              "radiusY": 27.0,
+              "centerX": 217.0,
+              "centerY": 171.0,
+              "x1": 188.0,
+              "y1": 144.0,
+              "x2": 246.0,
+              "y2": 198.0
+            },
+            {
+              "radiusX": 29.0,
+              "radiusY": 31.0,
+              "centerX": 197.0,
+              "centerY": 156.0,
+              "x1": 168.0,
+              "y1": 125.0,
+              "x2": 226.0,
+              "y2": 187.0
+            },
+            {
+              "radiusX": 24.0,
+              "radiusY": 24.0,
+              "centerX": 176.0,
+              "centerY": 141.0,
+              "x1": 152.0,
+              "y1": 117.0,
+              "x2": 200.0,
+              "y2": 165.0
+            }
+          ],
+          [
+            {
+              "radiusX": 61.0,
+              "radiusY": 62.0,
+              "centerX": 207.0,
+              "centerY": 160.0,
+              "x1": 146.0,
+              "y1": 98.0,
+              "x2": 268.0,
+              "y2": 222.0
+            }
+          ],
+          [
+            {
+              "radiusX": 27.0,
+              "radiusY": 28.0,
+              "centerX": 207.0,
+              "centerY": 196.0,
+              "x1": 180.0,
+              "y1": 168.0,
+              "x2": 234.0,
+              "y2": 224.0
+            },
+            {
+              "radiusX": 29.0,
+              "radiusY": 29.0,
+              "centerX": 188.0,
+              "centerY": 175.0,
+              "x1": 159.0,
+              "y1": 146.0,
+              "x2": 217.0,
+              "y2": 204.0
+            },
+            {
+              "radiusX": 25.0,
+              "radiusY": 27.0,
+              "centerX": 172.0,
+              "centerY": 159.0,
+              "x1": 147.0,
+              "y1": 132.0,
+              "x2": 197.0,
+              "y2": 186.0
+            }
+          ],
+          [
+            {
+              "radiusX": 61.0,
+              "radiusY": 62.0,
+              "centerX": 195.0,
+              "centerY": 187.0,
+              "x1": 134.0,
+              "y1": 125.0,
+              "x2": 256.0,
+              "y2": 249.0
+            }
+          ],
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      }
+    },
+    "Orb": {
+      "Neutral": {
+        "name": "OrbSmashNeutralBountyHunter",
+        "weapon": "Orb",
+        "direction": "Neutral",
+        "powerID": 2357,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "OrbSmashSideBountyHunter",
+        "weapon": "Orb",
+        "direction": "Side",
+        "powerID": 2362,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,65",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "OrbSmashDownBountyHunter",
+        "weapon": "Orb",
+        "direction": "Down",
+        "powerID": 2368,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,68",
+        "hitboxes": []
+      }
+    }
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "legend": "Vivi",
+  "weapons": [],
+  "signatures": {
+    "Boots": {
+      "Neutral": {
+        "name": "BootsSmashNeutralAssassin",
+        "weapon": "Boots",
+        "direction": "Neutral",
+        "powerID": 2971,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "BootsSmashSideAssassin",
+        "weapon": "Boots",
+        "direction": "Side",
+        "powerID": 2996,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "BootsSmashDownAssassin",
+        "weapon": "Boots",
+        "direction": "Down",
+        "powerID": 2975,
+        "isAir": false,
+        "damage": "0,0,t1,t1,t1,t1,t1,t1",
+        "stun": 25,
+        "impulse": "0,0,50,50,50,50,50,50",
+        "castTime": "5:4@4-5,0:4@6-7,0:2@8,0:4@9-10,0:2@11,0:4@12-13,0:2@14,0:1@15",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 91.0,
+              "radiusY": 45.0,
+              "centerX": 107.0,
+              "centerY": -53.0,
+              "x1": 16.0,
+              "y1": -98.0,
+              "x2": 198.0,
+              "y2": -8.0
+            },
+            {
+              "radiusX": 55.0,
+              "radiusY": 37.0,
+              "centerX": 32.0,
+              "centerY": -29.0,
+              "x1": -23.0,
+              "y1": -66.0,
+              "x2": 87.0,
+              "y2": 8.0
+            }
+          ],
+          [
+            {
+              "radiusX": 91.0,
+              "radiusY": 45.0,
+              "centerX": 107.0,
+              "centerY": -53.0,
+              "x1": 16.0,
+              "y1": -98.0,
+              "x2": 198.0,
+              "y2": -8.0
+            },
+            {
+              "radiusX": 55.0,
+              "radiusY": 37.0,
+              "centerX": 32.0,
+              "centerY": -29.0,
+              "x1": -23.0,
+              "y1": -66.0,
+              "x2": 87.0,
+              "y2": 8.0
+            }
+          ],
+          [
+            {
+              "radiusX": 113.0,
+              "radiusY": 34.0,
+              "centerX": 129.0,
+              "centerY": -64.0,
+              "x1": 16.0,
+              "y1": -98.0,
+              "x2": 242.0,
+              "y2": -30.0
+            },
+            {
+              "radiusX": 45.0,
+              "radiusY": 35.0,
+              "centerX": 42.0,
+              "centerY": -31.0,
+              "x1": -3.0,
+              "y1": -66.0,
+              "x2": 87.0,
+              "y2": 4.0
+            }
+          ],
+          [
+            {
+              "radiusX": 99.0,
+              "radiusY": 55.0,
+              "centerX": 137.0,
+              "centerY": -45.0,
+              "x1": 38.0,
+              "y1": -100.0,
+              "x2": 236.0,
+              "y2": 10.0
+            }
+          ],
+          [
+            {
+              "radiusX": 116.0,
+              "radiusY": 47.0,
+              "centerX": 8.0,
+              "centerY": -1.0,
+              "x1": -108.0,
+              "y1": -48.0,
+              "x2": 124.0,
+              "y2": 46.0
+            },
+            {
+              "radiusX": 99.0,
+              "radiusY": 46.0,
+              "centerX": 52.0,
+              "centerY": -48.0,
+              "x1": -47.0,
+              "y1": -94.0,
+              "x2": 151.0,
+              "y2": -2.0
+            }
+          ],
+          [
+            {
+              "radiusX": 99.0,
+              "radiusY": 55.0,
+              "centerX": -27.0,
+              "centerY": -9.0,
+              "x1": -126.0,
+              "y1": -64.0,
+              "x2": 72.0,
+              "y2": 46.0
+            },
+            {
+              "radiusX": 119.0,
+              "radiusY": 39.0,
+              "centerX": 20.0,
+              "centerY": -43.0,
+              "x1": -99.0,
+              "y1": -82.0,
+              "x2": 139.0,
+              "y2": -4.0
+            }
+          ],
+          [
+            {
+              "radiusX": 132.0,
+              "radiusY": 57.0,
+              "centerX": -4.0,
+              "centerY": -61.0,
+              "x1": -136.0,
+              "y1": -118.0,
+              "x2": 128.0,
+              "y2": -4.0
+            },
+            {
+              "radiusX": 86.0,
+              "radiusY": 29.0,
+              "centerX": -3.0,
+              "centerY": -115.0,
+              "x1": -89.0,
+              "y1": -144.0,
+              "x2": 83.0,
+              "y2": -86.0
+            }
+          ],
+          [
+            {
+              "radiusX": 97.0,
+              "radiusY": 71.0,
+              "centerX": 11.0,
+              "centerY": -89.0,
+              "x1": -86.0,
+              "y1": -160.0,
+              "x2": 108.0,
+              "y2": -18.0
+            }
+          ]
+        ]
+      }
+    },
+    "Pistol": {
+      "Neutral": {
+        "name": "PistolSmashNeutralAssassin",
+        "weapon": "Pistol",
+        "direction": "Neutral",
+        "powerID": 2977,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:2@1,0:1@2,0:1@3,0:0@3,0:1@4,0:1@5,72",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Side": {
+        "name": "PistolSmashSideAssassin",
+        "weapon": "Pistol",
+        "direction": "Side",
+        "powerID": 2979,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "PistolSmashDownAssassin",
+        "weapon": "Pistol",
+        "direction": "Down",
+        "powerID": 2994,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    }
+  }
+}

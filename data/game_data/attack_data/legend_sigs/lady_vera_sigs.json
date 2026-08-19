@@ -1,0 +1,134 @@
+{
+  "legend": "Lady Vera",
+  "weapons": [],
+  "signatures": {
+    "Chakram": {
+      "Neutral": {
+        "name": "ChakramSmashNeutralCleric",
+        "weapon": "Chakram",
+        "direction": "Neutral",
+        "powerID": 2001,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "ChakramSmashSideCleric",
+        "weapon": "Chakram",
+        "direction": "Side",
+        "powerID": 2317,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "2,0:1@2,0:2@3,0:1@4,0:2@5,55",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Down": {
+        "name": "ChakramSmashDownCleric",
+        "weapon": "Chakram",
+        "direction": "Down",
+        "powerID": 2524,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "8:7@4-6,0:45@7",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 80.0,
+              "radiusY": 80.0,
+              "centerX": 180.0,
+              "centerY": 0.0,
+              "x1": 100.0,
+              "y1": -80.0,
+              "x2": 260.0,
+              "y2": 80.0
+            }
+          ]
+        ]
+      }
+    },
+    "Scythe": {
+      "Neutral": {
+        "name": "ScytheSmashNeutralCleric",
+        "weapon": "Scythe",
+        "direction": "Neutral",
+        "powerID": 2635,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,0:23",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 80.0,
+              "radiusY": 80.0,
+              "centerX": 0.0,
+              "centerY": -315.0,
+              "x1": -80.0,
+              "y1": -395.0,
+              "x2": 80.0,
+              "y2": -235.0
+            }
+          ]
+        ]
+      },
+      "Side": {
+        "name": "ScytheSmashSideCleric",
+        "weapon": "Scythe",
+        "direction": "Side",
+        "powerID": 2637,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,15",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "ScytheSmashDownCleric",
+        "weapon": "Scythe",
+        "direction": "Down",
+        "powerID": 2659,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,15",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      }
+    }
+  }
+}

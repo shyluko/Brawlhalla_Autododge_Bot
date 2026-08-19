@@ -1,0 +1,894 @@
+{
+  "NLight": {
+    "name": "GreatswordNeutral",
+    "displayName": "NLight",
+    "powerID": 1109,
+    "isAir": false,
+    "damage": "10,10,0,0,0,0",
+    "stun": 14,
+    "impulse": "90,90,0,0,0,0",
+    "castTime": "11:2@4,0:1@5,0:1@6,0:1@7,0:1@8,0:1@9",
+    "hurtboxRef": "GreatswordN",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 51.0,
+          "radiusY": 39.0,
+          "centerX": 142.0,
+          "centerY": 0.0,
+          "x1": 91.0,
+          "y1": -39.0,
+          "x2": 193.0,
+          "y2": 39.0
+        },
+        {
+          "radiusX": 48.0,
+          "radiusY": 77.0,
+          "centerX": 153.0,
+          "centerY": -48.0,
+          "x1": 105.0,
+          "y1": -125.0,
+          "x2": 201.0,
+          "y2": 29.0
+        },
+        {
+          "radiusX": 47.0,
+          "radiusY": 75.0,
+          "centerX": 152.0,
+          "centerY": -103.0,
+          "x1": 105.0,
+          "y1": -178.0,
+          "x2": 199.0,
+          "y2": -28.0
+        },
+        {
+          "radiusX": 56.0,
+          "radiusY": 44.0,
+          "centerX": 126.0,
+          "centerY": -158.0,
+          "x1": 70.0,
+          "y1": -202.0,
+          "x2": 182.0,
+          "y2": -114.0
+        },
+        {
+          "radiusX": 52.0,
+          "radiusY": 37.0,
+          "centerX": 103.0,
+          "centerY": -184.0,
+          "x1": 51.0,
+          "y1": -221.0,
+          "x2": 155.0,
+          "y2": -147.0
+        },
+        {
+          "radiusX": 38.0,
+          "radiusY": 31.0,
+          "centerX": 78.0,
+          "centerY": -205.0,
+          "x1": 40.0,
+          "y1": -236.0,
+          "x2": 116.0,
+          "y2": -174.0
+        }
+      ],
+      [
+        {
+          "radiusX": 48.0,
+          "radiusY": 38.0,
+          "centerX": 121.0,
+          "centerY": -160.0,
+          "x1": 73.0,
+          "y1": -198.0,
+          "x2": 169.0,
+          "y2": -122.0
+        },
+        {
+          "radiusX": 52.0,
+          "radiusY": 46.0,
+          "centerX": 108.0,
+          "centerY": -171.0,
+          "x1": 56.0,
+          "y1": -217.0,
+          "x2": 160.0,
+          "y2": -125.0
+        },
+        {
+          "radiusX": 51.0,
+          "radiusY": 37.0,
+          "centerX": 83.0,
+          "centerY": -199.0,
+          "x1": 32.0,
+          "y1": -236.0,
+          "x2": 134.0,
+          "y2": -162.0
+        },
+        {
+          "radiusX": 43.0,
+          "radiusY": 25.0,
+          "centerX": 61.0,
+          "centerY": -220.0,
+          "x1": 18.0,
+          "y1": -245.0,
+          "x2": 104.0,
+          "y2": -195.0
+        }
+      ],
+      [
+        {
+          "radiusX": 80.0,
+          "radiusY": 80.0,
+          "centerX": 80.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": -80.0,
+          "x2": 160.0,
+          "y2": 80.0
+        }
+      ],
+      [
+        {
+          "radiusX": 80.0,
+          "radiusY": 80.0,
+          "centerX": 80.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": -80.0,
+          "x2": 160.0,
+          "y2": 80.0
+        }
+      ],
+      [
+        {
+          "radiusX": 80.0,
+          "radiusY": 80.0,
+          "centerX": 80.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": -80.0,
+          "x2": 160.0,
+          "y2": 80.0
+        }
+      ],
+      [
+        {
+          "radiusX": 80.0,
+          "radiusY": 80.0,
+          "centerX": 80.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": -80.0,
+          "x2": 160.0,
+          "y2": 80.0
+        }
+      ]
+    ]
+  },
+  "SLight": {
+    "name": "GreatswordSide",
+    "displayName": "SLight",
+    "powerID": 1110,
+    "isAir": false,
+    "damage": "8,8,0",
+    "stun": 0,
+    "impulse": "72,53,0",
+    "castTime": "9:3@4,0:5@5-6,0:3@7-7",
+    "hurtboxRef": "GreatswordS",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 73.0,
+          "radiusY": 25.0,
+          "centerX": 131.0,
+          "centerY": -22.0,
+          "x1": 58.0,
+          "y1": -47.0,
+          "x2": 204.0,
+          "y2": 3.0
+        }
+      ],
+      [
+        {
+          "radiusX": 67.0,
+          "radiusY": 27.0,
+          "centerX": 301.0,
+          "centerY": 7.0,
+          "x1": 234.0,
+          "y1": -20.0,
+          "x2": 368.0,
+          "y2": 34.0
+        }
+      ],
+      [
+        {
+          "radiusX": 91.0,
+          "radiusY": 27.0,
+          "centerX": 277.0,
+          "centerY": 7.0,
+          "x1": 186.0,
+          "y1": -20.0,
+          "x2": 368.0,
+          "y2": 34.0
+        }
+      ]
+    ]
+  },
+  "DLight": {
+    "name": "GreatswordDown",
+    "displayName": "DLight",
+    "powerID": 1111,
+    "isAir": false,
+    "damage": "0,0,9,9,0,0,0",
+    "stun": 0,
+    "impulse": "0,0,90,90,0,0,0",
+    "castTime": "9:2@2,0:2@3,0:3@4,0:2@6,0:1@7,0:1@8,0:1@9",
+    "hurtboxRef": "GreatswordD",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 80.0,
+          "radiusY": 80.0,
+          "centerX": 80.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": -80.0,
+          "x2": 160.0,
+          "y2": 80.0
+        }
+      ],
+      [
+        {
+          "radiusX": 80.0,
+          "radiusY": 80.0,
+          "centerX": 80.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": -80.0,
+          "x2": 160.0,
+          "y2": 80.0
+        }
+      ],
+      [
+        {
+          "radiusX": 112.0,
+          "radiusY": 16.0,
+          "centerX": 202.0,
+          "centerY": 36.0,
+          "x1": 90.0,
+          "y1": 20.0,
+          "x2": 314.0,
+          "y2": 52.0
+        },
+        {
+          "radiusX": 99.0,
+          "radiusY": 19.0,
+          "centerX": 198.0,
+          "centerY": 48.0,
+          "x1": 99.0,
+          "y1": 29.0,
+          "x2": 297.0,
+          "y2": 67.0
+        },
+        {
+          "radiusX": 117.0,
+          "radiusY": 15.0,
+          "centerX": 131.0,
+          "centerY": 58.0,
+          "x1": 14.0,
+          "y1": 43.0,
+          "x2": 248.0,
+          "y2": 73.0
+        }
+      ],
+      [
+        {
+          "radiusX": 38.0,
+          "radiusY": 43.0,
+          "centerX": 253.0,
+          "centerY": 30.0,
+          "x1": 215.0,
+          "y1": -13.0,
+          "x2": 291.0,
+          "y2": 73.0
+        },
+        {
+          "radiusX": 50.0,
+          "radiusY": 21.0,
+          "centerX": 203.0,
+          "centerY": -2.0,
+          "x1": 153.0,
+          "y1": -23.0,
+          "x2": 253.0,
+          "y2": 19.0
+        },
+        {
+          "radiusX": 71.0,
+          "radiusY": 10.0,
+          "centerX": 133.0,
+          "centerY": -16.0,
+          "x1": 62.0,
+          "y1": -26.0,
+          "x2": 204.0,
+          "y2": -6.0
+        }
+      ],
+      [
+        {
+          "radiusX": 80.0,
+          "radiusY": 80.0,
+          "centerX": 80.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": -80.0,
+          "x2": 160.0,
+          "y2": 80.0
+        }
+      ],
+      [
+        {
+          "radiusX": 80.0,
+          "radiusY": 80.0,
+          "centerX": 80.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": -80.0,
+          "x2": 160.0,
+          "y2": 80.0
+        }
+      ],
+      [
+        {
+          "radiusX": 80.0,
+          "radiusY": 80.0,
+          "centerX": 80.0,
+          "centerY": 0.0,
+          "x1": 0.0,
+          "y1": -80.0,
+          "x2": 160.0,
+          "y2": 80.0
+        }
+      ]
+    ]
+  },
+  "NAir": {
+    "name": "GreatswordAir",
+    "displayName": "NAir",
+    "powerID": 2193,
+    "isAir": true,
+    "damage": "17,17,17,0,0",
+    "stun": 18,
+    "impulse": "48,48,48,0,0",
+    "castTime": "12:2@5,0:2@6,0:1@7-7,0:4@8,0:2@9",
+    "hurtboxRef": "GreatswordNAir",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 34.0,
+          "radiusY": 51.0,
+          "centerX": 114.0,
+          "centerY": -189.0,
+          "x1": 80.0,
+          "y1": -240.0,
+          "x2": 148.0,
+          "y2": -138.0
+        },
+        {
+          "radiusX": 27.0,
+          "radiusY": 41.0,
+          "centerX": 103.0,
+          "centerY": -146.0,
+          "x1": 76.0,
+          "y1": -187.0,
+          "x2": 130.0,
+          "y2": -105.0
+        },
+        {
+          "radiusX": 20.0,
+          "radiusY": 31.0,
+          "centerX": 86.0,
+          "centerY": -111.0,
+          "x1": 66.0,
+          "y1": -142.0,
+          "x2": 106.0,
+          "y2": -80.0
+        },
+        {
+          "radiusX": 20.0,
+          "radiusY": 29.0,
+          "centerX": 67.0,
+          "centerY": -81.0,
+          "x1": 47.0,
+          "y1": -110.0,
+          "x2": 87.0,
+          "y2": -52.0
+        },
+        {
+          "radiusX": 15.0,
+          "radiusY": 15.0,
+          "centerX": 55.0,
+          "centerY": -53.0,
+          "x1": 40.0,
+          "y1": -68.0,
+          "x2": 70.0,
+          "y2": -38.0
+        }
+      ],
+      [
+        {
+          "radiusX": 78.0,
+          "radiusY": 47.0,
+          "centerX": 61.0,
+          "centerY": -188.0,
+          "x1": -17.0,
+          "y1": -235.0,
+          "x2": 139.0,
+          "y2": -141.0
+        },
+        {
+          "radiusX": 72.0,
+          "radiusY": 34.0,
+          "centerX": -14.0,
+          "centerY": -163.0,
+          "x1": -86.0,
+          "y1": -197.0,
+          "x2": 58.0,
+          "y2": -129.0
+        },
+        {
+          "radiusX": 91.0,
+          "radiusY": 43.0,
+          "centerX": 42.0,
+          "centerY": -182.0,
+          "x1": -49.0,
+          "y1": -225.0,
+          "x2": 133.0,
+          "y2": -139.0
+        },
+        {
+          "radiusX": 34.0,
+          "radiusY": 25.0,
+          "centerX": -81.0,
+          "centerY": -133.0,
+          "x1": -115.0,
+          "y1": -158.0,
+          "x2": -47.0,
+          "y2": -108.0
+        }
+      ],
+      [
+        {
+          "radiusX": 55.0,
+          "radiusY": 30.0,
+          "centerX": -31.0,
+          "centerY": -167.0,
+          "x1": -86.0,
+          "y1": -197.0,
+          "x2": 24.0,
+          "y2": -137.0
+        },
+        {
+          "radiusX": 51.0,
+          "radiusY": 26.0,
+          "centerX": 2.0,
+          "centerY": -199.0,
+          "x1": -49.0,
+          "y1": -225.0,
+          "x2": 53.0,
+          "y2": -173.0
+        },
+        {
+          "radiusX": 34.0,
+          "radiusY": 25.0,
+          "centerX": -81.0,
+          "centerY": -133.0,
+          "x1": -115.0,
+          "y1": -158.0,
+          "x2": -47.0,
+          "y2": -108.0
+        }
+      ],
+      [
+        {
+          "radiusX": 79.0,
+          "radiusY": 25.0,
+          "centerX": 70.0,
+          "centerY": -210.0,
+          "x1": -9.0,
+          "y1": -235.0,
+          "x2": 149.0,
+          "y2": -185.0
+        },
+        {
+          "radiusX": 55.0,
+          "radiusY": 52.0,
+          "centerX": -44.0,
+          "centerY": -145.0,
+          "x1": -99.0,
+          "y1": -197.0,
+          "x2": 11.0,
+          "y2": -93.0
+        },
+        {
+          "radiusX": 58.0,
+          "radiusY": 46.0,
+          "centerX": -11.0,
+          "centerY": -170.0,
+          "x1": -69.0,
+          "y1": -216.0,
+          "x2": 47.0,
+          "y2": -124.0
+        },
+        {
+          "radiusX": 39.0,
+          "radiusY": 32.0,
+          "centerX": -86.0,
+          "centerY": -126.0,
+          "x1": -125.0,
+          "y1": -158.0,
+          "x2": -47.0,
+          "y2": -94.0
+        }
+      ],
+      [
+        {
+          "radiusX": 15.0,
+          "radiusY": 25.0,
+          "centerX": 64.0,
+          "centerY": -275.0,
+          "x1": 49.0,
+          "y1": -300.0,
+          "x2": 79.0,
+          "y2": -250.0
+        },
+        {
+          "radiusX": 23.0,
+          "radiusY": 42.0,
+          "centerX": 81.0,
+          "centerY": -242.0,
+          "x1": 58.0,
+          "y1": -284.0,
+          "x2": 104.0,
+          "y2": -200.0
+        },
+        {
+          "radiusX": 30.0,
+          "radiusY": 61.0,
+          "centerX": 96.0,
+          "centerY": -199.0,
+          "x1": 66.0,
+          "y1": -260.0,
+          "x2": 126.0,
+          "y2": -138.0
+        },
+        {
+          "radiusX": 31.0,
+          "radiusY": 76.0,
+          "centerX": 121.0,
+          "centerY": -170.0,
+          "x1": 90.0,
+          "y1": -246.0,
+          "x2": 152.0,
+          "y2": -94.0
+        },
+        {
+          "radiusX": 45.0,
+          "radiusY": 84.0,
+          "centerX": 131.0,
+          "centerY": -136.0,
+          "x1": 86.0,
+          "y1": -220.0,
+          "x2": 176.0,
+          "y2": -52.0
+        },
+        {
+          "radiusX": 54.0,
+          "radiusY": 95.0,
+          "centerX": 142.0,
+          "centerY": -73.0,
+          "x1": 88.0,
+          "y1": -168.0,
+          "x2": 196.0,
+          "y2": 22.0
+        }
+      ]
+    ]
+  },
+  "SAir": {
+    "name": "GreatswordAirSide",
+    "displayName": "SAir",
+    "powerID": 2199,
+    "isAir": true,
+    "damage": "17,0",
+    "stun": 17,
+    "impulse": "52,0",
+    "castTime": "16:4@5-6,3@8",
+    "hurtboxRef": "GreatswordSAir",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 51.0,
+          "radiusY": 93.0,
+          "centerX": 186.0,
+          "centerY": 23.0,
+          "x1": 135.0,
+          "y1": -70.0,
+          "x2": 237.0,
+          "y2": 116.0
+        },
+        {
+          "radiusX": 29.0,
+          "radiusY": 62.0,
+          "centerX": 221.0,
+          "centerY": 63.0,
+          "x1": 192.0,
+          "y1": 1.0,
+          "x2": 250.0,
+          "y2": 125.0
+        },
+        {
+          "radiusX": 37.0,
+          "radiusY": 56.0,
+          "centerX": 159.0,
+          "centerY": 60.0,
+          "x1": 122.0,
+          "y1": 4.0,
+          "x2": 196.0,
+          "y2": 116.0
+        },
+        {
+          "radiusX": 43.0,
+          "radiusY": 44.0,
+          "centerX": 175.0,
+          "centerY": -54.0,
+          "x1": 132.0,
+          "y1": -98.0,
+          "x2": 218.0,
+          "y2": -10.0
+        }
+      ],
+      [
+        {
+          "radiusX": 64.0,
+          "radiusY": 103.0,
+          "centerX": 181.0,
+          "centerY": 23.0,
+          "x1": 117.0,
+          "y1": -80.0,
+          "x2": 245.0,
+          "y2": 126.0
+        },
+        {
+          "radiusX": 30.0,
+          "radiusY": 63.0,
+          "centerX": 228.0,
+          "centerY": 72.0,
+          "x1": 198.0,
+          "y1": 9.0,
+          "x2": 258.0,
+          "y2": 135.0
+        },
+        {
+          "radiusX": 44.0,
+          "radiusY": 59.0,
+          "centerX": 152.0,
+          "centerY": 63.0,
+          "x1": 108.0,
+          "y1": 4.0,
+          "x2": 196.0,
+          "y2": 122.0
+        },
+        {
+          "radiusX": 43.0,
+          "radiusY": 44.0,
+          "centerX": 165.0,
+          "centerY": -80.0,
+          "x1": 122.0,
+          "y1": -124.0,
+          "x2": 208.0,
+          "y2": -36.0
+        }
+      ]
+    ]
+  },
+  "DAir": {
+    "name": "GreatswordAirDown",
+    "displayName": "DAir",
+    "powerID": 2205,
+    "isAir": true,
+    "damage": "1",
+    "stun": 18,
+    "impulse": "1",
+    "castTime": "12:2@3-3",
+    "hurtboxRef": "GreatswordDAir",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 10.0,
+          "radiusY": 10.0,
+          "centerX": 0.0,
+          "centerY": 155.0,
+          "x1": -10.0,
+          "y1": 145.0,
+          "x2": 10.0,
+          "y2": 165.0
+        },
+        {
+          "radiusX": 10.0,
+          "radiusY": 10.0,
+          "centerX": 44.0,
+          "centerY": 155.0,
+          "x1": 34.0,
+          "y1": 145.0,
+          "x2": 54.0,
+          "y2": 165.0
+        }
+      ]
+    ]
+  },
+  "Recovery": {
+    "name": "GreatswordAirUpHeavy",
+    "displayName": "Recovery",
+    "powerID": 2213,
+    "isAir": true,
+    "damage": "1",
+    "stun": 22,
+    "impulse": "1",
+    "castTime": "16:1@6",
+    "hurtboxRef": "GreatswordRec",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 10.0,
+          "radiusY": 10.0,
+          "centerX": 135.0,
+          "centerY": 45.0,
+          "x1": 125.0,
+          "y1": 35.0,
+          "x2": 145.0,
+          "y2": 55.0
+        }
+      ]
+    ]
+  },
+  "GP": {
+    "name": "GreatswordGroundPound",
+    "displayName": "GP",
+    "powerID": 2221,
+    "isAir": true,
+    "damage": "0,17,17,17",
+    "stun": 19,
+    "impulse": "0,55,55,55",
+    "castTime": "1:5@1-1,7:7@3,0@4,0:313@4",
+    "hurtboxRef": "GreatswordGP",
+    "hitboxes": [
+      [
+        {
+          "radiusX": 1.0,
+          "radiusY": 20.0,
+          "centerX": 0.0,
+          "centerY": 180.0,
+          "x1": -1.0,
+          "y1": 160.0,
+          "x2": 1.0,
+          "y2": 200.0
+        }
+      ],
+      [
+        {
+          "radiusX": 1.0,
+          "radiusY": 20.0,
+          "centerX": 0.0,
+          "centerY": 180.0,
+          "x1": -1.0,
+          "y1": 160.0,
+          "x2": 1.0,
+          "y2": 200.0
+        }
+      ],
+      [
+        {
+          "radiusX": 1.0,
+          "radiusY": 20.0,
+          "centerX": 0.0,
+          "centerY": 180.0,
+          "x1": -1.0,
+          "y1": 160.0,
+          "x2": 1.0,
+          "y2": 200.0
+        },
+        {
+          "radiusX": 15.0,
+          "radiusY": 38.0,
+          "centerX": 42.0,
+          "centerY": 84.0,
+          "x1": 27.0,
+          "y1": 46.0,
+          "x2": 57.0,
+          "y2": 122.0
+        },
+        {
+          "radiusX": 18.0,
+          "radiusY": 44.0,
+          "centerX": 171.0,
+          "centerY": 101.0,
+          "x1": 153.0,
+          "y1": 57.0,
+          "x2": 189.0,
+          "y2": 145.0
+        },
+        {
+          "radiusX": 15.0,
+          "radiusY": 42.0,
+          "centerX": 70.0,
+          "centerY": 89.0,
+          "x1": 55.0,
+          "y1": 47.0,
+          "x2": 85.0,
+          "y2": 131.0
+        },
+        {
+          "radiusX": 47.0,
+          "radiusY": 49.0,
+          "centerX": 116.0,
+          "centerY": 90.0,
+          "x1": 69.0,
+          "y1": 41.0,
+          "x2": 163.0,
+          "y2": 139.0
+        }
+      ],
+      [
+        {
+          "radiusX": 1.0,
+          "radiusY": 20.0,
+          "centerX": 0.0,
+          "centerY": 180.0,
+          "x1": -1.0,
+          "y1": 160.0,
+          "x2": 1.0,
+          "y2": 200.0
+        },
+        {
+          "radiusX": 32.0,
+          "radiusY": 17.0,
+          "centerX": 90.0,
+          "centerY": 120.0,
+          "x1": 58.0,
+          "y1": 103.0,
+          "x2": 122.0,
+          "y2": 137.0
+        },
+        {
+          "radiusX": 30.0,
+          "radiusY": 20.0,
+          "centerX": 134.0,
+          "centerY": 122.0,
+          "x1": 104.0,
+          "y1": 102.0,
+          "x2": 164.0,
+          "y2": 142.0
+        },
+        {
+          "radiusX": 16.0,
+          "radiusY": 26.0,
+          "centerX": 176.0,
+          "centerY": 126.0,
+          "x1": 160.0,
+          "y1": 100.0,
+          "x2": 192.0,
+          "y2": 152.0
+        },
+        {
+          "radiusX": 26.0,
+          "radiusY": 18.0,
+          "centerX": 44.0,
+          "centerY": 109.0,
+          "x1": 18.0,
+          "y1": 91.0,
+          "x2": 70.0,
+          "y2": 127.0
+        }
+      ]
+    ]
+  }
+}

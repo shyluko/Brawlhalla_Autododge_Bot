@@ -1,0 +1,134 @@
+{
+  "legend": "Volkov",
+  "weapons": [],
+  "signatures": {
+    "Axe": {
+      "Neutral": {
+        "name": "AxeSmashNeutralVampLord",
+        "weapon": "Axe",
+        "direction": "Neutral",
+        "powerID": 2037,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "3:2,0:5,0:11,0:10,46",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Side": {
+        "name": "AxeSmashSideVampLord",
+        "weapon": "Axe",
+        "direction": "Side",
+        "powerID": 2040,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:11",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Down": {
+        "name": "AxeSmashDownVampLord",
+        "weapon": "Axe",
+        "direction": "Down",
+        "powerID": 2048,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      }
+    },
+    "Scythe": {
+      "Neutral": {
+        "name": "ScytheSmashNeutralVampLord",
+        "weapon": "Scythe",
+        "direction": "Neutral",
+        "powerID": 2055,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "7:1@4,0:36@5",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Side": {
+        "name": "ScytheSmashSideVampLord",
+        "weapon": "Scythe",
+        "direction": "Side",
+        "powerID": 2060,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "ScytheSmashDownVampLord",
+        "weapon": "Scythe",
+        "direction": "Down",
+        "powerID": 2067,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "10@5,0:12@5-9",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      }
+    }
+  }
+}

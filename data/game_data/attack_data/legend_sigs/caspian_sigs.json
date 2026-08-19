@@ -1,0 +1,82 @@
+{
+  "legend": "Caspian",
+  "weapons": [],
+  "signatures": {
+    "Fists": {
+      "Neutral": {
+        "name": "FistsSmashNeutralThief",
+        "weapon": "Fists",
+        "direction": "Neutral",
+        "powerID": 1592,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "FistsSmashSideThief",
+        "weapon": "Fists",
+        "direction": "Side",
+        "powerID": 1479,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "FistsSmashDownThief",
+        "weapon": "Fists",
+        "direction": "Down",
+        "powerID": 1454,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    },
+    "Katar": {
+      "Neutral": {
+        "name": "KatarSmashNeutralThief",
+        "weapon": "Katar",
+        "direction": "Neutral",
+        "powerID": 1352,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "KatarSmashSideThief",
+        "weapon": "Katar",
+        "direction": "Side",
+        "powerID": 1354,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "KatarSmashDownThief",
+        "weapon": "Katar",
+        "direction": "Down",
+        "powerID": 1458,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "5:2@4-5,0:8@5,0:24",
+        "hitboxes": []
+      }
+    }
+  }
+}

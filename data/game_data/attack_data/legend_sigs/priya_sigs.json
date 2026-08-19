@@ -1,0 +1,82 @@
+{
+  "legend": "Priya",
+  "weapons": [],
+  "signatures": {
+    "Chakram": {
+      "Neutral": {
+        "name": "ChakramSmashNeutralBladeDancer",
+        "weapon": "Chakram",
+        "direction": "Neutral",
+        "powerID": 3620,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "ChakramSmashSideBladeDancer",
+        "weapon": "Chakram",
+        "direction": "Side",
+        "powerID": 3622,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "ChakramSmashDownBladeDancer",
+        "weapon": "Chakram",
+        "direction": "Down",
+        "powerID": 3649,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,72",
+        "hitboxes": []
+      }
+    },
+    "Sword": {
+      "Neutral": {
+        "name": "SwordSmashNeutralBladeDancer",
+        "weapon": "Sword",
+        "direction": "Neutral",
+        "powerID": 3626,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "SwordSmashSideBladeDancer",
+        "weapon": "Sword",
+        "direction": "Side",
+        "powerID": 3628,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "SwordSmashDownBladeDancer",
+        "weapon": "Sword",
+        "direction": "Down",
+        "powerID": 3630,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      }
+    }
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "legend": "King Zuva",
+  "weapons": [],
+  "signatures": {
+    "Boots": {
+      "Neutral": {
+        "name": "BootsSmashNeutralAfricanKing",
+        "weapon": "Boots",
+        "direction": "Neutral",
+        "powerID": 3401,
+        "isAir": false,
+        "damage": "",
+        "stun": 20,
+        "impulse": "",
+        "castTime": "0,70",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Side": {
+        "name": "BootsSmashSideAfricanKing",
+        "weapon": "Boots",
+        "direction": "Side",
+        "powerID": 3404,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Down": {
+        "name": "BootsSmashDownAfricanKing",
+        "weapon": "Boots",
+        "direction": "Down",
+        "powerID": 3406,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:4@1-5,0:8@6-11,50",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      }
+    },
+    "Hammer": {
+      "Neutral": {
+        "name": "HammerSmashNeutralAfricanKing",
+        "weapon": "Hammer",
+        "direction": "Neutral",
+        "powerID": 3408,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Side": {
+        "name": "HammerSmashSideAfricanKing",
+        "weapon": "Hammer",
+        "direction": "Side",
+        "powerID": 3417,
+        "isAir": false,
+        "damage": "0,6,6,6,0",
+        "stun": 30,
+        "impulse": "0,70,70,70,0",
+        "castTime": "0:18@1-7,0:2@8,0:2@9,0:2@10,0:45@11",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ],
+          [
+            {
+              "radiusX": 71.0,
+              "radiusY": 50.0,
+              "centerX": 89.0,
+              "centerY": -18.0,
+              "x1": 18.0,
+              "y1": -68.0,
+              "x2": 160.0,
+              "y2": 32.0
+            },
+            {
+              "radiusX": 44.0,
+              "radiusY": 24.0,
+              "centerX": 152.0,
+              "centerY": -34.0,
+              "x1": 108.0,
+              "y1": -58.0,
+              "x2": 196.0,
+              "y2": -10.0
+            },
+            {
+              "radiusX": 43.0,
+              "radiusY": 20.0,
+              "centerX": 79.0,
+              "centerY": 28.0,
+              "x1": 36.0,
+              "y1": 8.0,
+              "x2": 122.0,
+              "y2": 48.0
+            }
+          ],
+          [
+            {
+              "radiusX": 100.0,
+              "radiusY": 55.0,
+              "centerX": 161.0,
+              "centerY": -13.0,
+              "x1": 61.0,
+              "y1": -68.0,
+              "x2": 261.0,
+              "y2": 42.0
+            },
+            {
+              "radiusX": 34.0,
+              "radiusY": 26.0,
+              "centerX": 245.0,
+              "centerY": -38.0,
+              "x1": 211.0,
+              "y1": -64.0,
+              "x2": 279.0,
+              "y2": -12.0
+            }
+          ],
+          [
+            {
+              "radiusX": 48.0,
+              "radiusY": 33.0,
+              "centerX": 225.0,
+              "centerY": -14.0,
+              "x1": 177.0,
+              "y1": -47.0,
+              "x2": 273.0,
+              "y2": 19.0
+            },
+            {
+              "radiusX": 57.0,
+              "radiusY": 33.0,
+              "centerX": 236.0,
+              "centerY": -53.0,
+              "x1": 179.0,
+              "y1": -86.0,
+              "x2": 293.0,
+              "y2": -20.0
+            }
+          ],
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Down": {
+        "name": "HammerSmashDownAfricanKing",
+        "weapon": "Hammer",
+        "direction": "Down",
+        "powerID": 3422,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0:14@1-8,50",
+        "hitboxes": []
+      }
+    }
+  }
+}

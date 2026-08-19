@@ -1,0 +1,305 @@
+{
+  "legend": "Kaya",
+  "weapons": [],
+  "signatures": {
+    "Spear": {
+      "Neutral": {
+        "name": "SpearSmashNeutralInuit",
+        "weapon": "Spear",
+        "direction": "Neutral",
+        "powerID": 1567,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:1,0:3,0:0,0:60",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "SpearSmashSideInuit",
+        "weapon": "Spear",
+        "direction": "Side",
+        "powerID": 1583,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "SpearSmashDownInuit",
+        "weapon": "Spear",
+        "direction": "Down",
+        "powerID": 1588,
+        "isAir": false,
+        "damage": "0,5,5,5,5,5,5,5,5,5,5,5,5,5,5,0",
+        "stun": 30,
+        "impulse": "0,80,80,80,80,80,80,80,80,80,80,80,80,80,80,0",
+        "castTime": "6:8@3-5,0:1@6,0:2@7,0:3@8-9,0:3@10-11,0:3@12-13,0:3@14-15,0:3@16-17,0:1@12,0:3@13-14,0:3@15-16,0:1@17-17,0:9@12-16,0:1@17-17,0:9@12-16,0@17",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ],
+          [
+            {
+              "radiusX": 40.0,
+              "radiusY": 28.0,
+              "centerX": 101.0,
+              "centerY": -10.0,
+              "x1": 61.0,
+              "y1": -38.0,
+              "x2": 141.0,
+              "y2": 18.0
+            },
+            {
+              "radiusX": 31.0,
+              "radiusY": 40.0,
+              "centerX": 130.0,
+              "centerY": -15.0,
+              "x1": 99.0,
+              "y1": -55.0,
+              "x2": 161.0,
+              "y2": 25.0
+            }
+          ],
+          [
+            {
+              "radiusX": 43.0,
+              "radiusY": 29.0,
+              "centerX": 100.0,
+              "centerY": -16.0,
+              "x1": 57.0,
+              "y1": -45.0,
+              "x2": 143.0,
+              "y2": 13.0
+            },
+            {
+              "radiusX": 56.0,
+              "radiusY": 45.0,
+              "centerX": 136.0,
+              "centerY": -19.0,
+              "x1": 80.0,
+              "y1": -64.0,
+              "x2": 192.0,
+              "y2": 26.0
+            }
+          ],
+          [
+            {
+              "radiusX": 62.0,
+              "radiusY": 29.0,
+              "centerX": 121.0,
+              "centerY": -14.0,
+              "x1": 59.0,
+              "y1": -43.0,
+              "x2": 183.0,
+              "y2": 15.0
+            },
+            {
+              "radiusX": 65.0,
+              "radiusY": 54.0,
+              "centerX": 144.0,
+              "centerY": -12.0,
+              "x1": 79.0,
+              "y1": -66.0,
+              "x2": 209.0,
+              "y2": 42.0
+            }
+          ],
+          [
+            {
+              "radiusX": 84.0,
+              "radiusY": 71.0,
+              "centerX": 150.0,
+              "centerY": -23.0,
+              "x1": 66.0,
+              "y1": -94.0,
+              "x2": 234.0,
+              "y2": 48.0
+            }
+          ],
+          [
+            {
+              "radiusX": 84.0,
+              "radiusY": 71.0,
+              "centerX": 150.0,
+              "centerY": -23.0,
+              "x1": 66.0,
+              "y1": -94.0,
+              "x2": 234.0,
+              "y2": 48.0
+            }
+          ],
+          [
+            {
+              "radiusX": 84.0,
+              "radiusY": 71.0,
+              "centerX": 150.0,
+              "centerY": -23.0,
+              "x1": 66.0,
+              "y1": -94.0,
+              "x2": 234.0,
+              "y2": 48.0
+            }
+          ],
+          [
+            {
+              "radiusX": 84.0,
+              "radiusY": 71.0,
+              "centerX": 150.0,
+              "centerY": -23.0,
+              "x1": 66.0,
+              "y1": -94.0,
+              "x2": 234.0,
+              "y2": 48.0
+            }
+          ],
+          [
+            {
+              "radiusX": 84.0,
+              "radiusY": 71.0,
+              "centerX": 150.0,
+              "centerY": -23.0,
+              "x1": 66.0,
+              "y1": -94.0,
+              "x2": 234.0,
+              "y2": 48.0
+            }
+          ],
+          [
+            {
+              "radiusX": 84.0,
+              "radiusY": 71.0,
+              "centerX": 150.0,
+              "centerY": -23.0,
+              "x1": 66.0,
+              "y1": -94.0,
+              "x2": 234.0,
+              "y2": 48.0
+            }
+          ],
+          [
+            {
+              "radiusX": 84.0,
+              "radiusY": 71.0,
+              "centerX": 150.0,
+              "centerY": -23.0,
+              "x1": 66.0,
+              "y1": -94.0,
+              "x2": 234.0,
+              "y2": 48.0
+            }
+          ],
+          [
+            {
+              "radiusX": 84.0,
+              "radiusY": 71.0,
+              "centerX": 150.0,
+              "centerY": -23.0,
+              "x1": 66.0,
+              "y1": -94.0,
+              "x2": 234.0,
+              "y2": 48.0
+            }
+          ],
+          [
+            {
+              "radiusX": 84.0,
+              "radiusY": 71.0,
+              "centerX": 150.0,
+              "centerY": -23.0,
+              "x1": 66.0,
+              "y1": -94.0,
+              "x2": 234.0,
+              "y2": 48.0
+            }
+          ],
+          [
+            {
+              "radiusX": 84.0,
+              "radiusY": 71.0,
+              "centerX": 150.0,
+              "centerY": -23.0,
+              "x1": 66.0,
+              "y1": -94.0,
+              "x2": 234.0,
+              "y2": 48.0
+            }
+          ],
+          [
+            {
+              "radiusX": 84.0,
+              "radiusY": 71.0,
+              "centerX": 150.0,
+              "centerY": -23.0,
+              "x1": 66.0,
+              "y1": -94.0,
+              "x2": 234.0,
+              "y2": 48.0
+            }
+          ],
+          [
+            {
+              "radiusX": 84.0,
+              "radiusY": 71.0,
+              "centerX": 150.0,
+              "centerY": -23.0,
+              "x1": 66.0,
+              "y1": -94.0,
+              "x2": 234.0,
+              "y2": 48.0
+            }
+          ]
+        ]
+      }
+    },
+    "Bow": {
+      "Neutral": {
+        "name": "BowSmashNeutralInuit",
+        "weapon": "Bow",
+        "direction": "Neutral",
+        "powerID": 1811,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "4:5@3-4,0:30@5-17",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "BowSmashSideInuit",
+        "weapon": "Bow",
+        "direction": "Side",
+        "powerID": 1802,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "BowSmashDownInuit",
+        "weapon": "Bow",
+        "direction": "Down",
+        "powerID": 1835,
+        "isAir": false,
+        "damage": "0",
+        "stun": 17,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    }
+  }
+}

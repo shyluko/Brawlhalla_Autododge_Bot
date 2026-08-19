@@ -1,0 +1,95 @@
+{
+  "legend": "Artemis",
+  "weapons": [],
+  "signatures": {
+    "Scythe": {
+      "Neutral": {
+        "name": "ScytheSmashNeutralSpacehunter",
+        "weapon": "Scythe",
+        "direction": "Neutral",
+        "powerID": 1226,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "7@4,0:7@4",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "ScytheSmashSideSpacehunter",
+        "weapon": "Scythe",
+        "direction": "Side",
+        "powerID": 1276,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "ScytheSmashDownSpacehunter",
+        "weapon": "Scythe",
+        "direction": "Down",
+        "powerID": 1324,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "5@4,0:15@4,0:30",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      }
+    },
+    "Lance": {
+      "Neutral": {
+        "name": "LanceSmashNeutralSpacehunter",
+        "weapon": "Lance",
+        "direction": "Neutral",
+        "powerID": 1331,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "LanceSmashSideSpacehunter",
+        "weapon": "Lance",
+        "direction": "Side",
+        "powerID": 1336,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "LanceSmashDownSpacehunter",
+        "weapon": "Lance",
+        "direction": "Down",
+        "powerID": 1340,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "6@4,0:5@4,0:10",
+        "hitboxes": []
+      }
+    }
+  }
+}

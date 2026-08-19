@@ -1,0 +1,62 @@
+{
+  "Unarmed": {
+    "name": "Unarmed",
+    "throwDamage": "30"
+  },
+  "Pistol": {
+    "name": "Pistol",
+    "throwDamage": "30"
+  },
+  "Sword": {
+    "name": "Sword",
+    "throwDamage": "30"
+  },
+  "Hammer": {
+    "name": "Hammer",
+    "throwDamage": "30"
+  },
+  "Spear": {
+    "name": "Spear",
+    "throwDamage": "30"
+  },
+  "Katar": {
+    "name": "Katar",
+    "throwDamage": "30"
+  },
+  "Bow": {
+    "name": "Bow",
+    "throwDamage": "30"
+  },
+  "Axe": {
+    "name": "Axe",
+    "throwDamage": "30"
+  },
+  "Fists": {
+    "name": "Fists",
+    "throwDamage": "30"
+  },
+  "Scythe": {
+    "name": "Scythe",
+    "throwDamage": "30"
+  },
+  "Cannon": {
+    "name": "Cannon",
+    "throwDamage": "30"
+  },
+  "Orb": {
+    "name": "Orb",
+    "throwDamage": "30"
+  },
+  "Greatsword": {
+    "name": "Greatsword",
+    "throwDamage": "30"
+  },
+  "Boots": {
+    "name": "Boots",
+    "throwDamage": "30"
+  },
+  "Chakram": {
+    "name": "Chakram",
+    "throwDamage": "30"
+  }
+}

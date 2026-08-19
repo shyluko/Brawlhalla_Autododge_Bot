@@ -1,0 +1,129 @@
+{
+  "legend": "Nix",
+  "weapons": [],
+  "signatures": {
+    "Scythe": {
+      "Neutral": {
+        "name": "ScytheSmashNeutralReaper",
+        "weapon": "Scythe",
+        "direction": "Neutral",
+        "powerID": 1228,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "ScytheSmashSideReaper",
+        "weapon": "Scythe",
+        "direction": "Side",
+        "powerID": 1233,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,0:8,0:61",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "ScytheSmashDownReaper",
+        "weapon": "Scythe",
+        "direction": "Down",
+        "powerID": 1238,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      }
+    },
+    "Pistol": {
+      "Neutral": {
+        "name": "PistolSmashNeutralReaper",
+        "weapon": "Pistol",
+        "direction": "Neutral",
+        "powerID": 1240,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "PistolSmashSideReaper",
+        "weapon": "Pistol",
+        "direction": "Side",
+        "powerID": 1245,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "PistolSmashDownReaper",
+        "weapon": "Pistol",
+        "direction": "Down",
+        "powerID": 1248,
+        "isAir": false,
+        "damage": "0,5,0",
+        "stun": 15,
+        "impulse": "0,75,0",
+        "castTime": "0@1,14:2@6-6,55",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 80.0,
+              "radiusY": 80.0,
+              "centerX": 80.0,
+              "centerY": 80.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 160.0,
+              "y2": 160.0
+            }
+          ],
+          [
+            {
+              "radiusX": 42.0,
+              "radiusY": 17.0,
+              "centerX": 238.0,
+              "centerY": 85.0,
+              "x1": 196.0,
+              "y1": 68.0,
+              "x2": 280.0,
+              "y2": 102.0
+            },
+            {
+              "radiusX": 29.0,
+              "radiusY": 15.0,
+              "centerX": 287.0,
+              "centerY": 76.0,
+              "x1": 258.0,
+              "y1": 61.0,
+              "x2": 316.0,
+              "y2": 91.0
+            }
+          ],
+          [
+            {
+              "radiusX": 80.0,
+              "radiusY": 80.0,
+              "centerX": 80.0,
+              "centerY": 80.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 160.0,
+              "y2": 160.0
+            }
+          ]
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "legend": "Fait",
+  "weapons": [],
+  "signatures": {
+    "Orb": {
+      "Neutral": {
+        "name": "OrbSmashNeutralSpellwitch",
+        "weapon": "Orb",
+        "direction": "Neutral",
+        "powerID": 1473,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "OrbSmashSideSpellwitch",
+        "weapon": "Orb",
+        "direction": "Side",
+        "powerID": 1475,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Down": {
+        "name": "OrbSmashDownSpellwitch",
+        "weapon": "Orb",
+        "direction": "Down",
+        "powerID": 1489,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    },
+    "Scythe": {
+      "Neutral": {
+        "name": "ScytheSmashNeutralSpellwitch",
+        "weapon": "Scythe",
+        "direction": "Neutral",
+        "powerID": 1503,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0@1,6:2@3,7@8",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Side": {
+        "name": "ScytheSmashSideSpellwitch",
+        "weapon": "Scythe",
+        "direction": "Side",
+        "powerID": 1546,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0:14@1-6,0:2@7-7",
+        "hitboxes": [
+          [
+            {
+              "radiusX": 0.0,
+              "radiusY": 0.0,
+              "centerX": 0.0,
+              "centerY": 0.0,
+              "x1": 0.0,
+              "y1": 0.0,
+              "x2": 0.0,
+              "y2": 0.0
+            }
+          ]
+        ]
+      },
+      "Down": {
+        "name": "ScytheSmashDownSpellwitch",
+        "weapon": "Scythe",
+        "direction": "Down",
+        "powerID": 1560,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,72",
+        "hitboxes": []
+      }
+    }
+  }
+}

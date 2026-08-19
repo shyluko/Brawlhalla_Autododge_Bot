@@ -1,0 +1,82 @@
+{
+  "legend": "Cassidy",
+  "weapons": [],
+  "signatures": {
+    "Pistol": {
+      "Neutral": {
+        "name": "PistolSmashNeutralCowgirl",
+        "weapon": "Pistol",
+        "direction": "Neutral",
+        "powerID": 478,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,79",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "PistolSmashSideCowgirl",
+        "weapon": "Pistol",
+        "direction": "Side",
+        "powerID": 481,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,79",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "PistolSmashDownCowgirl",
+        "weapon": "Pistol",
+        "direction": "Down",
+        "powerID": 484,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,79",
+        "hitboxes": []
+      }
+    },
+    "Hammer": {
+      "Neutral": {
+        "name": "HammerSmashNeutralCowgirl",
+        "weapon": "Hammer",
+        "direction": "Neutral",
+        "powerID": 486,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,72",
+        "hitboxes": []
+      },
+      "Side": {
+        "name": "HammerSmashSideCowgirl",
+        "weapon": "Hammer",
+        "direction": "Side",
+        "powerID": 3100,
+        "isAir": false,
+        "damage": "0",
+        "stun": 0,
+        "impulse": "0",
+        "castTime": "0,15",
+        "hitboxes": []
+      },
+      "Down": {
+        "name": "HammerSmashDownCowgirl",
+        "weapon": "Hammer",
+        "direction": "Down",
+        "powerID": 3106,
+        "isAir": false,
+        "damage": "",
+        "stun": 0,
+        "impulse": "",
+        "castTime": "0,70",
+        "hitboxes": []
+      }
+    }
+  }
+}
