@@ -1,0 +1,63 @@
+name: Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build Release x64
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Slint 1.17.1
+        shell: powershell
+        run: |
+          $installer = "$env:RUNNER_TEMP\slint.exe"
+
+          Invoke-WebRequest `
+            -Uri "https://github.com/slint-ui/slint/releases/download/v1.17.1/Slint-cpp-1.17.1-win64-MSVC-AMD64.exe" `
+            -OutFile $installer
+
+          Start-Process `
+            -FilePath $installer `
+            -ArgumentList "/SILENT", "/DIR=C:\Slint-cpp-1.17.1" `
+            -Wait `
+            -NoNewWindow
+
+      - name: Verify Slint installation
+        shell: powershell
+        run: |
+          if (-not (Test-Path "C:\Slint-cpp-1.17.1\bin\slint-compiler.exe")) {
+            Write-Error "Slint compiler was not found."
+            exit 1
+          }
+
+          if (-not (Test-Path "C:\Slint-cpp-1.17.1\lib\slint_cpp.dll.lib")) {
+            Write-Error "Slint library was not found."
+            exit 1
+          }
+
+          Write-Host "Slint installation looks good."
+
+      - name: Set up MSBuild
+        uses: microsoft/setup-msbuild@v3
+        with:
+          msbuild-architecture: x64
+
+      - name: Build Release x64
+        shell: powershell
+        run: |
+          msbuild "brawlhalla autododge.sln" `
+            /m `
+            /p:Configuration=Release `
+            /p:Platform=x64 `
+            /p:SlintDir="C:\Slint-cpp-1.17.1"
