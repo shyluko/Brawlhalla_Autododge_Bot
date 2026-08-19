@@ -1,9 +1,7 @@
 #pragma once
 
-// Hitbox-rectangle threat detection and dodge-direction selection, ported
-// from autoplay_main.cpp's EnemyAttackThreatensYou/ChooseDodgeDirOutOfThreat
-// so AutododgeBot's dodge decision uses the same frame-data-backed logic
-// instead of a plain distance threshold.
+// Hitbox-rectangle threat detection and dodge-direction selection for the
+// Slint application's frame-data-backed defensive decisions.
 
 #include "GameDataManager.h"
 #include "hitbox_table.h"

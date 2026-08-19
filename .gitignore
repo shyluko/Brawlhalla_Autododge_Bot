@@ -18,6 +18,7 @@ x64/
 x86/
 bin/
 build/
+dist/
 build_out.txt
 
 *.exe
@@ -38,6 +39,7 @@ build_out.txt
 calibration.log
 imgui.ini
 config/exports/
+src/generated/
 
 # ==========================================
 # Release packages

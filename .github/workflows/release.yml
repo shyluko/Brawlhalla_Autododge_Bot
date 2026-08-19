@@ -1,95 +1,77 @@
-name: Build
+name: Build and Release
 
 on:
-  workflow_dispatch:
+  pull_request:
   push:
-    branches:
-      - main
+    branches: [main]
+    tags: ['v*']
+  workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
   build:
-    name: Build Release x64
+    name: Windows x64 build
     runs-on: windows-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Download and install Slint 1.17.1
-        shell: powershell
+      - name: Validate repository data
+        shell: pwsh
         run: |
-          $ErrorActionPreference = "Stop"
+          Get-ChildItem data -Filter *.json -Recurse | ForEach-Object {
+            Get-Content -Raw -LiteralPath $_.FullName | ConvertFrom-Json | Out-Null
+          }
 
-          $slintDir = "C:\Slint-cpp-1.17.1"
+      - name: Install Slint C++
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $slintDir = 'C:\Slint-cpp-1.17.1'
           $installer = "$env:RUNNER_TEMP\Slint-cpp-1.17.1.exe"
-
-          Write-Host "Downloading Slint 1.17.1..."
-
-          Invoke-WebRequest `
-            -Uri "https://github.com/slint-ui/slint/releases/download/v1.17.1/Slint-cpp-1.17.1-win64-MSVC-AMD64.exe" `
-            -OutFile $installer
-
-          if (-not (Test-Path $installer)) {
-            throw "Slint installer was not downloaded."
+          Invoke-WebRequest 'https://github.com/slint-ui/slint/releases/download/v1.17.1/Slint-cpp-1.17.1-win64-MSVC-AMD64.exe' -OutFile $installer
+          $process = Start-Process -FilePath $installer -ArgumentList "/S", "/D=$slintDir" -Wait -PassThru
+          if ($process.ExitCode -ne 0) { throw "Slint installation failed with exit code $($process.ExitCode)." }
+          @("$slintDir\bin\slint-compiler.exe", "$slintDir\lib\slint_cpp.dll", "$slintDir\lib\slint_cpp.dll.lib") | ForEach-Object {
+            if (-not (Test-Path -LiteralPath $_)) { throw "Missing Slint component: $_" }
           }
+          "SLINT_DIR=$slintDir" | Out-File -FilePath $env:GITHUB_ENV -Append
 
-          Write-Host "Slint installer downloaded successfully."
+      - name: Build
+        shell: pwsh
+        run: ./scripts/build.ps1 -Configuration Release -Platform x64 -SlintDir $env:SLINT_DIR
 
-          Write-Host "Installing Slint to $slintDir..."
-
-          $process = Start-Process `
-            -FilePath $installer `
-            -ArgumentList "/S", "/D=$slintDir" `
-            -Wait `
-            -PassThru
-
-          Write-Host "Slint installer exit code: $($process.ExitCode)"
-
-          if ($process.ExitCode -ne 0) {
-            throw "Slint installer failed with exit code $($process.ExitCode)."
-          }
-
-          if (-not (Test-Path $slintDir)) {
-            throw "Slint installation directory was not created."
-          }
-
-          Write-Host "Slint installation completed successfully."
-
-      - name: Verify Slint installation
-        shell: powershell
+      - name: Package runtime
+        shell: pwsh
         run: |
-          $slintDir = "C:\Slint-cpp-1.17.1"
+          $binary = Get-ChildItem x64\Release -Filter *.exe -File | Select-Object -First 1
+          if ($null -eq $binary) { throw 'Release executable was not produced.' }
+          $version = if ($env:GITHUB_REF_TYPE -eq 'tag') { $env:GITHUB_REF_NAME } else { "build-$env:GITHUB_RUN_NUMBER" }
+          ./scripts/package_release.ps1 -BinaryPath $binary.FullName -SlintDir $env:SLINT_DIR -Version $version
 
-          $requiredFiles = @(
-            "$slintDir\bin\slint-compiler.exe",
-            "$slintDir\lib\slint_cpp.dll.lib",
-            "$slintDir\lib\slint_cpp.dll",
-            "$slintDir\include"
-          )
-
-          foreach ($file in $requiredFiles) {
-            if (-not (Test-Path $file)) {
-              throw "Required Slint file was not found: $file"
-            }
-
-            Write-Host "Found: $file"
-          }
-
-          Write-Host "Slint 1.17.1 installation verified successfully."
-
-      - name: Set up MSBuild
-        uses: microsoft/setup-msbuild@v3
+      - name: Upload runtime package
+        uses: actions/upload-artifact@v4
         with:
-          msbuild-architecture: x64
+          name: BrawlhallaAutododge-windows-x64
+          path: dist/*.zip
+          if-no-files-found: error
 
-      - name: Build Release x64
-        shell: powershell
-        run: |
-          msbuild "brawlhalla autododge.sln" `
-            /m `
-            /p:Configuration=Release `
-            /p:Platform=x64 `
-            /p:SlintDir="C:\Slint-cpp-1.17.1"
+  release:
+    name: Publish GitHub Release
+    if: github.ref_type == 'tag'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: BrawlhallaAutododge-windows-x64
+          path: release-assets
+
+      - name: Publish release assets
+        uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true
+          files: release-assets/*.zip
