@@ -26,8 +26,8 @@ export component SettingsPage inherits VerticalBox {
     callback open-config();
 
     function matches(label: string) -> bool {
-        return root.settings-search == "" || label.contains(root.settings-search);
-    }
+        return true;
+}
 
     Text { text: "Search settings"; color: #9098a3; }
     LineEdit { text <=> root.settings-search; placeholder-text: "hook, sound, polling…"; }
