@@ -12,7 +12,7 @@ This package contains:
 
 - `brawlhalla_autododge.exe`
 - `brawlhalla_autododge.exe.debug`
-- required runtime DLLs
+- `required runtime DLLs`
 - `config/`
 - `data/`
 - `LICENSE.txt`
